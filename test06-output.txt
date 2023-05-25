@@ -1,0 +1,329 @@
+comment: ClusterAssignment with 150 points.
+initialize: rebuild-offset = 10 bounding-box = [(-100.0,-2000.0),(800.0,2000.0)]
+comment: Initial center is HRB (455,1265)
+ca-initialize(start = HRB): successful
+comment: Testing operations on an empty tree
+ca-sites-size: 0
+ca-centers-size: 1
+ca-list-kd:
+  [null] => {HRB}
+ca-list-kd [tree structure]:
+  [null] => {HRB}
+alert: The following deletion should throw an exception
+ca-delete-site(ORD): Failure due to exception: "Deletion of nonexistent airport code"
+ca-list-centers:
+  HRB: (455.0,1265.0)
+ca-list-assignments:
+comment: Adding centers to an empty tree
+ca-add-center(GAL): successful {GALENA, (644.0,-1566.0)}
+ca-add-center(MJC): successful {MAN, (71.0,-77.0)}
+ca-sites-size: 0
+ca-list-kd:
+  [null] => {GAL HRB MJC}
+ca-list-kd [tree structure]:
+  [null] => {GAL HRB MJC}
+ca-centers-size: 3
+ca-list-centers:
+  GAL: (644.0,-1566.0)
+  HRB: (455.0,1265.0)
+  MJC: (71.0,-77.0)
+ca-list-assignments:
+ca-add-site(TMX): successful {TIMIMOUN, (290.0,6.0)}
+ca-add-site(NRD): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(GWT): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(TLL): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(ENF): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(KEV): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(HEM): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(HEL): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(BSK): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(ELG): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(HTN): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(URC): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(DLC): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(NYI): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(TKD): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(ABJ): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(BYK): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(DJO): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(HGO): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(JYV): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-center(YFB): successful {IQALUIT, (631.0,-683.0)}
+ca-sites-size: 1
+ca-list-kd:
+  [TMX: (290.0,6.0)] => {GAL HRB MJC YFB}
+ca-list-kd [tree structure]:
+  [TMX: (290.0,6.0)] => {GAL HRB MJC YFB}
+ca-centers-size: 4
+ca-list-centers:
+  GAL: (644.0,-1566.0)
+  HRB: (455.0,1265.0)
+  MJC: (71.0,-77.0)
+  YFB: (631.0,-683.0)
+ca-list-assignments:
+  [TMX->MJC] distSq = 54850.0
+ca-add-site(KAU): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(KEM): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(KAJ): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(LDY): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(BHX): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(CVT): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(BNI): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(CBQ): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(ENU): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(QUS): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(EBM): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(SFA): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(TOE): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(LRL): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(LFW): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(HHN): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(MHG): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(XFW): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(KEL): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(LBC): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-center(IVL): successful {IVALO, (688.0,277.0)}
+ca-sites-size: 1
+ca-list-kd:
+  [TMX: (290.0,6.0)] => {GAL HRB IVL MJC YFB}
+ca-list-kd [tree structure]:
+  [TMX: (290.0,6.0)] => {GAL HRB IVL MJC YFB}
+ca-centers-size: 5
+ca-list-centers:
+  GAL: (644.0,-1566.0)
+  HRB: (455.0,1265.0)
+  IVL: (688.0,277.0)
+  MJC: (71.0,-77.0)
+  YFB: (631.0,-683.0)
+ca-list-assignments:
+  [TMX->MJC] distSq = 54850.0
+ca-add-site(EME): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(WVN): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(BMK): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(ENA): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(FAI): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(FBK): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(GKN): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(SGY): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(HOM): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(ILI): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(UTO): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(NGB): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(NKG): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(HFE): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(TAO): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(SHA): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(YNT): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(CKG): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(LXA): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(CTU): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-center(POM): successful {PORT MORESBY, (-90.0,1472.0)}
+ca-sites-size: 1
+ca-list-kd:
+  [TMX: (290.0,6.0)] => {GAL HRB IVL MJC POM YFB}
+ca-list-kd [tree structure]:
+  [TMX: (290.0,6.0)] => {GAL HRB IVL MJC POM YFB}
+ca-centers-size: 6
+ca-list-centers:
+  GAL: (644.0,-1566.0)
+  HRB: (455.0,1265.0)
+  IVL: (688.0,277.0)
+  MJC: (71.0,-77.0)
+  POM: (-90.0,1472.0)
+  YFB: (631.0,-683.0)
+ca-list-assignments:
+  [TMX->MJC] distSq = 54850.0
+ca-add-site(HME): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(INZ): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(YEV): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(YFC): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(JOE): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(GKA): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(MAG): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(HGU): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(LAE): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(WWK): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(YAM): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(YAV): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(YAW): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(YAY): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(YAZ): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(YBB): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(YDQ): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(GHA): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(PKO): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(OUA): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-center(DJE): successful {DJERBA, (353.0,145.0)}
+ca-sites-size: 1
+ca-list-kd:
+  [TMX: (290.0,6.0)] => {DJE GAL HRB IVL MJC POM YFB}
+ca-list-kd [tree structure]:
+  [TMX: (290.0,6.0)] => {DJE GAL HRB IVL MJC POM YFB}
+ca-centers-size: 7
+ca-list-centers:
+  DJE: (353.0,145.0)
+  GAL: (644.0,-1566.0)
+  HRB: (455.0,1265.0)
+  IVL: (688.0,277.0)
+  MJC: (71.0,-77.0)
+  POM: (-90.0,1472.0)
+  YFB: (631.0,-683.0)
+ca-list-assignments:
+  [TMX->DJE] distSq = 23290.0
+ca-add-site(BOY): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(ACC): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(TML): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(GLO): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(OGX): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(IAM): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(COO): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(TLM): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(ORN): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(MUW): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(AZR): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(TGR): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(LOO): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(XIC): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(QAS): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(TAF): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(YFO): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(YHM): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(YHU): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(YHY): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-center(KHG): successful {KASHI, (399.0,769.0)}
+ca-sites-size: 1
+ca-list-kd:
+  [TMX: (290.0,6.0)] => {DJE GAL HRB IVL KHG MJC POM YFB}
+ca-list-kd [tree structure]:
+  [TMX: (290.0,6.0)] => {DJE GAL HRB IVL KHG MJC POM YFB}
+ca-centers-size: 8
+ca-list-centers:
+  DJE: (353.0,145.0)
+  GAL: (644.0,-1566.0)
+  HRB: (455.0,1265.0)
+  IVL: (688.0,277.0)
+  KHG: (399.0,769.0)
+  MJC: (71.0,-77.0)
+  POM: (-90.0,1472.0)
+  YFB: (631.0,-683.0)
+ca-list-assignments:
+  [TMX->DJE] distSq = 23290.0
+ca-add-site(YHZ): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(YIB): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(YIO): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(YJN): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(YND): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(YNM): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(YOC): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(YOD): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(YOJ): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(YOW): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(YRM): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(YRT): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(YSB): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(YSC): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(YSJ): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(YWA): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(YEG): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(YEK): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(YEN): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(YET): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-center(VEY): successful {VESTMANNAEYJAR, (631.0,-203.0)}
+ca-sites-size: 1
+ca-list-kd:
+  [TMX: (290.0,6.0)] => {DJE GAL HRB IVL KHG MJC POM VEY YFB}
+ca-list-kd [tree structure]:
+  [TMX: (290.0,6.0)] => {DJE GAL HRB IVL KHG MJC POM VEY YFB}
+ca-centers-size: 9
+ca-list-centers:
+  DJE: (353.0,145.0)
+  GAL: (644.0,-1566.0)
+  HRB: (455.0,1265.0)
+  IVL: (688.0,277.0)
+  KHG: (399.0,769.0)
+  MJC: (71.0,-77.0)
+  POM: (-90.0,1472.0)
+  VEY: (631.0,-203.0)
+  YFB: (631.0,-683.0)
+ca-list-assignments:
+  [TMX->DJE] distSq = 23290.0
+ca-add-site(YEU): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(YWG): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(YWK): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(YWL): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(YWY): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(YXC): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(YYU): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(SPY): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(ASK): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(ABV): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(AKR): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(YYW): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(YYY): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(YYZ): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(CZL): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(TEE): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(HRM): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(TID): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(TIN): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-site(BLI): Failure due to exception: "Cannot read field "contenders" because "u.left" is null"
+ca-add-center(YED): successful {EDMONTON, (530.0,-1132.0)}
+ca-sites-size: 1
+ca-list-kd:
+  [TMX: (290.0,6.0)] => {DJE GAL HRB IVL KHG MJC POM VEY YED YFB}
+ca-list-kd [tree structure]:
+  [TMX: (290.0,6.0)] => {DJE GAL HRB IVL KHG MJC POM VEY YED YFB}
+ca-centers-size: 10
+ca-list-centers:
+  DJE: (353.0,145.0)
+  GAL: (644.0,-1566.0)
+  HRB: (455.0,1265.0)
+  IVL: (688.0,277.0)
+  KHG: (399.0,769.0)
+  MJC: (71.0,-77.0)
+  POM: (-90.0,1472.0)
+  VEY: (631.0,-203.0)
+  YED: (530.0,-1132.0)
+  YFB: (631.0,-683.0)
+ca-list-assignments:
+  [TMX->DJE] distSq = 23290.0
+ca-delete-site(SPY): Failure due to exception: "Deletion of nonexistent point"
+ca-delete-site(YND): Failure due to exception: "Deletion of nonexistent point"
+ca-delete-site(SHA): Failure due to exception: "Deletion of nonexistent point"
+ca-delete-site(FAI): Failure due to exception: "Deletion of nonexistent point"
+ca-delete-site(BNI): Failure due to exception: "Deletion of nonexistent point"
+ca-delete-site(DJO): Failure due to exception: "Deletion of nonexistent point"
+ca-delete-site(HEL): Failure due to exception: "Deletion of nonexistent point"
+ca-sites-size: 1
+ca-list-kd:
+  [TMX: (290.0,6.0)] => {DJE GAL HRB IVL KHG MJC POM VEY YED YFB}
+ca-list-kd [tree structure]:
+  [TMX: (290.0,6.0)] => {DJE GAL HRB IVL KHG MJC POM VEY YED YFB}
+ca-centers-size: 10
+ca-list-centers:
+  DJE: (353.0,145.0)
+  GAL: (644.0,-1566.0)
+  HRB: (455.0,1265.0)
+  IVL: (688.0,277.0)
+  KHG: (399.0,769.0)
+  MJC: (71.0,-77.0)
+  POM: (-90.0,1472.0)
+  VEY: (631.0,-203.0)
+  YED: (530.0,-1132.0)
+  YFB: (631.0,-683.0)
+ca-list-assignments:
+  [TMX->DJE] distSq = 23290.0
+comment: Testing operations on an empty tree
+ca-clear: successful
+ca-sites-size: 0
+ca-centers-size: 1
+ca-list-kd:
+  [null] => {HRB}
+ca-list-kd [tree structure]:
+  [null] => {HRB}
+alert: The following deletion should throw an exception
+ca-delete-site(ORD): Failure due to exception: "Deletion of nonexistent airport code"
+ca-list-centers:
+  HRB: (455.0,1265.0)
+ca-list-assignments:
+ca-clear: successful

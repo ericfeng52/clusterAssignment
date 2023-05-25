@@ -1,0 +1,88 @@
+comment:Similar to test01 but includes site deletions and clear
+initialize:2:0:100:0:100
+comment:Initializing cluster assignment structure starting at ORD
+ca-initialize:ORD:Chicago:20:60
+ca-add-site:ATL:Atlanta:10:50
+ca-add-site:JFK:New York:90:40
+ca-add-site:SEA:Seattle:50:51
+ca-add-site:DFW:Dallas-Fort Worth:30:79
+ca-add-site:DCA:Washington:70:71
+ca-add-site:IAD:Dulles:31:40
+ca-sites-size
+ca-list-kd
+ca-centers-size
+ca-list-centers
+ca-list-assignments
+ca-add-center:PVD:Providence:90:20
+ca-list-kd
+ca-centers-size
+ca-list-centers
+ca-list-assignments
+ca-add-center:BWI:Baltimore:80:80
+ca-list-kd
+ca-centers-size
+ca-list-centers
+ca-list-assignments
+ca-add-center:LAX:Los Angeles:40:20
+ca-list-kd
+ca-centers-size
+ca-list-centers
+ca-list-assignments
+comment:Adding LAS triggers a rebuild
+ca-add-site:LAS:Las Vegas:10:20
+ca-list-kd
+ca-centers-size
+ca-list-centers
+ca-list-assignments
+ca-delete-site:SEA
+ca-list-kd
+ca-centers-size
+ca-list-centers
+ca-list-assignments
+comment:Adding MCO fills SEA's external node
+ca-add-site:MCO:Orlando:60:90
+ca-list-kd
+ca-centers-size
+ca-list-centers
+ca-list-assignments
+ca-delete-site:DFW
+ca-list-kd
+ca-centers-size
+ca-list-centers
+ca-list-assignments
+ca-delete-site:DCA
+ca-list-kd
+ca-centers-size
+ca-list-centers
+ca-list-assignments
+ca-delete-site:JFK
+ca-list-kd
+ca-centers-size
+ca-list-centers
+ca-list-assignments
+comment:Deleting IAD triggers a rebuild
+ca-delete-site:IAD
+ca-list-kd
+ca-centers-size
+ca-list-centers
+ca-list-assignments
+ca-clear
+ca-sites-size
+ca-list-kd
+ca-centers-size
+ca-list-centers
+ca-list-assignments
+ca-add-site:SEA:Seattle:50:51
+ca-add-site:DFW:Dallas-Fort Worth:30:79
+ca-add-site:DCA:Washington:70:71
+ca-sites-size
+ca-list-kd
+ca-centers-size
+ca-list-centers
+ca-list-assignments
+ca-add-center:BWI:Baltimore:80:80
+ca-sites-size
+ca-list-kd
+ca-centers-size
+ca-list-centers
+ca-list-assignments

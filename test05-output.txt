@@ -1,0 +1,433 @@
+comment: Similar to test02 but tie-breaking needed
+initialize: rebuild-offset = 2 bounding-box = [(0.0,0.0),(100.0,100.0)]
+comment: Initializing cluster assignment structure starting at ORD
+ca-initialize(start = ORD): successful
+ca-add-site(ATL): successful {Atlanta, (10.0,50.0)}
+ca-add-site(JFK): successful {New York, (90.0,40.0)}
+ca-add-site(SEA): successful {Seattle, (50.0,50.0)}
+ca-add-site(DFW): successful {Dallas-Fort Worth, (30.0,80.0)}
+ca-add-site(DCA): successful {Washington, (70.0,70.0)}
+ca-add-site(IAD): successful {Dulles, (30.0,40.0)}
+ca-sites-size: 6
+ca-list-kd:
+  (x=50.0) 6:4 => {ORD}
+  (y=50.0) 3:1 => {ORD}
+  (x=70.0) 2:0 => {ORD}
+  [DCA: (70.0,70.0)] => {ORD}
+  [SEA: (50.0,50.0)] => {ORD}
+  [JFK: (90.0,40.0)] => {ORD}
+  (y=50.0) 3:1 => {ORD}
+  (x=25.0) 2:0 => {ORD}
+  [DFW: (30.0,80.0)] => {ORD}
+  [ATL: (10.0,50.0)] => {ORD}
+  [IAD: (30.0,40.0)] => {ORD}
+ca-list-kd [tree structure]:
+  | | | [DCA: (70.0,70.0)] => {ORD}
+  | | (x=70.0) 2:0 => {ORD}
+  | | | [SEA: (50.0,50.0)] => {ORD}
+  | (y=50.0) 3:1 => {ORD}
+  | | [JFK: (90.0,40.0)] => {ORD}
+  (x=50.0) 6:4 => {ORD}
+  | | | [DFW: (30.0,80.0)] => {ORD}
+  | | (x=25.0) 2:0 => {ORD}
+  | | | [ATL: (10.0,50.0)] => {ORD}
+  | (y=50.0) 3:1 => {ORD}
+  | | [IAD: (30.0,40.0)] => {ORD}
+ca-centers-size: 1
+ca-list-centers:
+  ORD: (20.0,60.0)
+ca-list-assignments:
+  [ATL->ORD] distSq = 200.0
+  [IAD->ORD] distSq = 500.0
+  [DFW->ORD] distSq = 500.0
+  [SEA->ORD] distSq = 1000.0
+  [DCA->ORD] distSq = 2600.0
+  [JFK->ORD] distSq = 5300.0
+ca-add-center(PVD): successful {Providence, (90.0,20.0)}
+ca-list-kd:
+  (x=50.0) 6:4 => {ORD PVD}
+  (y=50.0) 3:1 => {ORD PVD}
+  (x=70.0) 2:0 => {ORD PVD}
+  [DCA: (70.0,70.0)] => {ORD PVD}
+  [SEA: (50.0,50.0)] => {ORD PVD}
+  [JFK: (90.0,40.0)] => {ORD PVD}
+  (y=50.0) 3:1 => {ORD PVD}
+  (x=25.0) 2:0 => {ORD PVD}
+  [DFW: (30.0,80.0)] => {ORD PVD}
+  [ATL: (10.0,50.0)] => {ORD}
+  [IAD: (30.0,40.0)] => {ORD PVD}
+ca-list-kd [tree structure]:
+  | | | [DCA: (70.0,70.0)] => {ORD PVD}
+  | | (x=70.0) 2:0 => {ORD PVD}
+  | | | [SEA: (50.0,50.0)] => {ORD PVD}
+  | (y=50.0) 3:1 => {ORD PVD}
+  | | [JFK: (90.0,40.0)] => {ORD PVD}
+  (x=50.0) 6:4 => {ORD PVD}
+  | | | [DFW: (30.0,80.0)] => {ORD PVD}
+  | | (x=25.0) 2:0 => {ORD PVD}
+  | | | [ATL: (10.0,50.0)] => {ORD}
+  | (y=50.0) 3:1 => {ORD PVD}
+  | | [IAD: (30.0,40.0)] => {ORD PVD}
+ca-centers-size: 2
+ca-list-centers:
+  ORD: (20.0,60.0)
+  PVD: (90.0,20.0)
+ca-list-assignments:
+  [ATL->ORD] distSq = 200.0
+  [JFK->PVD] distSq = 400.0
+  [IAD->ORD] distSq = 500.0
+  [DFW->ORD] distSq = 500.0
+  [SEA->ORD] distSq = 1000.0
+  [DCA->ORD] distSq = 2600.0
+ca-add-center(BWI): successful {Baltimore, (80.0,80.0)}
+ca-list-kd:
+  (x=50.0) 6:4 => {BWI ORD PVD}
+  (y=50.0) 3:1 => {BWI ORD PVD}
+  (x=70.0) 2:0 => {BWI ORD PVD}
+  [DCA: (70.0,70.0)] => {BWI PVD}
+  [SEA: (50.0,50.0)] => {BWI ORD PVD}
+  [JFK: (90.0,40.0)] => {BWI ORD PVD}
+  (y=50.0) 3:1 => {BWI ORD PVD}
+  (x=25.0) 2:0 => {BWI ORD PVD}
+  [DFW: (30.0,80.0)] => {BWI ORD PVD}
+  [ATL: (10.0,50.0)] => {ORD}
+  [IAD: (30.0,40.0)] => {BWI ORD PVD}
+ca-list-kd [tree structure]:
+  | | | [DCA: (70.0,70.0)] => {BWI PVD}
+  | | (x=70.0) 2:0 => {BWI ORD PVD}
+  | | | [SEA: (50.0,50.0)] => {BWI ORD PVD}
+  | (y=50.0) 3:1 => {BWI ORD PVD}
+  | | [JFK: (90.0,40.0)] => {BWI ORD PVD}
+  (x=50.0) 6:4 => {BWI ORD PVD}
+  | | | [DFW: (30.0,80.0)] => {BWI ORD PVD}
+  | | (x=25.0) 2:0 => {BWI ORD PVD}
+  | | | [ATL: (10.0,50.0)] => {ORD}
+  | (y=50.0) 3:1 => {BWI ORD PVD}
+  | | [IAD: (30.0,40.0)] => {BWI ORD PVD}
+ca-centers-size: 3
+ca-list-centers:
+  BWI: (80.0,80.0)
+  ORD: (20.0,60.0)
+  PVD: (90.0,20.0)
+ca-list-assignments:
+  [ATL->ORD] distSq = 200.0
+  [DCA->BWI] distSq = 200.0
+  [JFK->PVD] distSq = 400.0
+  [IAD->ORD] distSq = 500.0
+  [DFW->ORD] distSq = 500.0
+  [SEA->ORD] distSq = 1000.0
+ca-add-center(LAX): successful {Los Angeles, (40.0,20.0)}
+ca-list-kd:
+  (x=50.0) 6:4 => {BWI LAX ORD PVD}
+  (y=50.0) 3:1 => {BWI LAX ORD PVD}
+  (x=70.0) 2:0 => {BWI LAX ORD PVD}
+  [DCA: (70.0,70.0)] => {BWI PVD}
+  [SEA: (50.0,50.0)] => {BWI LAX ORD PVD}
+  [JFK: (90.0,40.0)] => {BWI LAX ORD PVD}
+  (y=50.0) 3:1 => {BWI LAX ORD PVD}
+  (x=25.0) 2:0 => {BWI LAX ORD PVD}
+  [DFW: (30.0,80.0)] => {BWI LAX ORD PVD}
+  [ATL: (10.0,50.0)] => {LAX ORD}
+  [IAD: (30.0,40.0)] => {BWI LAX ORD PVD}
+ca-list-kd [tree structure]:
+  | | | [DCA: (70.0,70.0)] => {BWI PVD}
+  | | (x=70.0) 2:0 => {BWI LAX ORD PVD}
+  | | | [SEA: (50.0,50.0)] => {BWI LAX ORD PVD}
+  | (y=50.0) 3:1 => {BWI LAX ORD PVD}
+  | | [JFK: (90.0,40.0)] => {BWI LAX ORD PVD}
+  (x=50.0) 6:4 => {BWI LAX ORD PVD}
+  | | | [DFW: (30.0,80.0)] => {BWI LAX ORD PVD}
+  | | (x=25.0) 2:0 => {BWI LAX ORD PVD}
+  | | | [ATL: (10.0,50.0)] => {LAX ORD}
+  | (y=50.0) 3:1 => {BWI LAX ORD PVD}
+  | | [IAD: (30.0,40.0)] => {BWI LAX ORD PVD}
+ca-centers-size: 4
+ca-list-centers:
+  BWI: (80.0,80.0)
+  LAX: (40.0,20.0)
+  ORD: (20.0,60.0)
+  PVD: (90.0,20.0)
+ca-list-assignments:
+  [ATL->ORD] distSq = 200.0
+  [DCA->BWI] distSq = 200.0
+  [JFK->PVD] distSq = 400.0
+  [IAD->ORD] distSq = 500.0
+  [DFW->ORD] distSq = 500.0
+  [SEA->ORD] distSq = 1000.0
+comment: Adding LAS triggers a rebuild
+ca-add-site(LAS): successful {Las Vegas, (10.0,20.0)}
+ca-list-kd:
+  (x=50.0) 7:0 => {BWI LAX ORD PVD}
+  (y=50.0) 3:0 => {BWI LAX ORD PVD}
+  (x=70.0) 2:0 => {BWI LAX ORD PVD}
+  [DCA: (70.0,70.0)] => {BWI PVD}
+  [SEA: (50.0,50.0)] => {BWI LAX ORD PVD}
+  [JFK: (90.0,40.0)] => {BWI LAX ORD PVD}
+  (y=50.0) 4:0 => {BWI LAX ORD PVD}
+  (x=25.0) 2:0 => {BWI LAX ORD PVD}
+  [DFW: (30.0,80.0)] => {BWI LAX ORD PVD}
+  [ATL: (10.0,50.0)] => {LAX ORD}
+  (x=25.0) 2:0 => {BWI LAX ORD PVD}
+  [IAD: (30.0,40.0)] => {LAX ORD}
+  [LAS: (10.0,20.0)] => {LAX ORD}
+ca-list-kd [tree structure]:
+  | | | [DCA: (70.0,70.0)] => {BWI PVD}
+  | | (x=70.0) 2:0 => {BWI LAX ORD PVD}
+  | | | [SEA: (50.0,50.0)] => {BWI LAX ORD PVD}
+  | (y=50.0) 3:0 => {BWI LAX ORD PVD}
+  | | [JFK: (90.0,40.0)] => {BWI LAX ORD PVD}
+  (x=50.0) 7:0 => {BWI LAX ORD PVD}
+  | | | [DFW: (30.0,80.0)] => {BWI LAX ORD PVD}
+  | | (x=25.0) 2:0 => {BWI LAX ORD PVD}
+  | | | [ATL: (10.0,50.0)] => {LAX ORD}
+  | (y=50.0) 4:0 => {BWI LAX ORD PVD}
+  | | | [IAD: (30.0,40.0)] => {LAX ORD}
+  | | (x=25.0) 2:0 => {BWI LAX ORD PVD}
+  | | | [LAS: (10.0,20.0)] => {LAX ORD}
+ca-centers-size: 4
+ca-list-centers:
+  BWI: (80.0,80.0)
+  LAX: (40.0,20.0)
+  ORD: (20.0,60.0)
+  PVD: (90.0,20.0)
+ca-list-assignments:
+  [ATL->ORD] distSq = 200.0
+  [DCA->BWI] distSq = 200.0
+  [JFK->PVD] distSq = 400.0
+  [IAD->ORD] distSq = 500.0
+  [DFW->ORD] distSq = 500.0
+  [LAS->LAX] distSq = 900.0
+  [SEA->ORD] distSq = 1000.0
+ca-delete-site(SEA): successful
+ca-list-kd:
+  (x=50.0) 6:0 => {BWI LAX ORD PVD}
+  (y=50.0) 2:0 => {BWI LAX ORD PVD}
+  (x=70.0) 1:0 => {BWI LAX ORD PVD}
+  [DCA: (70.0,70.0)] => {BWI PVD}
+  [null] => {BWI LAX ORD PVD}
+  [JFK: (90.0,40.0)] => {BWI LAX ORD PVD}
+  (y=50.0) 4:0 => {BWI LAX ORD PVD}
+  (x=25.0) 2:0 => {BWI LAX ORD PVD}
+  [DFW: (30.0,80.0)] => {BWI LAX ORD PVD}
+  [ATL: (10.0,50.0)] => {LAX ORD}
+  (x=25.0) 2:0 => {BWI LAX ORD PVD}
+  [IAD: (30.0,40.0)] => {LAX ORD}
+  [LAS: (10.0,20.0)] => {LAX ORD}
+ca-list-kd [tree structure]:
+  | | | [DCA: (70.0,70.0)] => {BWI PVD}
+  | | (x=70.0) 1:0 => {BWI LAX ORD PVD}
+  | | | [null] => {BWI LAX ORD PVD}
+  | (y=50.0) 2:0 => {BWI LAX ORD PVD}
+  | | [JFK: (90.0,40.0)] => {BWI LAX ORD PVD}
+  (x=50.0) 6:0 => {BWI LAX ORD PVD}
+  | | | [DFW: (30.0,80.0)] => {BWI LAX ORD PVD}
+  | | (x=25.0) 2:0 => {BWI LAX ORD PVD}
+  | | | [ATL: (10.0,50.0)] => {LAX ORD}
+  | (y=50.0) 4:0 => {BWI LAX ORD PVD}
+  | | | [IAD: (30.0,40.0)] => {LAX ORD}
+  | | (x=25.0) 2:0 => {BWI LAX ORD PVD}
+  | | | [LAS: (10.0,20.0)] => {LAX ORD}
+ca-centers-size: 4
+ca-list-centers:
+  BWI: (80.0,80.0)
+  LAX: (40.0,20.0)
+  ORD: (20.0,60.0)
+  PVD: (90.0,20.0)
+ca-list-assignments:
+  [ATL->ORD] distSq = 200.0
+  [DCA->BWI] distSq = 200.0
+  [JFK->PVD] distSq = 400.0
+  [IAD->ORD] distSq = 500.0
+  [DFW->ORD] distSq = 500.0
+  [LAS->LAX] distSq = 900.0
+comment: Adding MCO fills SEA's external node
+ca-add-site(MCO): successful {Orlando, (60.0,90.0)}
+ca-list-kd:
+  (x=50.0) 7:1 => {BWI LAX ORD PVD}
+  (y=50.0) 3:1 => {BWI LAX ORD PVD}
+  (x=70.0) 2:1 => {BWI LAX ORD PVD}
+  [DCA: (70.0,70.0)] => {BWI PVD}
+  [MCO: (60.0,90.0)] => {BWI LAX ORD PVD}
+  [JFK: (90.0,40.0)] => {BWI LAX ORD PVD}
+  (y=50.0) 4:0 => {BWI LAX ORD PVD}
+  (x=25.0) 2:0 => {BWI LAX ORD PVD}
+  [DFW: (30.0,80.0)] => {BWI LAX ORD PVD}
+  [ATL: (10.0,50.0)] => {LAX ORD}
+  (x=25.0) 2:0 => {BWI LAX ORD PVD}
+  [IAD: (30.0,40.0)] => {LAX ORD}
+  [LAS: (10.0,20.0)] => {LAX ORD}
+ca-list-kd [tree structure]:
+  | | | [DCA: (70.0,70.0)] => {BWI PVD}
+  | | (x=70.0) 2:1 => {BWI LAX ORD PVD}
+  | | | [MCO: (60.0,90.0)] => {BWI LAX ORD PVD}
+  | (y=50.0) 3:1 => {BWI LAX ORD PVD}
+  | | [JFK: (90.0,40.0)] => {BWI LAX ORD PVD}
+  (x=50.0) 7:1 => {BWI LAX ORD PVD}
+  | | | [DFW: (30.0,80.0)] => {BWI LAX ORD PVD}
+  | | (x=25.0) 2:0 => {BWI LAX ORD PVD}
+  | | | [ATL: (10.0,50.0)] => {LAX ORD}
+  | (y=50.0) 4:0 => {BWI LAX ORD PVD}
+  | | | [IAD: (30.0,40.0)] => {LAX ORD}
+  | | (x=25.0) 2:0 => {BWI LAX ORD PVD}
+  | | | [LAS: (10.0,20.0)] => {LAX ORD}
+ca-centers-size: 4
+ca-list-centers:
+  BWI: (80.0,80.0)
+  LAX: (40.0,20.0)
+  ORD: (20.0,60.0)
+  PVD: (90.0,20.0)
+ca-list-assignments:
+  [ATL->ORD] distSq = 200.0
+  [DCA->BWI] distSq = 200.0
+  [JFK->PVD] distSq = 400.0
+  [IAD->ORD] distSq = 500.0
+  [DFW->ORD] distSq = 500.0
+  [MCO->BWI] distSq = 500.0
+  [LAS->LAX] distSq = 900.0
+ca-delete-site(DFW): successful
+ca-list-kd:
+  (x=50.0) 6:1 => {BWI LAX ORD PVD}
+  (y=50.0) 3:1 => {BWI LAX ORD PVD}
+  (x=70.0) 2:1 => {BWI LAX ORD PVD}
+  [DCA: (70.0,70.0)] => {BWI PVD}
+  [MCO: (60.0,90.0)] => {BWI LAX ORD PVD}
+  [JFK: (90.0,40.0)] => {BWI LAX ORD PVD}
+  (y=50.0) 3:0 => {BWI LAX ORD PVD}
+  (x=25.0) 1:0 => {BWI LAX ORD PVD}
+  [null] => {BWI LAX ORD PVD}
+  [ATL: (10.0,50.0)] => {LAX ORD}
+  (x=25.0) 2:0 => {BWI LAX ORD PVD}
+  [IAD: (30.0,40.0)] => {LAX ORD}
+  [LAS: (10.0,20.0)] => {LAX ORD}
+ca-list-kd [tree structure]:
+  | | | [DCA: (70.0,70.0)] => {BWI PVD}
+  | | (x=70.0) 2:1 => {BWI LAX ORD PVD}
+  | | | [MCO: (60.0,90.0)] => {BWI LAX ORD PVD}
+  | (y=50.0) 3:1 => {BWI LAX ORD PVD}
+  | | [JFK: (90.0,40.0)] => {BWI LAX ORD PVD}
+  (x=50.0) 6:1 => {BWI LAX ORD PVD}
+  | | | [null] => {BWI LAX ORD PVD}
+  | | (x=25.0) 1:0 => {BWI LAX ORD PVD}
+  | | | [ATL: (10.0,50.0)] => {LAX ORD}
+  | (y=50.0) 3:0 => {BWI LAX ORD PVD}
+  | | | [IAD: (30.0,40.0)] => {LAX ORD}
+  | | (x=25.0) 2:0 => {BWI LAX ORD PVD}
+  | | | [LAS: (10.0,20.0)] => {LAX ORD}
+ca-centers-size: 4
+ca-list-centers:
+  BWI: (80.0,80.0)
+  LAX: (40.0,20.0)
+  ORD: (20.0,60.0)
+  PVD: (90.0,20.0)
+ca-list-assignments:
+  [ATL->ORD] distSq = 200.0
+  [DCA->BWI] distSq = 200.0
+  [JFK->PVD] distSq = 400.0
+  [IAD->ORD] distSq = 500.0
+  [MCO->BWI] distSq = 500.0
+  [LAS->LAX] distSq = 900.0
+ca-delete-site(DCA): successful
+ca-list-kd:
+  (x=50.0) 5:1 => {BWI LAX ORD PVD}
+  (y=50.0) 2:1 => {BWI LAX ORD PVD}
+  (x=70.0) 1:1 => {BWI LAX ORD PVD}
+  [null] => {BWI PVD}
+  [MCO: (60.0,90.0)] => {BWI LAX ORD PVD}
+  [JFK: (90.0,40.0)] => {BWI LAX ORD PVD}
+  (y=50.0) 3:0 => {BWI LAX ORD PVD}
+  (x=25.0) 1:0 => {BWI LAX ORD PVD}
+  [null] => {BWI LAX ORD PVD}
+  [ATL: (10.0,50.0)] => {LAX ORD}
+  (x=25.0) 2:0 => {BWI LAX ORD PVD}
+  [IAD: (30.0,40.0)] => {LAX ORD}
+  [LAS: (10.0,20.0)] => {LAX ORD}
+ca-list-kd [tree structure]:
+  | | | [null] => {BWI PVD}
+  | | (x=70.0) 1:1 => {BWI LAX ORD PVD}
+  | | | [MCO: (60.0,90.0)] => {BWI LAX ORD PVD}
+  | (y=50.0) 2:1 => {BWI LAX ORD PVD}
+  | | [JFK: (90.0,40.0)] => {BWI LAX ORD PVD}
+  (x=50.0) 5:1 => {BWI LAX ORD PVD}
+  | | | [null] => {BWI LAX ORD PVD}
+  | | (x=25.0) 1:0 => {BWI LAX ORD PVD}
+  | | | [ATL: (10.0,50.0)] => {LAX ORD}
+  | (y=50.0) 3:0 => {BWI LAX ORD PVD}
+  | | | [IAD: (30.0,40.0)] => {LAX ORD}
+  | | (x=25.0) 2:0 => {BWI LAX ORD PVD}
+  | | | [LAS: (10.0,20.0)] => {LAX ORD}
+ca-centers-size: 4
+ca-list-centers:
+  BWI: (80.0,80.0)
+  LAX: (40.0,20.0)
+  ORD: (20.0,60.0)
+  PVD: (90.0,20.0)
+ca-list-assignments:
+  [ATL->ORD] distSq = 200.0
+  [JFK->PVD] distSq = 400.0
+  [IAD->ORD] distSq = 500.0
+  [MCO->BWI] distSq = 500.0
+  [LAS->LAX] distSq = 900.0
+ca-delete-site(JFK): successful
+ca-list-kd:
+  (x=50.0) 4:1 => {BWI LAX ORD PVD}
+  (y=50.0) 1:1 => {BWI LAX ORD PVD}
+  (x=70.0) 1:1 => {BWI LAX ORD PVD}
+  [null] => {BWI PVD}
+  [MCO: (60.0,90.0)] => {BWI LAX ORD PVD}
+  [null] => {BWI LAX ORD PVD}
+  (y=50.0) 3:0 => {BWI LAX ORD PVD}
+  (x=25.0) 1:0 => {BWI LAX ORD PVD}
+  [null] => {BWI LAX ORD PVD}
+  [ATL: (10.0,50.0)] => {LAX ORD}
+  (x=25.0) 2:0 => {BWI LAX ORD PVD}
+  [IAD: (30.0,40.0)] => {LAX ORD}
+  [LAS: (10.0,20.0)] => {LAX ORD}
+ca-list-kd [tree structure]:
+  | | | [null] => {BWI PVD}
+  | | (x=70.0) 1:1 => {BWI LAX ORD PVD}
+  | | | [MCO: (60.0,90.0)] => {BWI LAX ORD PVD}
+  | (y=50.0) 1:1 => {BWI LAX ORD PVD}
+  | | [null] => {BWI LAX ORD PVD}
+  (x=50.0) 4:1 => {BWI LAX ORD PVD}
+  | | | [null] => {BWI LAX ORD PVD}
+  | | (x=25.0) 1:0 => {BWI LAX ORD PVD}
+  | | | [ATL: (10.0,50.0)] => {LAX ORD}
+  | (y=50.0) 3:0 => {BWI LAX ORD PVD}
+  | | | [IAD: (30.0,40.0)] => {LAX ORD}
+  | | (x=25.0) 2:0 => {BWI LAX ORD PVD}
+  | | | [LAS: (10.0,20.0)] => {LAX ORD}
+ca-centers-size: 4
+ca-list-centers:
+  BWI: (80.0,80.0)
+  LAX: (40.0,20.0)
+  ORD: (20.0,60.0)
+  PVD: (90.0,20.0)
+ca-list-assignments:
+  [ATL->ORD] distSq = 200.0
+  [IAD->ORD] distSq = 500.0
+  [MCO->BWI] distSq = 500.0
+  [LAS->LAX] distSq = 900.0
+comment: Deleting IAD triggers a rebuild
+ca-delete-site(IAD): successful
+ca-list-kd:
+  (x=50.0) 3:0 => {BWI LAX ORD PVD}
+  [MCO: (60.0,90.0)] => {BWI LAX ORD PVD}
+  (y=50.0) 2:0 => {BWI LAX ORD PVD}
+  [ATL: (10.0,50.0)] => {BWI LAX ORD PVD}
+  [LAS: (10.0,20.0)] => {BWI LAX ORD PVD}
+ca-list-kd [tree structure]:
+  | [MCO: (60.0,90.0)] => {BWI LAX ORD PVD}
+  (x=50.0) 3:0 => {BWI LAX ORD PVD}
+  | | [ATL: (10.0,50.0)] => {BWI LAX ORD PVD}
+  | (y=50.0) 2:0 => {BWI LAX ORD PVD}
+  | | [LAS: (10.0,20.0)] => {BWI LAX ORD PVD}
+ca-centers-size: 4
+ca-list-centers:
+  BWI: (80.0,80.0)
+  LAX: (40.0,20.0)
+  ORD: (20.0,60.0)
+  PVD: (90.0,20.0)
+ca-list-assignments:
+  [ATL->ORD] distSq = 200.0
+  [MCO->BWI] distSq = 500.0
+  [LAS->LAX] distSq = 900.0

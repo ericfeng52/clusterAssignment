@@ -1,0 +1,215 @@
+comment:FarthestFirst with roughly 200 points.
+initialize:5:0:1000:0:1000
+comment:Initial center is DCA (674,246)
+ff-initialize:DCA:WASHINGTON:674:246
+comment:Adding many sites
+ff-add-site:ACK:NANTUCKET:529:766
+ff-add-site:ACY:ATLANTIC CITY:735:691
+ff-add-site:AEX:ALEXANDRIA:522:476
+ff-add-site:AKR:AKRON:446:265
+ff-add-site:ALB:ALBANY:294:985
+ff-add-site:AMA:AMARILLO:371:711
+ff-add-site:ART:WATERTOWN:210:892
+ff-add-site:ATL:ATLANTA:948:149
+ff-add-site:AUG:AUGUSTA:857:426
+ff-add-site:AUS:AUSTIN:458:489
+ff-add-site:BCT:BOCA RATON:280:341
+ff-add-site:BFI:SEATTLE:390:609
+ff-add-site:BFM:MOBILE:165:197
+ff-add-site:BGR:BANGOR:167:924
+ff-add-site:BHM:BIRMINGHAM:471:677
+ff-add-site:BLI:BELLINGHAM:783:276
+ff-add-site:BNA:NASHVILLE:913:299
+ff-add-site:BOI:BOISE:985:557
+ff-add-site:BOS:BOSTON:533:588
+ff-add-site:BRO:BROWNSVILLE:803:851
+ff-add-site:BTR:BATON ROUGE:412:395
+ff-add-site:BUF:BUFFALO:531:435
+ff-add-site:BUR:BURBANK:124:996
+ff-add-site:BWI:BALTIMORE:203:270
+ff-add-site:CBM:COLUMBUS:874:145
+ff-add-site:CHA:CHATTANOOGA:422:265
+ff-add-site:CHS:CHARLESTON:992:271
+ff-add-site:CIC:CHICO:231:106
+ff-add-site:CLE:CLEVELAND:689:330
+ff-add-site:CLL:COLLEGE STATION:152:571
+ff-add-site:CLT:CHARLOTTE:514:771
+ff-add-site:CMH:COLUMBUS:601:749
+ff-add-site:CNM:CARLSBAD:536:856
+ff-add-site:CNW:WACO:667:935
+ff-add-site:COS:COLORADO SPRINGS:613:723
+ff-add-site:CPR:CASPER:850:927
+ff-add-site:CRP:CORPUS CHRISTI:488:835
+ff-add-site:CVG:CINCINNATI:877:555
+ff-add-site:CYS:CHEYENNE:645:479
+ff-add-site:DAL:DALLAS:619:646
+ff-add-site:DAY:DAYTON:108:340
+ff-add-site:DEN:DENVER:868:571
+ff-add-site:DET:DETROIT:634:568
+ff-add-site:DFW:DALLAS-FORT WORTH:443:187
+ff-add-site:DLF:DEL RIO:526:488
+ff-add-site:DLH:DULUTH:868:159
+ff-add-site:DMA:TUCSON:437:486
+ff-add-site:DPA:WEST CHICAGO:182:537
+ff-add-site:DRT:DEL RIO:776:410
+ff-add-site:DSM:DES MOINES:437:608
+ff-add-site:DTW:DETROIT:679:347
+ff-add-site:DUG:DOUGLAS:833:685
+ff-add-site:DYS:ABILENE:732:465
+ff-add-site:EDW:EDWARDS AFB:733:741
+ff-add-site:EFD:HOUSTON:257:368
+ff-add-site:ELP:EL PASO:578:371
+ff-add-site:EWR:NEWARK:459:671
+ff-add-site:EYW:KEY WEST:106:285
+ff-add-site:FAT:FRESNO:890:926
+ff-add-site:FFO:DAYTON:558:607
+ff-add-site:FLL:FORT LAUDERDALE:928:656
+ff-add-site:FMY:FORT MYERS:444:784
+ff-add-site:FOE:TOPEKA:518:448
+ff-add-site:FTW:FORT WORTH:414:705
+ff-add-site:FXE:FORT LAUDERDALE:842:251
+ff-add-site:FYV:FAYETTEVILLE:722:756
+ff-add-site:GEG:SPOKANE:998:610
+ff-add-site:GLS:GALVESTON:383:905
+ff-add-site:GRB:GREEN BAY:321:811
+ff-add-site:GRR:GRAND RAPIDS:932:559
+ff-add-site:GSB:GOLDSBORO:519:375
+ff-add-site:GTF:GREAT FALLS:230:393
+ff-add-site:GVT:GREENVILE:216:307
+ff-add-site:GVW:GRANDVIEW:883:192
+ff-add-site:GWO:GREENWOOD:329:652
+ff-add-site:HFD:HARTFORD:852:846
+ff-add-site:HMN:ALAMOGORDO:308:262
+ff-add-site:HOU:HOUSTON:614:584
+ff-add-site:HPN:WHITE PLAINS:607:229
+ff-add-site:HRO:HARRISON:208:635
+ff-add-site:HUF:TERRE HAUTE:982:367
+ff-add-site:HWO:HOLLYWOOD:291:171
+ff-add-site:IAB:WICHITA:978:731
+ff-add-site:IAD:WASHINGTON:579:499
+ff-add-site:IAG:NIAGARA FALLS:546:454
+ff-add-site:IAH:HOUSTON:677:183
+ff-add-site:IKK:KANKAKEE:888:931
+ff-add-site:ABQ:KIRTLAND A.F.B.:503:947
+ff-add-site:ILM:WILMINGTON:105:767
+ff-add-site:IND:INDIANAPOLIS:630:617
+ff-add-site:INT:WINSTON-SALEM:430:345
+ff-add-site:ISP:ISLIP:641:142
+ff-add-site:JAN:JACKSON:701:876
+ff-add-site:JAX:JACKSONVILLE:230:310
+ff-add-site:JBR:JONESBORO:396:307
+ff-add-site:JFK:NEW YORK:405:229
+ff-add-site:LAS:LAS VEGAS:896:363
+ff-add-site:LAX:LOS ANGELES:917:462
+ff-add-site:LBB:LUBBOCK:113:611
+ff-add-site:LCK:COLUMBUS:169:120
+ff-add-site:LGA:NEW YORK:940:649
+ff-add-site:LGB:LONG BEACH:718:233
+ff-add-site:LIT:LITTLE ROCK:550:408
+ff-add-site:LNA:WEST PALM BEACH:158:767
+ff-add-site:LNK:LINCOLN:805:237
+ff-add-site:LOU:LOUISVILLE:397:543
+ff-add-site:LRD:LAREDO:355:120
+ff-add-site:LRF:JACKSONVILLE:624:674
+ff-add-site:LSV:LAS VEGAS:535:442
+ff-add-site:LUF:PHOENIX:982:132
+ff-add-site:LUK:CINCINNATI:794:774
+ff-add-site:MAF:MIDLAND:607:409
+ff-add-site:MCC:SACRAMENTO:868:216
+ff-add-site:MCF:TAMPA:755:486
+ff-add-site:MCI:KANSAS CITY:294:804
+ff-add-site:MCO:ORLANDO:506:262
+ff-add-site:MDT:HARRISBURG:926:547
+ff-add-site:MDW:CHICAGO:650:787
+ff-add-site:MEM:MEMPHIS:436:846
+ff-add-site:MHR:SACRAMENTO:701:155
+ff-add-site:MIA:MIAMI:228:834
+ff-add-site:MKE:MILWAUKEE:125:412
+ff-add-site:MKO:MUSKOGEE:301:828
+ff-add-site:MNM:MACON:476:769
+ff-add-site:MOD:MODESTO:262:277
+ff-add-site:MOT:MINOT:921:311
+ff-add-site:MPV:MONTPELIER:410:715
+ff-add-site:MQT:MARQUETTE:486:607
+ff-add-site:MSP:MINNEAPOLIS:563:187
+ff-add-site:MSS:MASSENA:477:213
+ff-add-site:MSY:NEW ORLEANS:512:504
+ff-add-site:MXF:MONTGOMERY:277:602
+ff-add-site:MYR:MYRTLE BEACH:937:189
+ff-add-site:NBG:NEW ORLEANS:308:224
+ff-add-site:NCA:JACKSONVILLE:505:352
+ff-add-site:NEL:LAKEHURST:396:169
+ff-add-site:NGU:NORFOLK:802:771
+ff-add-site:NHK:PATUXENT RIVER:105:136
+ff-add-site:NIP:JACKSONVILLE:446:741
+ff-add-site:NOW:PORT ANGELES:669:364
+ff-add-site:NPA:PENSACOLA:891:507
+ff-add-site:NQX:KEY WEST:656:361
+ff-add-site:NSE:MILTON:548:235
+ff-add-site:NZC:JACKSONVILLE:813:311
+ff-add-site:NZY:SAN DIEGO:147:422
+ff-add-site:OAK:OAKLAND:229:617
+ff-add-site:OFF:OMAHA:604:294
+ff-add-site:OKC:OKLAHOMA CITY:951:312
+ff-add-site:OMA:OMAHA:851:478
+ff-add-site:ONT:ONTARIO:318:249
+ff-add-site:OPF:MIAMI:993:249
+ff-add-site:ORD:CHICAGO:682:189
+ff-add-site:ORF:NORFOLK:565:296
+ff-add-site:ORL:ORLANDO:610:774
+ff-add-site:PAM:PANAMA CITY:260:959
+ff-add-site:PBI:WEST PALM BEACH:782:975
+ff-add-site:PDX:PORTLAND:790:394
+ff-add-site:PHF:NEWPORT NEWS:411:220
+ff-add-site:PHL:PHILADELPHIA:771:105
+ff-add-site:PHX:PHOENIX:461:650
+ff-add-site:PIE:ST. PETERSBURG:499:322
+ff-add-site:PIT:PITTSBURGH:433:695
+ff-add-site:PNE:PHILADELPHIA:965:136
+ff-add-site:PNM:PRINCETON:416:943
+ff-add-site:POB:FAYETTEVILLE:143:958
+ff-add-site:PSP:PALM SPRINGS:746:736
+ff-add-site:PSX:PALACIOS:648:875
+ff-add-site:RDR:RED RIVER:163:590
+ff-add-site:RDU:RALEIGH-DURHAM:277:315
+ff-add-site:RIC:RICHMOND:490:561
+ff-add-site:RME:ROME:876:639
+ff-add-site:RND:SAN ANTONIO:933:243
+ff-add-site:RNO:RENO:285:358
+ff-add-site:ROC:ROCHESTER:495:779
+ff-add-site:ROW:ROSWELL:839:292
+ff-add-site:SAC:SACRAMENTO:693:379
+ff-add-site:SAF:SANTA FE:523:659
+ff-add-site:SAN:SAN DIEGO:349:381
+ff-add-site:SAT:SAN ANTONIO:224:653
+ff-add-site:SAV:SAVANNAH:662:989
+ff-add-site:SEA:SEATTLE:201:134
+ff-add-site:SFF:SPOKANE:831:928
+ff-add-site:SFO:SAN FRANCISCO:864:653
+ff-add-site:SJC:SAN JOSE:718:905
+ff-add-site:SKA:SPOKANE:577:142
+ff-add-site:SKF:SAN ANTONIO:949:954
+ff-add-site:SLC:SALT LAKE CITY:877:739
+ff-add-site:SMF:SACRAMENTO:105:100
+ff-add-site:SPG:ST. PETERSBURG:104:103
+ff-add-site:SPS:WICHITA FALLS:103:104
+ff-add-site:STL:ST. LOUIS:100:105
+ff-add-site:SUX:SIOUX CITY:97:104
+ff-add-site:TIK:OKLAHOMA CITY:96:103
+ff-add-site:TPA:TAMPA:95:100
+ff-add-site:TUL:TULSA:96:97
+ff-add-site:TUS:TUCSON:97:96
+ff-add-site:TYS:KNOXVILLE:100:95
+ff-add-site:WRB:MACON:103:96
+ff-add-site:YIP:DETROIT:104:97
+ff-extract-next
+ff-extract-next
+ff-extract-next
+ff-extract-next
+ff-extract-next
+ff-extract-next
+ff-extract-next
+ff-extract-next
+ff-extract-next
+ff-extract-next
+ff-list-traversal

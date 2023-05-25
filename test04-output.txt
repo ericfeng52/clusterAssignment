@@ -1,0 +1,81 @@
+comment: Similar to test03, but completing the traversal
+initialize: rebuild-offset = 10 bounding-box = [(0.0,0.0),(100.0,100.0)]
+comment: Initializing farthest-First structure starting at ORD
+ff-initialize(start = ORD): successful
+ff-add-site(ATL): successful {Atlanta, (10.0,50.0)}
+ff-add-site(JFK): successful {New York, (90.0,40.0)}
+ff-add-site(BWI): successful {Baltimore, (80.0,80.0)}
+ff-add-site(SEA): successful {Seattle, (50.0,51.0)}
+ff-add-site(SFO): successful {San Francisco, (20.0,100.0)}
+ff-add-site(DFW): successful {Dallas-Fort Worth, (30.0,79.0)}
+ff-add-site(DCA): successful {Washington, (61.0,71.0)}
+ff-add-site(LAX): successful {Los Angeles, (40.0,20.0)}
+ff-add-site(IAD): successful {Dulles, (31.0,40.0)}
+ff-add-site(PVD): successful {Providence, (90.0,20.0)}
+ff-add-site(LAS): successful {Las Vegas, (10.0,20.0)}
+ff-add-site(MCO): successful {Orlando, (61.0,30.0)}
+ff-sites-size: 0
+ff-traversal-size: 0
+Failure due to exception: "Error - farthestFirst.listKdWithCenters returned a null result"
+Failure due to exception: "farthestFirst.listAssignments returned a null result"
+ff-extract-next: [No more points remaining]
+ff-sites-size: 0
+ff-traversal-size: 0
+Failure due to exception: "Error - farthestFirst.listKdWithCenters returned a null result"
+Failure due to exception: "farthestFirst.listAssignments returned a null result"
+ff-extract-next: [No more points remaining]
+ff-sites-size: 0
+ff-traversal-size: 0
+Failure due to exception: "Error - farthestFirst.listKdWithCenters returned a null result"
+Failure due to exception: "farthestFirst.listAssignments returned a null result"
+ff-extract-next: [No more points remaining]
+ff-sites-size: 0
+ff-traversal-size: 0
+Failure due to exception: "Error - farthestFirst.listKdWithCenters returned a null result"
+Failure due to exception: "farthestFirst.listAssignments returned a null result"
+ff-extract-next: [No more points remaining]
+ff-sites-size: 0
+ff-traversal-size: 0
+Failure due to exception: "Error - farthestFirst.listKdWithCenters returned a null result"
+Failure due to exception: "farthestFirst.listAssignments returned a null result"
+ff-extract-next: [No more points remaining]
+ff-sites-size: 0
+ff-traversal-size: 0
+Failure due to exception: "Error - farthestFirst.listKdWithCenters returned a null result"
+Failure due to exception: "farthestFirst.listAssignments returned a null result"
+ff-extract-next: [No more points remaining]
+ff-sites-size: 0
+ff-traversal-size: 0
+Failure due to exception: "Error - farthestFirst.listKdWithCenters returned a null result"
+Failure due to exception: "farthestFirst.listAssignments returned a null result"
+ff-extract-next: [No more points remaining]
+ff-sites-size: 0
+ff-traversal-size: 0
+Failure due to exception: "Error - farthestFirst.listKdWithCenters returned a null result"
+Failure due to exception: "farthestFirst.listAssignments returned a null result"
+ff-extract-next: [No more points remaining]
+ff-sites-size: 0
+ff-traversal-size: 0
+Failure due to exception: "Error - farthestFirst.listKdWithCenters returned a null result"
+Failure due to exception: "farthestFirst.listAssignments returned a null result"
+ff-extract-next: [No more points remaining]
+ff-sites-size: 0
+ff-traversal-size: 0
+Failure due to exception: "Error - farthestFirst.listKdWithCenters returned a null result"
+Failure due to exception: "farthestFirst.listAssignments returned a null result"
+ff-extract-next: [No more points remaining]
+ff-sites-size: 0
+ff-traversal-size: 0
+Failure due to exception: "Error - farthestFirst.listKdWithCenters returned a null result"
+Failure due to exception: "farthestFirst.listAssignments returned a null result"
+ff-extract-next: [No more points remaining]
+ff-sites-size: 0
+ff-traversal-size: 0
+Failure due to exception: "Error - farthestFirst.listKdWithCenters returned a null result"
+Failure due to exception: "farthestFirst.listAssignments returned a null result"
+ff-extract-next: [No more points remaining]
+ff-sites-size: 0
+ff-traversal-size: 0
+Failure due to exception: "Error - farthestFirst.listKdWithCenters returned a null result"
+Failure due to exception: "farthestFirst.listAssignments returned a null result"
+Failure due to exception: "Error - farthestFirst.getTraversal returned a null result"

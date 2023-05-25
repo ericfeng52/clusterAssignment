@@ -1,0 +1,224 @@
+comment:ClusterAssignment with 150 points.
+initialize:10:-100:800:-2000:2000
+comment:Initial center is HRB (455,1265)
+ca-initialize:HRB:HARBIN:455:1265
+comment:Testing operations on an empty tree
+ca-sites-size
+ca-centers-size
+ca-list-kd
+alert:The following deletion should throw an exception
+ca-delete-site:ORD
+ca-list-centers
+ca-list-assignments
+comment:Adding centers to an empty tree
+ca-add-center:GAL:GALENA:644:-1566
+ca-add-center:MJC:MAN:71:-77
+ca-sites-size
+ca-list-kd
+ca-centers-size
+ca-list-centers
+ca-list-assignments
+ca-add-site:TMX:TIMIMOUN:290:6
+ca-add-site:NRD:NORDERNEY:532:57
+ca-add-site:GWT:WESTERLAND:544:83
+ca-add-site:TLL:TALLINN:597:234
+ca-add-site:ENF:ENONTEKIO:699:239
+ca-add-site:KEV:HALLI:630:242
+ca-add-site:HEM:HELSINKI:608:273
+ca-add-site:HEL:HELSINKI:601:243
+ca-add-site:BSK:BISKRA:344:55
+ca-add-site:ELG:EL GOLEA:301:22
+ca-add-site:HTN:HOTAN:371:796
+ca-add-site:URC:URUMQI:432:877
+ca-add-site:DLC:DALIAN:387:1211
+ca-add-site:NYI:SUNYANI:77:-29
+ca-add-site:TKD:TAKORADI:40:-12
+ca-add-site:ABJ:ABIDJAN:57:-33
+ca-add-site:BYK:BOUAKE:71:-53
+ca-add-site:DJO:DALOA:66:-65
+ca-add-site:HGO:KORHOGO:99:-55
+ca-add-site:JYV:JYVASKYLA:632:257
+ca-add-center:YFB:IQALUIT:631:-683
+ca-sites-size
+ca-list-kd
+ca-centers-size
+ca-list-centers
+ca-list-assignments
+ca-add-site:KAU:KAUHAVA:633:333
+ca-add-site:KEM:KEMI:657:244
+ca-add-site:KAJ:KAJAANI:655:279
+ca-add-site:LDY:LONDONDERRY:540:-72
+ca-add-site:BHX:BIRMINGHAM:528:-13
+ca-add-site:CVT:COVENTRY:519:-23
+ca-add-site:BNI:BENIN:55:55
+ca-add-site:CBQ:CALABAR:44:88
+ca-add-site:ENU:ENUGU:61:76
+ca-add-site:QUS:GUSAU:123:67
+ca-add-site:EBM:EL BORMA:347:144
+ca-add-site:SFA:SFAX:333:239
+ca-add-site:TOE:TOZEUR:330:142
+ca-add-site:LRL:NIATOUGOU:98:13
+ca-add-site:LFW:LOME:61:13
+ca-add-site:HHN:HAHN:499:73
+ca-add-site:MHG:MANNHEIM:499:67
+ca-add-site:XFW:HAMBURG:531:96
+ca-add-site:KEL:KIEL:542:117
+ca-add-site:LBC:LUEBECK:533:93
+ca-add-center:IVL:IVALO:688:277
+ca-sites-size
+ca-list-kd
+ca-centers-size
+ca-list-centers
+ca-list-assignments
+ca-add-site:EME:EMDEN:537:74
+ca-add-site:WVN:WILHELMSHAVEN:532:89
+ca-add-site:BMK:BORKUM:530:62
+ca-add-site:ENA:KENAI:608:-1513
+ca-add-site:FAI:FAIRBANKS:641:-1463
+ca-add-site:FBK:FORT WAINWRIGHT:644:-1475
+ca-add-site:GKN:GULKANA:621:-1456
+ca-add-site:SGY:SKAGWAY:592:-1357
+ca-add-site:HOM:HOMER:599:-1519
+ca-add-site:ILI:ILIAMNA:597:-1544
+ca-add-site:UTO:INDIAN MOUNTAINS:655:-1539
+ca-add-site:NGB:NINBO:290:1212
+ca-add-site:NKG:NANJING:318:1183
+ca-add-site:HFE:HEFEI:311:1173
+ca-add-site:TAO:QINGDAO:366:1205
+ca-add-site:SHA:SHANGHAI:311:1211
+ca-add-site:YNT:YANTAI:371:1216
+ca-add-site:CKG:CHONGQING:292:1067
+ca-add-site:LXA:LHASA:0:0
+ca-add-site:CTU:CHENGDU:307:1034
+ca-add-center:POM:PORT MORESBY:-90:1472
+ca-sites-size
+ca-list-kd
+ca-centers-size
+ca-list-centers
+ca-list-assignments
+ca-add-site:HME:HASSI-MESSAOUD:313:69
+ca-add-site:INZ:IN SALAH:270:32
+ca-add-site:YEV:INUVIK:688:-1333
+ca-add-site:YFC:FREDERICTON:449:-663
+ca-add-site:JOE:JOENSUU:621:296
+ca-add-site:GKA:GOROKA:-62:1457
+ca-add-site:MAG:MADANG:-55:1455
+ca-add-site:HGU:MOUNT HAGEN:-57:1443
+ca-add-site:LAE:NADZAB:-66:1469
+ca-add-site:WWK:WEWAK:-33:1423
+ca-add-site:YAM:SAULT SAINTE MARIE:461:-843
+ca-add-site:YAV:WINNIPEG:500:-977
+ca-add-site:YAW:HALIFAX:441:-637
+ca-add-site:YAY:ST. ANTHONY:512:-567
+ca-add-site:YAZ:TOFINO:499:-1259
+ca-add-site:YBB:PELLY BAY:687:-894
+ca-add-site:YDQ:DAWSON CREEK:555:-1209
+ca-add-site:GHA:GHARDAIA:321:32
+ca-add-site:PKO:PARAKOU:98:23
+ca-add-site:OUA:OUAGADOUGOU:121:-13
+ca-add-center:DJE:DJERBA:353:145
+ca-sites-size
+ca-list-kd
+ca-centers-size
+ca-list-centers
+ca-list-assignments
+ca-add-site:BOY:BOBO-DIOULASSO:112:-33
+ca-add-site:ACC:ACCRA:55:0
+ca-add-site:TML:TAMALE:91:6
+ca-add-site:GLO:GOLOUCHESTERSHIRE:512:-27
+ca-add-site:OGX:OUARGLA:311:51
+ca-add-site:IAM:ZARZAITINE:287:94
+ca-add-site:COO:COTONOU:67:29
+ca-add-site:TLM:TLEMCEN:350:-12
+ca-add-site:ORN:ORAN:358:23
+ca-add-site:MUW:GHRISS:351:33
+ca-add-site:AZR:ADRAR:271:13
+ca-add-site:TGR:TOUGGOURT:322:144
+ca-add-site:LOO:LAGHOUAT:331:27
+ca-add-site:XIC:XICHANG:272:1029
+ca-add-site:QAS:ECH-CHELIFF:367:14
+ca-add-site:TAF:ORAN:355:9
+ca-add-site:YFO:FLIN FLON:540:-1012
+ca-add-site:YHM:HAMILTON:428:-793
+ca-add-site:YHU:MONTREAL:451:-733
+ca-add-site:YHY:HAY RIVER:601:-1153
+ca-add-center:KHG:KASHI:399:769
+ca-sites-size
+ca-list-kd
+ca-centers-size
+ca-list-centers
+ca-list-assignments
+ca-add-site:YHZ:HALIFAX:444:-622
+ca-add-site:YIB:ATIKOKAN:391:146
+ca-add-site:YIO:POND INLET:722:-777
+ca-add-site:YJN:ST. JEAN:455:-725
+ca-add-site:YND:GATINEAU:457:-764
+ca-add-site:YNM:MATAGAMI:499:-779
+ca-add-site:YOC:OLD CROW:670:-1392
+ca-add-site:YOD:COLD LAKE:548:-1103
+ca-add-site:YOJ:HIGH LEVEL:581:-1173
+ca-add-site:YOW:OTTAWA:451:-753
+ca-add-site:YRM:ROCKY MOUNTAIN HOUSE:522:-1144
+ca-add-site:YRT:RANKIN INLET:621:-926
+ca-add-site:YSB:SUDBURY:462:-807
+ca-add-site:YSC:SHERBROOKE:455:-715
+ca-add-site:YSJ:ST. JOHN:457:-654
+ca-add-site:YWA:PETAWAWA:455:-779
+ca-add-site:YEG:EDMONTON:548:-1133
+ca-add-site:YEK:ESKIMO POINT:611:-943
+ca-add-site:YEN:ESTEVAN:491:-1023
+ca-add-site:YET:EDSON:534:-1166
+ca-add-center:VEY:VESTMANNAEYJAR:631:-203
+ca-sites-size
+ca-list-kd
+ca-centers-size
+ca-list-centers
+ca-list-assignments
+ca-add-site:YEU:EUREKA:791:-856
+ca-add-site:YWG:WINNIPEG:492:-977
+ca-add-site:YWK:WABUSH:522:-662
+ca-add-site:YWL:WILLIAMS LAKE:527:-1224
+ca-add-site:YWY:WRIGLEY:388:149
+ca-add-site:YXC:CRANBROOK:490:-1152
+ca-add-site:YYU:KAPUSKASING:498:-823
+ca-add-site:SPY:SAN PEDRO:41:-63
+ca-add-site:ASK:YAMOUSSOUKRO:61:-52
+ca-add-site:ABV:ABUJA:99:77
+ca-add-site:AKR:AKURE:71:56
+ca-add-site:YYW:ARMSTRONG:502:-887
+ca-add-site:YYY:MONT JOLI:488:-688
+ca-add-site:YYZ:TORONTO:437:-794
+ca-add-site:CZL:CONSTANTINE:366:69
+ca-add-site:TEE:TEBESSA:350:92
+ca-add-site:HRM:TILREMPT:327:23
+ca-add-site:TID:TIARET:352:13
+ca-add-site:TIN:TINDOUF:271:-83
+ca-add-site:BLI:BELLINGHAM:677:-966
+ca-add-center:YED:EDMONTON:530:-1132
+ca-sites-size
+ca-list-kd
+ca-centers-size
+ca-list-centers
+ca-list-assignments
+ca-delete-site:SPY:SAN PEDRO:41:-63
+ca-delete-site:YND:GATINEAU:457:-764
+ca-delete-site:SHA:SHANGHAI:311:1211
+ca-delete-site:FAI:FAIRBANKS:641:-1463
+ca-delete-site:BNI:BENIN:55:55
+ca-delete-site:DJO:DALOA:66:-65
+ca-delete-site:HEL:HELSINKI:601:243
+ca-sites-size
+ca-list-kd
+ca-centers-size
+ca-list-centers
+ca-list-assignments
+comment:Testing operations on an empty tree
+ca-clear
+ca-sites-size
+ca-centers-size
+ca-list-kd
+alert:The following deletion should throw an exception
+ca-delete-site:ORD
+ca-list-centers
+ca-list-assignments
+ca-clear

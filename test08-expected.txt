@@ -1,0 +1,3571 @@
+comment: ClusterAssignment with roughly 200 points.
+initialize: rebuild-offset = 5 bounding-box = [(0.0,0.0),(1000.0,1000.0)]
+comment: Initial center is DCA (674,246)
+ca-initialize(start = DCA): successful
+comment: Inserting 5 more centers
+ca-add-center(BUR): successful {BURBANK, (124.0,996.0)}
+ca-add-center(SKF): successful {SAN ANTONIO, (949.0,954.0)}
+ca-add-center(TPA): successful {TAMPA, (96.0,101.0)}
+ca-add-center(BHM): successful {BIRMINGHAM, (471.0,677.0)}
+ca-add-center(BOI): successful {BOISE, (985.0,557.0)}
+comment: Adding many sites
+ca-add-site(ACK): successful {NANTUCKET, (529.0,766.0)}
+ca-add-site(ACY): successful {ATLANTIC CITY, (735.0,691.0)}
+ca-add-site(AEX): successful {ALEXANDRIA, (522.0,476.0)}
+ca-add-site(AKR): successful {AKRON, (447.0,265.0)}
+ca-add-site(ALB): successful {ALBANY, (294.0,985.0)}
+ca-add-site(AMA): successful {AMARILLO, (371.0,711.0)}
+ca-add-site(ART): successful {WATERTOWN, (210.0,892.0)}
+ca-add-site(ATL): successful {ATLANTA, (948.0,149.0)}
+ca-add-site(AUG): successful {AUGUSTA, (857.0,426.0)}
+ca-add-site(AUS): successful {AUSTIN, (458.0,489.0)}
+ca-add-site(BCT): successful {BOCA RATON, (280.0,341.0)}
+ca-add-site(BFI): successful {SEATTLE, (390.0,609.0)}
+ca-add-site(BFM): successful {MOBILE, (165.0,197.0)}
+ca-add-site(BGR): successful {BANGOR, (167.0,924.0)}
+ca-add-site(BLI): successful {BELLINGHAM, (783.0,276.0)}
+ca-add-site(BNA): successful {NASHVILLE, (913.0,299.0)}
+ca-add-site(BOS): successful {BOSTON, (533.0,588.0)}
+ca-add-site(BRO): successful {BROWNSVILLE, (803.0,851.0)}
+ca-add-site(BTR): successful {BATON ROUGE, (412.0,395.0)}
+ca-add-site(BUF): successful {BUFFALO, (531.0,435.0)}
+ca-add-site(BWI): successful {BALTIMORE, (203.0,270.0)}
+ca-add-site(CBM): successful {COLUMBUS, (874.0,145.0)}
+ca-add-site(CHA): successful {CHATTANOOGA, (422.0,265.0)}
+ca-add-site(CHS): successful {CHARLESTON, (992.0,271.0)}
+ca-add-site(CIC): successful {CHICO, (231.0,106.0)}
+ca-add-site(CLE): successful {CLEVELAND, (689.0,330.0)}
+ca-add-site(CLL): successful {COLLEGE STATION, (152.0,571.0)}
+ca-add-site(CLT): successful {CHARLOTTE, (514.0,771.0)}
+ca-add-site(CMH): successful {COLUMBUS, (601.0,749.0)}
+ca-add-site(CNM): successful {CARLSBAD, (536.0,856.0)}
+ca-add-site(CNW): successful {WACO, (667.0,935.0)}
+ca-add-site(COS): successful {COLORADO SPRINGS, (613.0,723.0)}
+ca-add-site(CPR): successful {CASPER, (850.0,927.0)}
+ca-add-site(CRP): successful {CORPUS CHRISTI, (488.0,835.0)}
+ca-add-site(CVG): successful {CINCINNATI, (877.0,555.0)}
+ca-add-site(CYS): successful {CHEYENNE, (645.0,479.0)}
+ca-add-site(DAL): successful {DALLAS, (619.0,646.0)}
+ca-add-site(DAY): successful {DAYTON, (108.0,340.0)}
+ca-add-site(DEN): successful {DENVER, (868.0,571.0)}
+ca-add-site(DET): successful {DETROIT, (634.0,568.0)}
+ca-add-center(LBB): successful {LUBBOCK, (113.0,611.0)}
+ca-sites-size: 40
+ca-list-kd:
+  (x=500.0) 40:14 => {BHM BOI BUR DCA LBB SKF TPA}
+  (y=500.0) 24:11 => {BHM BOI BUR DCA LBB SKF TPA}
+  (x=750.0) 14:0 => {BHM BOI BUR DCA LBB SKF TPA}
+  (y=750.0) 4:0 => {BHM BOI DCA SKF}
+  (x=850.0) 2:0 => {BOI SKF}
+  [CPR: (850.0,927.0)] => {BOI SKF}
+  [BRO: (803.0,851.0)] => {BOI SKF}
+  (x=875.0) 2:0 => {BHM BOI DCA SKF}
+  [CVG: (877.0,555.0)] => {BOI SKF}
+  [DEN: (868.0,571.0)] => {BHM BOI DCA SKF}
+  (y=750.0) 10:0 => {BHM BOI BUR DCA LBB SKF}
+  (x=625.0) 4:0 => {BHM BOI BUR LBB SKF}
+  [CNW: (667.0,935.0)] => {BHM BOI SKF}
+  (y=856.0) 3:0 => {BHM SKF}
+  [CNM: (536.0,856.0)] => {BHM SKF}
+  (x=529.0) 2:0 => {BHM}
+  [ACK: (529.0,766.0)] => {BHM}
+  [CLT: (514.0,771.0)] => {BHM}
+  (x=625.0) 6:0 => {BHM BOI DCA SKF}
+  (y=625.0) 2:0 => {BHM BOI DCA SKF}
+  [ACY: (735.0,691.0)] => {BHM BOI SKF}
+  [DET: (634.0,568.0)] => {BHM BOI DCA}
+  (y=625.0) 4:0 => {BHM}
+  (x=601.0) 3:0 => {BHM}
+  (y=687.5) 3:0 => {BHM}
+  (y=723.0) 2:0 => {BHM}
+  (y=736.5) 2:0 => {BHM}
+  [CMH: (601.0,749.0)] => {BHM}
+  [COS: (613.0,723.0)] => {BHM}
+  [null] => {BHM}
+  [DAL: (619.0,646.0)] => {BHM}
+  [null] => {BHM}
+  [BOS: (533.0,588.0)] => {BHM}
+  (x=750.0) 10:1 => {BHM BOI DCA LBB TPA}
+  (y=250.0) 6:0 => {BHM BOI DCA}
+  (x=875.0) 4:0 => {BHM BOI DCA}
+  (y=299.0) 2:0 => {BOI DCA}
+  [BNA: (913.0,299.0)] => {BOI DCA}
+  [CHS: (992.0,271.0)] => {BOI DCA}
+  (y=375.0) 2:0 => {BOI DCA}
+  [AUG: (857.0,426.0)] => {BOI DCA}
+  [BLI: (783.0,276.0)] => {BOI DCA}
+  (x=875.0) 2:0 => {BOI DCA}
+  [ATL: (948.0,149.0)] => {BOI DCA}
+  [CBM: (874.0,145.0)] => {DCA}
+  (y=330.0) 4:1 => {BHM BOI DCA}
+  (x=625.0) 4:1 => {BHM BOI DCA}
+  (y=415.0) 2:0 => {BHM BOI DCA}
+  [CYS: (645.0,479.0)] => {BHM BOI DCA}
+  [CLE: (689.0,330.0)] => {DCA}
+  (y=435.0) 2:0 => {BHM DCA}
+  (x=531.0) 2:0 => {BHM DCA}
+  [BUF: (531.0,435.0)] => {BHM DCA}
+  [AEX: (522.0,476.0)] => {BHM DCA}
+  [null] => {BHM DCA}
+  [null] => {DCA}
+  (y=500.0) 16:3 => {BHM BOI BUR DCA LBB SKF TPA}
+  (x=250.0) 7:2 => {BHM BOI BUR DCA LBB SKF TPA}
+  (y=750.0) 4:1 => {BHM BUR DCA LBB}
+  (x=375.0) 2:0 => {BHM BUR LBB}
+  [CRP: (488.0,835.0)] => {BHM BUR LBB}
+  [ALB: (294.0,985.0)] => {BHM BUR LBB}
+  (x=375.0) 2:0 => {BHM BUR LBB}
+  [BFI: (390.0,609.0)] => {BHM}
+  [AMA: (371.0,711.0)] => {BHM BUR LBB}
+  (y=892.0) 3:1 => {BHM BUR LBB TPA}
+  (x=167.0) 2:0 => {BUR}
+  (y=924.0) 2:0 => {BUR}
+  [BGR: (167.0,924.0)] => {BUR}
+  [ART: (210.0,892.0)] => {BUR}
+  [null] => {BUR}
+  [CLL: (152.0,571.0)] => {BHM BUR LBB}
+  (x=250.0) 9:1 => {BHM BOI BUR DCA LBB TPA}
+  (y=265.0) 5:0 => {BHM BOI DCA LBB TPA}
+  (x=375.0) 5:0 => {BHM DCA LBB TPA}
+  (y=382.5) 4:0 => {BHM DCA LBB TPA}
+  (x=437.5) 2:0 => {BHM DCA LBB}
+  [AUS: (458.0,489.0)] => {BHM DCA}
+  [BTR: (412.0,395.0)] => {BHM DCA LBB}
+  (x=437.5) 2:0 => {BHM DCA TPA}
+  [AKR: (447.0,265.0)] => {DCA}
+  [CHA: (422.0,265.0)] => {BHM DCA TPA}
+  [BCT: (280.0,341.0)] => {BHM DCA LBB TPA}
+  [null] => {BHM DCA LBB TPA}
+  (y=250.0) 4:1 => {BHM DCA LBB TPA}
+  (x=125.0) 2:0 => {BHM LBB TPA}
+  [BWI: (203.0,270.0)] => {BHM LBB TPA}
+  [DAY: (108.0,340.0)] => {LBB TPA}
+  (x=165.0) 2:0 => {TPA}
+  (y=125.0) 2:0 => {TPA}
+  [BFM: (165.0,197.0)] => {TPA}
+  [CIC: (231.0,106.0)] => {TPA}
+  [null] => {TPA}
+ca-list-kd [tree structure]:
+  | | | | | [CPR: (850.0,927.0)] => {BOI SKF}
+  | | | | (x=850.0) 2:0 => {BOI SKF}
+  | | | | | [BRO: (803.0,851.0)] => {BOI SKF}
+  | | | (y=750.0) 4:0 => {BHM BOI DCA SKF}
+  | | | | | [CVG: (877.0,555.0)] => {BOI SKF}
+  | | | | (x=875.0) 2:0 => {BHM BOI DCA SKF}
+  | | | | | [DEN: (868.0,571.0)] => {BHM BOI DCA SKF}
+  | | (x=750.0) 14:0 => {BHM BOI BUR DCA LBB SKF TPA}
+  | | | | | [CNW: (667.0,935.0)] => {BHM BOI SKF}
+  | | | | (x=625.0) 4:0 => {BHM BOI BUR LBB SKF}
+  | | | | | | [CNM: (536.0,856.0)] => {BHM SKF}
+  | | | | | (y=856.0) 3:0 => {BHM SKF}
+  | | | | | | | [ACK: (529.0,766.0)] => {BHM}
+  | | | | | | (x=529.0) 2:0 => {BHM}
+  | | | | | | | [CLT: (514.0,771.0)] => {BHM}
+  | | | (y=750.0) 10:0 => {BHM BOI BUR DCA LBB SKF}
+  | | | | | | [ACY: (735.0,691.0)] => {BHM BOI SKF}
+  | | | | | (y=625.0) 2:0 => {BHM BOI DCA SKF}
+  | | | | | | [DET: (634.0,568.0)] => {BHM BOI DCA}
+  | | | | (x=625.0) 6:0 => {BHM BOI DCA SKF}
+  | | | | | | | | | | [CMH: (601.0,749.0)] => {BHM}
+  | | | | | | | | | (y=736.5) 2:0 => {BHM}
+  | | | | | | | | | | [COS: (613.0,723.0)] => {BHM}
+  | | | | | | | | (y=723.0) 2:0 => {BHM}
+  | | | | | | | | | [null] => {BHM}
+  | | | | | | | (y=687.5) 3:0 => {BHM}
+  | | | | | | | | [DAL: (619.0,646.0)] => {BHM}
+  | | | | | | (x=601.0) 3:0 => {BHM}
+  | | | | | | | [null] => {BHM}
+  | | | | | (y=625.0) 4:0 => {BHM}
+  | | | | | | [BOS: (533.0,588.0)] => {BHM}
+  | (y=500.0) 24:11 => {BHM BOI BUR DCA LBB SKF TPA}
+  | | | | | | [BNA: (913.0,299.0)] => {BOI DCA}
+  | | | | | (y=299.0) 2:0 => {BOI DCA}
+  | | | | | | [CHS: (992.0,271.0)] => {BOI DCA}
+  | | | | (x=875.0) 4:0 => {BHM BOI DCA}
+  | | | | | | [AUG: (857.0,426.0)] => {BOI DCA}
+  | | | | | (y=375.0) 2:0 => {BOI DCA}
+  | | | | | | [BLI: (783.0,276.0)] => {BOI DCA}
+  | | | (y=250.0) 6:0 => {BHM BOI DCA}
+  | | | | | [ATL: (948.0,149.0)] => {BOI DCA}
+  | | | | (x=875.0) 2:0 => {BOI DCA}
+  | | | | | [CBM: (874.0,145.0)] => {DCA}
+  | | (x=750.0) 10:1 => {BHM BOI DCA LBB TPA}
+  | | | | | | [CYS: (645.0,479.0)] => {BHM BOI DCA}
+  | | | | | (y=415.0) 2:0 => {BHM BOI DCA}
+  | | | | | | [CLE: (689.0,330.0)] => {DCA}
+  | | | | (x=625.0) 4:1 => {BHM BOI DCA}
+  | | | | | | | [BUF: (531.0,435.0)] => {BHM DCA}
+  | | | | | | (x=531.0) 2:0 => {BHM DCA}
+  | | | | | | | [AEX: (522.0,476.0)] => {BHM DCA}
+  | | | | | (y=435.0) 2:0 => {BHM DCA}
+  | | | | | | [null] => {BHM DCA}
+  | | | (y=330.0) 4:1 => {BHM BOI DCA}
+  | | | | [null] => {DCA}
+  (x=500.0) 40:14 => {BHM BOI BUR DCA LBB SKF TPA}
+  | | | | | [CRP: (488.0,835.0)] => {BHM BUR LBB}
+  | | | | (x=375.0) 2:0 => {BHM BUR LBB}
+  | | | | | [ALB: (294.0,985.0)] => {BHM BUR LBB}
+  | | | (y=750.0) 4:1 => {BHM BUR DCA LBB}
+  | | | | | [BFI: (390.0,609.0)] => {BHM}
+  | | | | (x=375.0) 2:0 => {BHM BUR LBB}
+  | | | | | [AMA: (371.0,711.0)] => {BHM BUR LBB}
+  | | (x=250.0) 7:2 => {BHM BOI BUR DCA LBB SKF TPA}
+  | | | | | | [BGR: (167.0,924.0)] => {BUR}
+  | | | | | (y=924.0) 2:0 => {BUR}
+  | | | | | | [ART: (210.0,892.0)] => {BUR}
+  | | | | (x=167.0) 2:0 => {BUR}
+  | | | | | [null] => {BUR}
+  | | | (y=892.0) 3:1 => {BHM BUR LBB TPA}
+  | | | | [CLL: (152.0,571.0)] => {BHM BUR LBB}
+  | (y=500.0) 16:3 => {BHM BOI BUR DCA LBB SKF TPA}
+  | | | | | | | [AUS: (458.0,489.0)] => {BHM DCA}
+  | | | | | | (x=437.5) 2:0 => {BHM DCA LBB}
+  | | | | | | | [BTR: (412.0,395.0)] => {BHM DCA LBB}
+  | | | | | (y=382.5) 4:0 => {BHM DCA LBB TPA}
+  | | | | | | | [AKR: (447.0,265.0)] => {DCA}
+  | | | | | | (x=437.5) 2:0 => {BHM DCA TPA}
+  | | | | | | | [CHA: (422.0,265.0)] => {BHM DCA TPA}
+  | | | | (x=375.0) 5:0 => {BHM DCA LBB TPA}
+  | | | | | [BCT: (280.0,341.0)] => {BHM DCA LBB TPA}
+  | | | (y=265.0) 5:0 => {BHM BOI DCA LBB TPA}
+  | | | | [null] => {BHM DCA LBB TPA}
+  | | (x=250.0) 9:1 => {BHM BOI BUR DCA LBB TPA}
+  | | | | | [BWI: (203.0,270.0)] => {BHM LBB TPA}
+  | | | | (x=125.0) 2:0 => {BHM LBB TPA}
+  | | | | | [DAY: (108.0,340.0)] => {LBB TPA}
+  | | | (y=250.0) 4:1 => {BHM DCA LBB TPA}
+  | | | | | | [BFM: (165.0,197.0)] => {TPA}
+  | | | | | (y=125.0) 2:0 => {TPA}
+  | | | | | | [CIC: (231.0,106.0)] => {TPA}
+  | | | | (x=165.0) 2:0 => {TPA}
+  | | | | | [null] => {TPA}
+ca-centers-size: 7
+ca-list-centers:
+  BHM: (471.0,677.0)
+  BOI: (985.0,557.0)
+  BUR: (124.0,996.0)
+  DCA: (674.0,246.0)
+  LBB: (113.0,611.0)
+  SKF: (949.0,954.0)
+  TPA: (96.0,101.0)
+ca-list-assignments:
+  [CLL->LBB] distSq = 3121.0
+  [BGR->BUR] distSq = 7033.0
+  [CLE->DCA] distSq = 7281.0
+  [CPR->SKF] distSq = 10530.0
+  [CLT->BHM] distSq = 10685.0
+  [AMA->BHM] distSq = 11156.0
+  [BFI->BHM] distSq = 11185.0
+  [ACK->BHM] distSq = 11285.0
+  [CVG->BOI] distSq = 11668.0
+  [BOS->BHM] distSq = 11765.0
+  [BLI->DCA] distSq = 12781.0
+  [DEN->BOI] distSq = 13885.0
+  [BFM->TPA] distSq = 13977.0
+  [ART->BUR] distSq = 18212.0
+  [CIC->TPA] distSq = 18250.0
+  [CMH->BHM] distSq = 22084.0
+  [COS->BHM] distSq = 22280.0
+  [DAL->BHM] distSq = 22865.0
+  [CRP->BHM] distSq = 25253.0
+  [ALB->BUR] distSq = 29021.0
+  [BRO->SKF] distSq = 31925.0
+  [AUG->BOI] distSq = 33545.0
+  [AUS->BHM] distSq = 35513.0
+  [CNM->BHM] distSq = 36266.0
+  [DET->BHM] distSq = 38450.0
+  [BWI->TPA] distSq = 40010.0
+  [AEX->BHM] distSq = 43002.0
+  [CBM->DCA] distSq = 50201.0
+  [AKR->DCA] distSq = 51890.0
+  [CYS->DCA] distSq = 55130.0
+  [BUF->DCA] distSq = 56170.0
+  [DAY->TPA] distSq = 57265.0
+  [BNA->DCA] distSq = 59930.0
+  [CHA->DCA] distSq = 63865.0
+  [ACY->BHM] distSq = 69892.0
+  [CNW->SKF] distSq = 79885.0
+  [CHS->BOI] distSq = 81845.0
+  [BTR->BHM] distSq = 83005.0
+  [ATL->DCA] distSq = 84485.0
+  [BCT->TPA] distSq = 91456.0
+ca-add-site(DFW): successful {DALLAS-FORT WORTH, (443.0,187.0)}
+ca-add-site(DLF): successful {DEL RIO, (526.0,488.0)}
+ca-add-site(DLH): successful {DULUTH, (868.0,159.0)}
+ca-add-site(DMA): successful {TUCSON, (437.0,486.0)}
+ca-add-site(DPA): successful {WEST CHICAGO, (182.0,537.0)}
+ca-add-site(DRT): successful {DEL RIO, (776.0,410.0)}
+ca-add-site(DSM): successful {DES MOINES, (437.0,608.0)}
+ca-add-site(DTW): successful {DETROIT, (679.0,347.0)}
+ca-add-site(DUG): successful {DOUGLAS, (833.0,685.0)}
+ca-add-site(DYS): successful {ABILENE, (732.0,465.0)}
+ca-add-site(EDW): successful {EDWARDS AFB, (733.0,741.0)}
+ca-add-site(EFD): successful {HOUSTON, (257.0,368.0)}
+ca-add-site(ELP): successful {EL PASO, (578.0,371.0)}
+ca-add-site(EWR): successful {NEWARK, (459.0,671.0)}
+ca-add-site(EYW): successful {KEY WEST, (106.0,285.0)}
+ca-add-site(FAT): successful {FRESNO, (890.0,926.0)}
+ca-add-site(FFO): successful {DAYTON, (558.0,607.0)}
+ca-add-site(FLL): successful {FORT LAUDERDALE, (928.0,656.0)}
+ca-add-site(FMY): successful {FORT MYERS, (444.0,784.0)}
+ca-add-site(FOE): successful {TOPEKA, (518.0,448.0)}
+ca-add-site(FTW): successful {FORT WORTH, (414.0,705.0)}
+ca-add-site(FXE): successful {FORT LAUDERDALE, (842.0,251.0)}
+ca-add-site(FYV): successful {FAYETTEVILLE, (722.0,756.0)}
+ca-add-site(GEG): successful {SPOKANE, (998.0,610.0)}
+ca-add-site(GLS): successful {GALVESTON, (383.0,905.0)}
+ca-add-site(GRB): successful {GREEN BAY, (321.0,811.0)}
+ca-add-site(GRR): successful {GRAND RAPIDS, (932.0,559.0)}
+ca-add-site(GSB): successful {GOLDSBORO, (519.0,375.0)}
+ca-add-site(GTF): successful {GREAT FALLS, (230.0,393.0)}
+ca-add-site(GVT): successful {GREENVILE, (216.0,307.0)}
+ca-add-site(GVW): successful {GRANDVIEW, (883.0,192.0)}
+ca-add-site(GWO): successful {GREENWOOD, (329.0,652.0)}
+ca-add-site(HFD): successful {HARTFORD, (852.0,846.0)}
+ca-add-site(HMN): successful {ALAMOGORDO, (308.0,262.0)}
+ca-add-site(HOU): successful {HOUSTON, (614.0,584.0)}
+ca-add-site(HPN): successful {WHITE PLAINS, (607.0,229.0)}
+ca-add-site(HRO): successful {HARRISON, (208.0,635.0)}
+ca-add-site(HUF): successful {TERRE HAUTE, (982.0,367.0)}
+ca-add-site(HWO): successful {HOLLYWOOD, (291.0,171.0)}
+ca-add-site(IAB): successful {WICHITA, (978.0,731.0)}
+ca-add-center(LUF): successful {PHOENIX, (982.0,132.0)}
+ca-sites-size: 80
+ca-list-kd:
+  (x=500.0) 80:22 => {BHM BOI BUR DCA LBB LUF SKF TPA}
+  (y=500.0) 47:12 => {BHM BOI BUR DCA LBB LUF SKF TPA}
+  (x=750.0) 25:6 => {BHM BOI BUR DCA LBB LUF SKF TPA}
+  (y=750.0) 11:4 => {BHM BOI DCA LUF SKF}
+  (x=875.0) 4:1 => {BOI SKF}
+  [FAT: (890.0,926.0)] => {BOI SKF}
+  (y=875.0) 3:1 => {BOI SKF}
+  [CPR: (850.0,927.0)] => {SKF}
+  (x=812.5) 2:0 => {BOI SKF}
+  [HFD: (852.0,846.0)] => {BOI SKF}
+  [BRO: (803.0,851.0)] => {BOI SKF}
+  (x=875.0) 7:3 => {BHM BOI DCA SKF}
+  (y=625.0) 5:3 => {BOI SKF}
+  (x=937.5) 2:0 => {BOI SKF}
+  [IAB: (978.0,731.0)] => {BOI}
+  [FLL: (928.0,656.0)] => {BOI SKF}
+  (x=937.5) 3:1 => {BOI}
+  [GEG: (998.0,610.0)] => {BOI}
+  (y=559.0) 2:0 => {BOI}
+  [GRR: (932.0,559.0)] => {BOI}
+  [CVG: (877.0,555.0)] => {BOI}
+  (y=625.0) 2:0 => {BHM BOI DCA SKF}
+  [DUG: (833.0,685.0)] => {BHM BOI SKF}
+  [DEN: (868.0,571.0)] => {BOI}
+  (y=750.0) 14:2 => {BHM BOI BUR DCA LBB SKF}
+  (x=625.0) 5:1 => {BHM BOI BUR LBB SKF}
+  (y=875.0) 2:0 => {BHM BOI SKF}
+  [CNW: (667.0,935.0)] => {BHM SKF}
+  [FYV: (722.0,756.0)] => {BHM BOI SKF}
+  (y=856.0) 3:0 => {BHM SKF}
+  [CNM: (536.0,856.0)] => {BHM SKF}
+  (x=529.0) 2:0 => {BHM}
+  [ACK: (529.0,766.0)] => {BHM}
+  [CLT: (514.0,771.0)] => {BHM}
+  (x=625.0) 9:1 => {BHM BOI DCA SKF}
+  (y=625.0) 3:0 => {BHM BOI DCA SKF}
+  (x=733.0) 2:0 => {BHM BOI SKF}
+  (y=691.0) 2:0 => {BHM BOI SKF}
+  (y=720.5) 2:0 => {BHM BOI SKF}
+  [EDW: (733.0,741.0)] => {BHM BOI SKF}
+  [ACY: (735.0,691.0)] => {BHM BOI}
+  [null] => {BHM BOI}
+  [null] => {BHM BOI}
+  [DET: (634.0,568.0)] => {BHM BOI DCA}
+  (y=625.0) 6:1 => {BHM}
+  (x=601.0) 3:0 => {BHM}
+  (y=687.5) 3:0 => {BHM}
+  (y=723.0) 2:0 => {BHM}
+  (y=736.5) 2:0 => {BHM}
+  [CMH: (601.0,749.0)] => {BHM}
+  [COS: (613.0,723.0)] => {BHM}
+  [null] => {BHM}
+  [DAL: (619.0,646.0)] => {BHM}
+  [null] => {BHM}
+  (x=558.0) 3:1 => {BHM}
+  (y=584.0) 2:0 => {BHM}
+  (x=591.5) 2:0 => {BHM}
+  [HOU: (614.0,584.0)] => {BHM}
+  [FFO: (558.0,607.0)] => {BHM}
+  [null] => {BHM}
+  [BOS: (533.0,588.0)] => {BHM}
+  (x=750.0) 22:6 => {BHM BOI DCA LBB LUF TPA}
+  (y=250.0) 11:3 => {BHM BOI DCA LUF}
+  (x=875.0) 7:2 => {BHM BOI DCA LUF}
+  (y=299.0) 3:1 => {BOI DCA LUF}
+  (y=367.0) 2:0 => {BOI DCA LUF}
+  [HUF: (982.0,367.0)] => {BOI}
+  [BNA: (913.0,299.0)] => {BOI DCA LUF}
+  [CHS: (992.0,271.0)] => {LUF}
+  (y=375.0) 4:1 => {BOI DCA LUF}
+  (x=812.5) 2:0 => {BOI DCA LUF}
+  [AUG: (857.0,426.0)] => {BOI DCA}
+  [DRT: (776.0,410.0)] => {BOI DCA}
+  (x=812.5) 2:0 => {BOI DCA LUF}
+  [FXE: (842.0,251.0)] => {BOI DCA LUF}
+  [BLI: (783.0,276.0)] => {DCA}
+  (x=875.0) 4:1 => {DCA LUF}
+  (y=149.0) 2:0 => {LUF}
+  (x=937.5) 2:0 => {LUF}
+  [ATL: (948.0,149.0)] => {LUF}
+  [GVW: (883.0,192.0)] => {LUF}
+  [null] => {LUF}
+  (y=145.0) 2:0 => {DCA LUF}
+  (x=868.0) 2:0 => {DCA LUF}
+  (y=159.0) 2:0 => {LUF}
+  [DLH: (868.0,159.0)] => {LUF}
+  [CBM: (874.0,145.0)] => {LUF}
+  [null] => {DCA LUF}
+  [null] => {DCA LUF}
+  (y=330.0) 11:3 => {BHM BOI DCA LUF}
+  (x=625.0) 10:2 => {BHM BOI DCA LUF}
+  (y=415.0) 4:0 => {BHM BOI DCA}
+  (x=687.5) 2:0 => {BHM BOI DCA}
+  [DYS: (732.0,465.0)] => {BOI DCA}
+  [CYS: (645.0,479.0)] => {BHM DCA}
+  (x=687.5) 2:0 => {DCA}
+  [CLE: (689.0,330.0)] => {DCA}
+  [DTW: (679.0,347.0)] => {DCA}
+  (y=415.0) 6:2 => {BHM DCA}
+  (x=531.0) 4:1 => {BHM DCA}
+  [BUF: (531.0,435.0)] => {BHM DCA}
+  (y=476.0) 3:1 => {BHM DCA}
+  (x=522.0) 2:0 => {BHM}
+  (y=488.0) 2:0 => {BHM}
+  [DLF: (526.0,488.0)] => {BHM}
+  [AEX: (522.0,476.0)] => {BHM}
+  [null] => {BHM}
+  [FOE: (518.0,448.0)] => {BHM DCA}
+  (x=562.5) 2:0 => {DCA}
+  [ELP: (578.0,371.0)] => {DCA}
+  [GSB: (519.0,375.0)] => {DCA}
+  [HPN: (607.0,229.0)] => {DCA LUF}
+  (y=500.0) 33:10 => {BHM BOI BUR DCA LBB LUF SKF TPA}
+  (x=250.0) 16:6 => {BHM BOI BUR DCA LBB SKF TPA}
+  (y=750.0) 11:5 => {BHM BUR DCA LBB}
+  (x=375.0) 5:3 => {BHM BUR LBB}
+  (y=835.0) 3:1 => {BHM BUR LBB}
+  (y=905.0) 2:0 => {BHM BUR}
+  [GLS: (383.0,905.0)] => {BHM BUR}
+  [CRP: (488.0,835.0)] => {BHM}
+  [FMY: (444.0,784.0)] => {BHM}
+  (y=875.0) 2:0 => {BHM BUR LBB}
+  [ALB: (294.0,985.0)] => {BHM BUR}
+  [GRB: (321.0,811.0)] => {BHM BUR LBB}
+  (x=375.0) 6:2 => {BHM BUR LBB}
+  (y=625.0) 4:1 => {BHM}
+  (x=437.5) 2:0 => {BHM}
+  [EWR: (459.0,671.0)] => {BHM}
+  [FTW: (414.0,705.0)] => {BHM}
+  (x=437.0) 2:0 => {BHM}
+  [DSM: (437.0,608.0)] => {BHM}
+  [BFI: (390.0,609.0)] => {BHM}
+  (y=652.0) 2:0 => {BHM BUR LBB}
+  (x=329.0) 2:0 => {BHM LBB}
+  (y=701.0) 2:0 => {BHM}
+  [AMA: (371.0,711.0)] => {BHM}
+  [GWO: (329.0,652.0)] => {BHM}
+  [null] => {BHM LBB}
+  [null] => {BHM LBB}
+  (y=750.0) 5:1 => {BHM BUR LBB TPA}
+  (x=167.0) 2:0 => {BHM BUR LBB}
+  (y=892.0) 2:0 => {BHM BUR LBB}
+  (y=924.0) 2:0 => {BUR}
+  [BGR: (167.0,924.0)] => {BUR}
+  [ART: (210.0,892.0)] => {BUR}
+  [null] => {BHM BUR LBB}
+  [null] => {BUR LBB}
+  (x=152.0) 3:1 => {LBB}
+  (y=571.0) 3:1 => {LBB}
+  (y=635.0) 2:0 => {LBB}
+  [HRO: (208.0,635.0)] => {LBB}
+  [CLL: (152.0,571.0)] => {LBB}
+  [DPA: (182.0,537.0)] => {LBB}
+  [null] => {LBB}
+  (x=250.0) 17:4 => {BHM BOI BUR DCA LBB LUF TPA}
+  (y=250.0) 10:2 => {BHM BOI DCA LBB LUF TPA}
+  (x=375.0) 8:1 => {BHM DCA LBB TPA}
+  (y=375.0) 5:0 => {BHM DCA LBB TPA}
+  (x=437.5) 3:0 => {BHM DCA LBB}
+  [AUS: (458.0,489.0)] => {BHM DCA}
+  (y=437.5) 2:0 => {BHM DCA LBB}
+  [DMA: (437.0,486.0)] => {BHM}
+  [BTR: (412.0,395.0)] => {BHM DCA LBB}
+  (x=437.5) 2:0 => {BHM DCA TPA}
+  [AKR: (447.0,265.0)] => {DCA}
+  [CHA: (422.0,265.0)] => {BHM DCA TPA}
+  (y=368.0) 3:1 => {BHM DCA LBB TPA}
+  [EFD: (257.0,368.0)] => {BHM DCA LBB TPA}
+  (x=308.0) 2:0 => {BHM DCA LBB TPA}
+  [HMN: (308.0,262.0)] => {BHM DCA LBB TPA}
+  [BCT: (280.0,341.0)] => {LBB TPA}
+  (x=375.0) 2:0 => {BHM DCA LBB TPA}
+  [DFW: (443.0,187.0)] => {DCA TPA}
+  [HWO: (291.0,171.0)] => {DCA TPA}
+  (y=250.0) 7:2 => {BHM DCA LBB TPA}
+  (x=125.0) 5:2 => {BHM LBB TPA}
+  (y=375.0) 3:1 => {BHM LBB TPA}
+  [GTF: (230.0,393.0)] => {LBB}
+  (x=203.0) 2:0 => {LBB TPA}
+  (y=307.0) 2:0 => {LBB TPA}
+  [GVT: (216.0,307.0)] => {LBB TPA}
+  [BWI: (203.0,270.0)] => {TPA}
+  [null] => {LBB TPA}
+  (y=340.0) 2:0 => {LBB TPA}
+  [DAY: (108.0,340.0)] => {LBB TPA}
+  [EYW: (106.0,285.0)] => {TPA}
+  (x=165.0) 2:0 => {TPA}
+  (y=125.0) 2:0 => {TPA}
+  [BFM: (165.0,197.0)] => {TPA}
+  [CIC: (231.0,106.0)] => {TPA}
+  [null] => {TPA}
+ca-list-kd [tree structure]:
+  | | | | | [FAT: (890.0,926.0)] => {BOI SKF}
+  | | | | (x=875.0) 4:1 => {BOI SKF}
+  | | | | | | [CPR: (850.0,927.0)] => {SKF}
+  | | | | | (y=875.0) 3:1 => {BOI SKF}
+  | | | | | | | [HFD: (852.0,846.0)] => {BOI SKF}
+  | | | | | | (x=812.5) 2:0 => {BOI SKF}
+  | | | | | | | [BRO: (803.0,851.0)] => {BOI SKF}
+  | | | (y=750.0) 11:4 => {BHM BOI DCA LUF SKF}
+  | | | | | | | [IAB: (978.0,731.0)] => {BOI}
+  | | | | | | (x=937.5) 2:0 => {BOI SKF}
+  | | | | | | | [FLL: (928.0,656.0)] => {BOI SKF}
+  | | | | | (y=625.0) 5:3 => {BOI SKF}
+  | | | | | | | [GEG: (998.0,610.0)] => {BOI}
+  | | | | | | (x=937.5) 3:1 => {BOI}
+  | | | | | | | | [GRR: (932.0,559.0)] => {BOI}
+  | | | | | | | (y=559.0) 2:0 => {BOI}
+  | | | | | | | | [CVG: (877.0,555.0)] => {BOI}
+  | | | | (x=875.0) 7:3 => {BHM BOI DCA SKF}
+  | | | | | | [DUG: (833.0,685.0)] => {BHM BOI SKF}
+  | | | | | (y=625.0) 2:0 => {BHM BOI DCA SKF}
+  | | | | | | [DEN: (868.0,571.0)] => {BOI}
+  | | (x=750.0) 25:6 => {BHM BOI BUR DCA LBB LUF SKF TPA}
+  | | | | | | [CNW: (667.0,935.0)] => {BHM SKF}
+  | | | | | (y=875.0) 2:0 => {BHM BOI SKF}
+  | | | | | | [FYV: (722.0,756.0)] => {BHM BOI SKF}
+  | | | | (x=625.0) 5:1 => {BHM BOI BUR LBB SKF}
+  | | | | | | [CNM: (536.0,856.0)] => {BHM SKF}
+  | | | | | (y=856.0) 3:0 => {BHM SKF}
+  | | | | | | | [ACK: (529.0,766.0)] => {BHM}
+  | | | | | | (x=529.0) 2:0 => {BHM}
+  | | | | | | | [CLT: (514.0,771.0)] => {BHM}
+  | | | (y=750.0) 14:2 => {BHM BOI BUR DCA LBB SKF}
+  | | | | | | | | | [EDW: (733.0,741.0)] => {BHM BOI SKF}
+  | | | | | | | | (y=720.5) 2:0 => {BHM BOI SKF}
+  | | | | | | | | | [ACY: (735.0,691.0)] => {BHM BOI}
+  | | | | | | | (y=691.0) 2:0 => {BHM BOI SKF}
+  | | | | | | | | [null] => {BHM BOI}
+  | | | | | | (x=733.0) 2:0 => {BHM BOI SKF}
+  | | | | | | | [null] => {BHM BOI}
+  | | | | | (y=625.0) 3:0 => {BHM BOI DCA SKF}
+  | | | | | | [DET: (634.0,568.0)] => {BHM BOI DCA}
+  | | | | (x=625.0) 9:1 => {BHM BOI DCA SKF}
+  | | | | | | | | | | [CMH: (601.0,749.0)] => {BHM}
+  | | | | | | | | | (y=736.5) 2:0 => {BHM}
+  | | | | | | | | | | [COS: (613.0,723.0)] => {BHM}
+  | | | | | | | | (y=723.0) 2:0 => {BHM}
+  | | | | | | | | | [null] => {BHM}
+  | | | | | | | (y=687.5) 3:0 => {BHM}
+  | | | | | | | | [DAL: (619.0,646.0)] => {BHM}
+  | | | | | | (x=601.0) 3:0 => {BHM}
+  | | | | | | | [null] => {BHM}
+  | | | | | (y=625.0) 6:1 => {BHM}
+  | | | | | | | | | [HOU: (614.0,584.0)] => {BHM}
+  | | | | | | | | (x=591.5) 2:0 => {BHM}
+  | | | | | | | | | [FFO: (558.0,607.0)] => {BHM}
+  | | | | | | | (y=584.0) 2:0 => {BHM}
+  | | | | | | | | [null] => {BHM}
+  | | | | | | (x=558.0) 3:1 => {BHM}
+  | | | | | | | [BOS: (533.0,588.0)] => {BHM}
+  | (y=500.0) 47:12 => {BHM BOI BUR DCA LBB LUF SKF TPA}
+  | | | | | | | [HUF: (982.0,367.0)] => {BOI}
+  | | | | | | (y=367.0) 2:0 => {BOI DCA LUF}
+  | | | | | | | [BNA: (913.0,299.0)] => {BOI DCA LUF}
+  | | | | | (y=299.0) 3:1 => {BOI DCA LUF}
+  | | | | | | [CHS: (992.0,271.0)] => {LUF}
+  | | | | (x=875.0) 7:2 => {BHM BOI DCA LUF}
+  | | | | | | | [AUG: (857.0,426.0)] => {BOI DCA}
+  | | | | | | (x=812.5) 2:0 => {BOI DCA LUF}
+  | | | | | | | [DRT: (776.0,410.0)] => {BOI DCA}
+  | | | | | (y=375.0) 4:1 => {BOI DCA LUF}
+  | | | | | | | [FXE: (842.0,251.0)] => {BOI DCA LUF}
+  | | | | | | (x=812.5) 2:0 => {BOI DCA LUF}
+  | | | | | | | [BLI: (783.0,276.0)] => {DCA}
+  | | | (y=250.0) 11:3 => {BHM BOI DCA LUF}
+  | | | | | | | [ATL: (948.0,149.0)] => {LUF}
+  | | | | | | (x=937.5) 2:0 => {LUF}
+  | | | | | | | [GVW: (883.0,192.0)] => {LUF}
+  | | | | | (y=149.0) 2:0 => {LUF}
+  | | | | | | [null] => {LUF}
+  | | | | (x=875.0) 4:1 => {DCA LUF}
+  | | | | | | | | [DLH: (868.0,159.0)] => {LUF}
+  | | | | | | | (y=159.0) 2:0 => {LUF}
+  | | | | | | | | [CBM: (874.0,145.0)] => {LUF}
+  | | | | | | (x=868.0) 2:0 => {DCA LUF}
+  | | | | | | | [null] => {DCA LUF}
+  | | | | | (y=145.0) 2:0 => {DCA LUF}
+  | | | | | | [null] => {DCA LUF}
+  | | (x=750.0) 22:6 => {BHM BOI DCA LBB LUF TPA}
+  | | | | | | | [DYS: (732.0,465.0)] => {BOI DCA}
+  | | | | | | (x=687.5) 2:0 => {BHM BOI DCA}
+  | | | | | | | [CYS: (645.0,479.0)] => {BHM DCA}
+  | | | | | (y=415.0) 4:0 => {BHM BOI DCA}
+  | | | | | | | [CLE: (689.0,330.0)] => {DCA}
+  | | | | | | (x=687.5) 2:0 => {DCA}
+  | | | | | | | [DTW: (679.0,347.0)] => {DCA}
+  | | | | (x=625.0) 10:2 => {BHM BOI DCA LUF}
+  | | | | | | | [BUF: (531.0,435.0)] => {BHM DCA}
+  | | | | | | (x=531.0) 4:1 => {BHM DCA}
+  | | | | | | | | | | [DLF: (526.0,488.0)] => {BHM}
+  | | | | | | | | | (y=488.0) 2:0 => {BHM}
+  | | | | | | | | | | [AEX: (522.0,476.0)] => {BHM}
+  | | | | | | | | (x=522.0) 2:0 => {BHM}
+  | | | | | | | | | [null] => {BHM}
+  | | | | | | | (y=476.0) 3:1 => {BHM DCA}
+  | | | | | | | | [FOE: (518.0,448.0)] => {BHM DCA}
+  | | | | | (y=415.0) 6:2 => {BHM DCA}
+  | | | | | | | [ELP: (578.0,371.0)] => {DCA}
+  | | | | | | (x=562.5) 2:0 => {DCA}
+  | | | | | | | [GSB: (519.0,375.0)] => {DCA}
+  | | | (y=330.0) 11:3 => {BHM BOI DCA LUF}
+  | | | | [HPN: (607.0,229.0)] => {DCA LUF}
+  (x=500.0) 80:22 => {BHM BOI BUR DCA LBB LUF SKF TPA}
+  | | | | | | | [GLS: (383.0,905.0)] => {BHM BUR}
+  | | | | | | (y=905.0) 2:0 => {BHM BUR}
+  | | | | | | | [CRP: (488.0,835.0)] => {BHM}
+  | | | | | (y=835.0) 3:1 => {BHM BUR LBB}
+  | | | | | | [FMY: (444.0,784.0)] => {BHM}
+  | | | | (x=375.0) 5:3 => {BHM BUR LBB}
+  | | | | | | [ALB: (294.0,985.0)] => {BHM BUR}
+  | | | | | (y=875.0) 2:0 => {BHM BUR LBB}
+  | | | | | | [GRB: (321.0,811.0)] => {BHM BUR LBB}
+  | | | (y=750.0) 11:5 => {BHM BUR DCA LBB}
+  | | | | | | | [EWR: (459.0,671.0)] => {BHM}
+  | | | | | | (x=437.5) 2:0 => {BHM}
+  | | | | | | | [FTW: (414.0,705.0)] => {BHM}
+  | | | | | (y=625.0) 4:1 => {BHM}
+  | | | | | | | [DSM: (437.0,608.0)] => {BHM}
+  | | | | | | (x=437.0) 2:0 => {BHM}
+  | | | | | | | [BFI: (390.0,609.0)] => {BHM}
+  | | | | (x=375.0) 6:2 => {BHM BUR LBB}
+  | | | | | | | | [AMA: (371.0,711.0)] => {BHM}
+  | | | | | | | (y=701.0) 2:0 => {BHM}
+  | | | | | | | | [GWO: (329.0,652.0)] => {BHM}
+  | | | | | | (x=329.0) 2:0 => {BHM LBB}
+  | | | | | | | [null] => {BHM LBB}
+  | | | | | (y=652.0) 2:0 => {BHM BUR LBB}
+  | | | | | | [null] => {BHM LBB}
+  | | (x=250.0) 16:6 => {BHM BOI BUR DCA LBB SKF TPA}
+  | | | | | | | [BGR: (167.0,924.0)] => {BUR}
+  | | | | | | (y=924.0) 2:0 => {BUR}
+  | | | | | | | [ART: (210.0,892.0)] => {BUR}
+  | | | | | (y=892.0) 2:0 => {BHM BUR LBB}
+  | | | | | | [null] => {BHM BUR LBB}
+  | | | | (x=167.0) 2:0 => {BHM BUR LBB}
+  | | | | | [null] => {BUR LBB}
+  | | | (y=750.0) 5:1 => {BHM BUR LBB TPA}
+  | | | | | | | [HRO: (208.0,635.0)] => {LBB}
+  | | | | | | (y=635.0) 2:0 => {LBB}
+  | | | | | | | [CLL: (152.0,571.0)] => {LBB}
+  | | | | | (y=571.0) 3:1 => {LBB}
+  | | | | | | [DPA: (182.0,537.0)] => {LBB}
+  | | | | (x=152.0) 3:1 => {LBB}
+  | | | | | [null] => {LBB}
+  | (y=500.0) 33:10 => {BHM BOI BUR DCA LBB LUF SKF TPA}
+  | | | | | | | [AUS: (458.0,489.0)] => {BHM DCA}
+  | | | | | | (x=437.5) 3:0 => {BHM DCA LBB}
+  | | | | | | | | [DMA: (437.0,486.0)] => {BHM}
+  | | | | | | | (y=437.5) 2:0 => {BHM DCA LBB}
+  | | | | | | | | [BTR: (412.0,395.0)] => {BHM DCA LBB}
+  | | | | | (y=375.0) 5:0 => {BHM DCA LBB TPA}
+  | | | | | | | [AKR: (447.0,265.0)] => {DCA}
+  | | | | | | (x=437.5) 2:0 => {BHM DCA TPA}
+  | | | | | | | [CHA: (422.0,265.0)] => {BHM DCA TPA}
+  | | | | (x=375.0) 8:1 => {BHM DCA LBB TPA}
+  | | | | | | [EFD: (257.0,368.0)] => {BHM DCA LBB TPA}
+  | | | | | (y=368.0) 3:1 => {BHM DCA LBB TPA}
+  | | | | | | | [HMN: (308.0,262.0)] => {BHM DCA LBB TPA}
+  | | | | | | (x=308.0) 2:0 => {BHM DCA LBB TPA}
+  | | | | | | | [BCT: (280.0,341.0)] => {LBB TPA}
+  | | | (y=250.0) 10:2 => {BHM BOI DCA LBB LUF TPA}
+  | | | | | [DFW: (443.0,187.0)] => {DCA TPA}
+  | | | | (x=375.0) 2:0 => {BHM DCA LBB TPA}
+  | | | | | [HWO: (291.0,171.0)] => {DCA TPA}
+  | | (x=250.0) 17:4 => {BHM BOI BUR DCA LBB LUF TPA}
+  | | | | | | [GTF: (230.0,393.0)] => {LBB}
+  | | | | | (y=375.0) 3:1 => {BHM LBB TPA}
+  | | | | | | | | [GVT: (216.0,307.0)] => {LBB TPA}
+  | | | | | | | (y=307.0) 2:0 => {LBB TPA}
+  | | | | | | | | [BWI: (203.0,270.0)] => {TPA}
+  | | | | | | (x=203.0) 2:0 => {LBB TPA}
+  | | | | | | | [null] => {LBB TPA}
+  | | | | (x=125.0) 5:2 => {BHM LBB TPA}
+  | | | | | | [DAY: (108.0,340.0)] => {LBB TPA}
+  | | | | | (y=340.0) 2:0 => {LBB TPA}
+  | | | | | | [EYW: (106.0,285.0)] => {TPA}
+  | | | (y=250.0) 7:2 => {BHM DCA LBB TPA}
+  | | | | | | [BFM: (165.0,197.0)] => {TPA}
+  | | | | | (y=125.0) 2:0 => {TPA}
+  | | | | | | [CIC: (231.0,106.0)] => {TPA}
+  | | | | (x=165.0) 2:0 => {TPA}
+  | | | | | [null] => {TPA}
+ca-centers-size: 8
+ca-list-centers:
+  BHM: (471.0,677.0)
+  BOI: (985.0,557.0)
+  BUR: (124.0,996.0)
+  DCA: (674.0,246.0)
+  LBB: (113.0,611.0)
+  LUF: (982.0,132.0)
+  SKF: (949.0,954.0)
+  TPA: (96.0,101.0)
+ca-list-assignments:
+  [EWR->BHM] distSq = 180.0
+  [ATL->LUF] distSq = 1445.0
+  [GRR->BOI] distSq = 2813.0
+  [GEG->BOI] distSq = 2978.0
+  [CLL->LBB] distSq = 3121.0
+  [FTW->BHM] distSq = 4033.0
+  [FAT->SKF] distSq = 4265.0
+  [HPN->DCA] distSq = 4778.0
+  [DSM->BHM] distSq = 5917.0
+  [BGR->BUR] distSq = 7033.0
+  [CLE->DCA] distSq = 7281.0
+  [HRO->LBB] distSq = 9601.0
+  [DTW->DCA] distSq = 10226.0
+  [DPA->LBB] distSq = 10237.0
+  [CPR->SKF] distSq = 10530.0
+  [CLT->BHM] distSq = 10685.0
+  [AMA->BHM] distSq = 11156.0
+  [BFI->BHM] distSq = 11185.0
+  [ACK->BHM] distSq = 11285.0
+  [CVG->BOI] distSq = 11668.0
+  [BOS->BHM] distSq = 11765.0
+  [CBM->LUF] distSq = 11833.0
+  [FMY->BHM] distSq = 12178.0
+  [FFO->BHM] distSq = 12469.0
+  [BLI->DCA] distSq = 12781.0
+  [FLL->BOI] distSq = 13050.0
+  [GVW->LUF] distSq = 13401.0
+  [DLH->LUF] distSq = 13725.0
+  [DEN->BOI] distSq = 13885.0
+  [BFM->TPA] distSq = 13977.0
+  [ART->BUR] distSq = 18212.0
+  [CIC->TPA] distSq = 18250.0
+  [CHS->LUF] distSq = 19421.0
+  [GWO->BHM] distSq = 20789.0
+  [HFD->SKF] distSq = 21073.0
+  [CMH->BHM] distSq = 22084.0
+  [COS->BHM] distSq = 22280.0
+  [DAL->BHM] distSq = 22865.0
+  [ELP->DCA] distSq = 24841.0
+  [CRP->BHM] distSq = 25253.0
+  [FXE->DCA] distSq = 28249.0
+  [ALB->BUR] distSq = 29021.0
+  [HOU->BHM] distSq = 29098.0
+  [IAB->BOI] distSq = 30325.0
+  [BRO->SKF] distSq = 31925.0
+  [BNA->LUF] distSq = 32650.0
+  [AUG->BOI] distSq = 33545.0
+  [EYW->TPA] distSq = 33956.0
+  [AUS->BHM] distSq = 35513.0
+  [HUF->BOI] distSq = 36109.0
+  [CNM->BHM] distSq = 36266.0
+  [DRT->DCA] distSq = 37300.0
+  [DMA->BHM] distSq = 37637.0
+  [DET->BHM] distSq = 38450.0
+  [DLF->BHM] distSq = 38746.0
+  [DUG->BOI] distSq = 39488.0
+  [BWI->TPA] distSq = 40010.0
+  [GRB->BHM] distSq = 40456.0
+  [GSB->DCA] distSq = 40666.0
+  [HWO->TPA] distSq = 42925.0
+  [AEX->BHM] distSq = 43002.0
+  [DYS->DCA] distSq = 51325.0
+  [AKR->DCA] distSq = 51890.0
+  [FOE->BHM] distSq = 54650.0
+  [CYS->DCA] distSq = 55130.0
+  [BUF->DCA] distSq = 56170.0
+  [GVT->TPA] distSq = 56836.0
+  [DFW->DCA] distSq = 56842.0
+  [DAY->TPA] distSq = 57265.0
+  [GLS->BHM] distSq = 59728.0
+  [GTF->LBB] distSq = 61213.0
+  [CHA->DCA] distSq = 63865.0
+  [FYV->BHM] distSq = 69242.0
+  [ACY->BHM] distSq = 69892.0
+  [HMN->TPA] distSq = 70865.0
+  [EDW->BHM] distSq = 72740.0
+  [EFD->LBB] distSq = 79785.0
+  [CNW->SKF] distSq = 79885.0
+  [BTR->BHM] distSq = 83005.0
+  [BCT->TPA] distSq = 91456.0
+ca-add-site(IAD): successful {WASHINGTON, (579.0,499.0)}
+ca-add-site(IAG): successful {NIAGARA FALLS, (546.0,454.0)}
+ca-add-site(IAH): successful {HOUSTON, (677.0,183.0)}
+ca-add-site(IKK): successful {KANKAKEE, (888.0,931.0)}
+ca-add-site(ABQ): successful {KIRTLAND A.F.B., (503.0,947.0)}
+ca-add-site(ILM): successful {WILMINGTON, (105.0,767.0)}
+ca-add-site(IND): successful {INDIANAPOLIS, (630.0,617.0)}
+ca-add-site(INT): successful {WINSTON-SALEM, (430.0,345.0)}
+ca-add-site(ISP): successful {ISLIP, (641.0,142.0)}
+ca-add-site(JAN): successful {JACKSON, (701.0,876.0)}
+ca-add-site(JAX): successful {JACKSONVILLE, (230.0,310.0)}
+ca-add-site(JBR): successful {JONESBORO, (396.0,307.0)}
+ca-add-site(JFK): successful {NEW YORK, (405.0,229.0)}
+ca-add-site(LAS): successful {LAS VEGAS, (896.0,363.0)}
+ca-add-site(LAX): successful {LOS ANGELES, (917.0,462.0)}
+ca-add-site(LCK): successful {COLUMBUS, (169.0,120.0)}
+ca-add-site(LGA): successful {NEW YORK, (940.0,649.0)}
+ca-add-site(LGB): successful {LONG BEACH, (718.0,233.0)}
+ca-add-site(LIT): successful {LITTLE ROCK, (550.0,408.0)}
+ca-add-site(LNA): successful {WEST PALM BEACH, (158.0,767.0)}
+ca-add-site(LNK): successful {LINCOLN, (805.0,237.0)}
+ca-add-site(LOU): successful {LOUISVILLE, (397.0,543.0)}
+ca-add-site(LRD): successful {LAREDO, (355.0,120.0)}
+ca-add-site(LRF): successful {JACKSONVILLE, (624.0,674.0)}
+ca-add-site(LSV): successful {LAS VEGAS, (535.0,442.0)}
+ca-add-site(LUK): successful {CINCINNATI, (794.0,774.0)}
+ca-add-site(MAF): successful {MIDLAND, (607.0,409.0)}
+ca-add-site(MCC): successful {SACRAMENTO, (868.0,216.0)}
+ca-add-site(MCF): successful {TAMPA, (755.0,486.0)}
+ca-add-site(MCI): successful {KANSAS CITY, (294.0,804.0)}
+ca-add-site(MCO): successful {ORLANDO, (506.0,262.0)}
+ca-add-site(MDT): successful {HARRISBURG, (926.0,547.0)}
+ca-add-site(MDW): successful {CHICAGO, (650.0,787.0)}
+ca-add-site(MEM): successful {MEMPHIS, (436.0,846.0)}
+ca-add-site(MHR): successful {SACRAMENTO, (701.0,155.0)}
+ca-add-site(MIA): successful {MIAMI, (228.0,834.0)}
+ca-add-site(MKE): successful {MILWAUKEE, (125.0,412.0)}
+ca-add-site(MKO): successful {MUSKOGEE, (301.0,828.0)}
+ca-add-site(MNM): successful {MACON, (476.0,769.0)}
+ca-add-site(MOD): successful {MODESTO, (262.0,277.0)}
+ca-add-center(SAN): successful {SAN DIEGO, (349.0,381.0)}
+ca-sites-size: 120
+ca-list-kd:
+  (x=500.0) 120:62 => {BHM BOI BUR DCA LBB LUF SAN SKF TPA}
+  (y=500.0) 71:36 => {BHM BOI BUR DCA LBB LUF SAN SKF TPA}
+  (x=750.0) 34:15 => {BHM BOI BUR DCA LBB LUF SAN SKF TPA}
+  (y=750.0) 15:8 => {BHM BOI DCA LUF SAN SKF}
+  (x=875.0) 6:3 => {BOI SKF}
+  (y=926.0) 2:0 => {BOI SKF}
+  (x=890.0) 2:0 => {SKF}
+  [FAT: (890.0,926.0)] => {SKF}
+  [IKK: (888.0,931.0)] => {SKF}
+  [null] => {BOI SKF}
+  (y=875.0) 4:2 => {BOI SKF}
+  [CPR: (850.0,927.0)] => {SKF}
+  (x=812.5) 3:1 => {BOI SKF}
+  [HFD: (852.0,846.0)] => {BOI SKF}
+  (y=812.5) 2:0 => {BOI SKF}
+  [BRO: (803.0,851.0)] => {SKF}
+  [LUK: (794.0,774.0)] => {BOI SKF}
+  (x=875.0) 9:5 => {BHM BOI DCA SKF}
+  (y=625.0) 7:5 => {BOI SKF}
+  (x=937.5) 3:1 => {BOI SKF}
+  (y=687.5) 2:0 => {BOI}
+  [IAB: (978.0,731.0)] => {BOI}
+  [LGA: (940.0,649.0)] => {BOI}
+  [FLL: (928.0,656.0)] => {BOI SKF}
+  (x=937.5) 4:2 => {BOI}
+  [GEG: (998.0,610.0)] => {BOI}
+  (y=559.0) 3:1 => {BOI}
+  [GRR: (932.0,559.0)] => {BOI}
+  (x=906.25) 2:0 => {BOI}
+  [MDT: (926.0,547.0)] => {BOI}
+  [CVG: (877.0,555.0)] => {BOI}
+  (y=625.0) 2:0 => {BHM BOI DCA SKF}
+  [DUG: (833.0,685.0)] => {BHM BOI SKF}
+  [DEN: (868.0,571.0)] => {BOI}
+  (y=750.0) 19:7 => {BHM BOI BUR DCA LBB SAN SKF}
+  (x=625.0) 8:4 => {BHM BOI BUR LBB SAN SKF}
+  (y=875.0) 4:2 => {BHM BOI SKF}
+  (x=687.5) 2:0 => {BHM SKF}
+  [JAN: (701.0,876.0)] => {SKF}
+  [CNW: (667.0,935.0)] => {BHM SKF}
+  (x=687.5) 2:0 => {BHM BOI SKF}
+  [FYV: (722.0,756.0)] => {BHM BOI SKF}
+  [MDW: (650.0,787.0)] => {BHM SKF}
+  (y=856.0) 4:1 => {BHM SKF}
+  (y=928.0) 2:0 => {BHM SKF}
+  [ABQ: (503.0,947.0)] => {BHM SKF}
+  [CNM: (536.0,856.0)] => {BHM}
+  (x=529.0) 2:0 => {BHM}
+  [ACK: (529.0,766.0)] => {BHM}
+  [CLT: (514.0,771.0)] => {BHM}
+  (x=625.0) 11:3 => {BHM BOI DCA SAN SKF}
+  (y=625.0) 4:1 => {BHM BOI DCA SAN SKF}
+  (x=733.0) 2:0 => {BHM BOI SKF}
+  (y=691.0) 2:0 => {BHM BOI SKF}
+  (y=720.5) 2:0 => {BHM BOI SKF}
+  [EDW: (733.0,741.0)] => {BHM BOI SKF}
+  [ACY: (735.0,691.0)] => {BHM BOI}
+  [null] => {BHM BOI}
+  [null] => {BHM BOI}
+  (x=634.0) 2:0 => {BHM BOI DCA SAN}
+  [DET: (634.0,568.0)] => {BHM BOI DCA SAN}
+  [IND: (630.0,617.0)] => {BHM}
+  (y=625.0) 7:2 => {BHM SAN}
+  (x=601.0) 4:1 => {BHM}
+  (y=687.5) 4:1 => {BHM}
+  (y=723.0) 2:0 => {BHM}
+  (y=736.5) 2:0 => {BHM}
+  [CMH: (601.0,749.0)] => {BHM}
+  [COS: (613.0,723.0)] => {BHM}
+  [null] => {BHM}
+  (y=656.25) 2:0 => {BHM}
+  [LRF: (624.0,674.0)] => {BHM}
+  [DAL: (619.0,646.0)] => {BHM}
+  [null] => {BHM}
+  (x=558.0) 3:1 => {BHM SAN}
+  (y=584.0) 2:0 => {BHM}
+  (x=591.5) 2:0 => {BHM}
+  [HOU: (614.0,584.0)] => {BHM}
+  [FFO: (558.0,607.0)] => {BHM}
+  [null] => {BHM}
+  [BOS: (533.0,588.0)] => {BHM SAN}
+  (x=750.0) 37:21 => {BHM BOI DCA LBB LUF SAN TPA}
+  (y=250.0) 16:8 => {BHM BOI DCA LUF SAN}
+  (x=875.0) 10:5 => {BHM BOI DCA LUF}
+  (y=299.0) 5:3 => {BOI DCA LUF}
+  (y=367.0) 4:2 => {BOI DCA LUF}
+  (y=433.5) 2:0 => {BOI}
+  [LAX: (917.0,462.0)] => {BOI}
+  [HUF: (982.0,367.0)] => {BOI}
+  (x=913.0) 2:0 => {BOI DCA LUF}
+  [BNA: (913.0,299.0)] => {BOI DCA LUF}
+  [LAS: (896.0,363.0)] => {BOI DCA LUF}
+  [CHS: (992.0,271.0)] => {LUF}
+  (y=375.0) 5:2 => {BOI DCA LUF}
+  (x=812.5) 3:1 => {BOI DCA LUF}
+  [AUG: (857.0,426.0)] => {BOI DCA}
+  (y=437.5) 2:0 => {BOI DCA}
+  [MCF: (755.0,486.0)] => {BOI DCA}
+  [DRT: (776.0,410.0)] => {BOI DCA}
+  (x=812.5) 2:0 => {BOI DCA LUF}
+  [FXE: (842.0,251.0)] => {BOI DCA LUF}
+  [BLI: (783.0,276.0)] => {DCA}
+  (x=875.0) 6:3 => {DCA LUF}
+  (y=149.0) 2:0 => {LUF}
+  (x=937.5) 2:0 => {LUF}
+  [ATL: (948.0,149.0)] => {LUF}
+  [GVW: (883.0,192.0)] => {LUF}
+  [null] => {LUF}
+  (y=145.0) 4:2 => {DCA LUF}
+  (x=868.0) 4:2 => {DCA LUF}
+  (y=159.0) 3:1 => {LUF}
+  (y=204.5) 2:0 => {LUF}
+  [MCC: (868.0,216.0)] => {LUF}
+  [DLH: (868.0,159.0)] => {LUF}
+  [CBM: (874.0,145.0)] => {LUF}
+  [LNK: (805.0,237.0)] => {DCA LUF}
+  [null] => {DCA LUF}
+  (y=330.0) 21:13 => {BHM BOI DCA LUF SAN}
+  (x=625.0) 15:7 => {BHM BOI DCA LUF SAN}
+  (y=415.0) 4:0 => {BHM BOI DCA}
+  (x=687.5) 2:0 => {BHM BOI DCA}
+  [DYS: (732.0,465.0)] => {BOI DCA}
+  [CYS: (645.0,479.0)] => {BHM DCA}
+  (x=687.5) 2:0 => {DCA}
+  [CLE: (689.0,330.0)] => {DCA}
+  [DTW: (679.0,347.0)] => {DCA}
+  (y=415.0) 11:7 => {BHM DCA SAN}
+  (x=531.0) 7:4 => {BHM DCA SAN}
+  (x=578.0) 4:2 => {BHM DCA SAN}
+  [IAD: (579.0,499.0)] => {BHM DCA SAN}
+  (y=454.0) 3:1 => {BHM DCA SAN}
+  [IAG: (546.0,454.0)] => {BHM DCA SAN}
+  (x=535.0) 2:0 => {BHM DCA SAN}
+  [LSV: (535.0,442.0)] => {BHM DCA SAN}
+  [BUF: (531.0,435.0)] => {SAN}
+  (y=476.0) 3:1 => {BHM SAN}
+  (x=522.0) 2:0 => {BHM SAN}
+  (y=488.0) 2:0 => {BHM SAN}
+  [DLF: (526.0,488.0)] => {BHM}
+  [AEX: (522.0,476.0)] => {BHM SAN}
+  [null] => {BHM SAN}
+  [FOE: (518.0,448.0)] => {BHM SAN}
+  (x=562.5) 4:2 => {DCA SAN}
+  (y=372.5) 2:0 => {DCA}
+  [MAF: (607.0,409.0)] => {DCA}
+  [ELP: (578.0,371.0)] => {DCA}
+  (y=375.0) 2:0 => {DCA SAN}
+  (x=531.25) 2:0 => {DCA SAN}
+  [LIT: (550.0,408.0)] => {DCA SAN}
+  [GSB: (519.0,375.0)] => {SAN}
+  [null] => {DCA SAN}
+  (y=183.0) 6:4 => {DCA LUF SAN}
+  (x=625.0) 4:2 => {DCA SAN}
+  (y=233.0) 2:0 => {DCA}
+  [LGB: (718.0,233.0)] => {DCA}
+  [IAH: (677.0,183.0)] => {DCA}
+  (y=256.5) 2:0 => {DCA SAN}
+  [MCO: (506.0,262.0)] => {DCA SAN}
+  [HPN: (607.0,229.0)] => {DCA}
+  (x=641.0) 2:0 => {DCA LUF SAN}
+  (y=142.0) 2:0 => {DCA LUF}
+  (x=695.5) 2:0 => {DCA}
+  [MHR: (701.0,155.0)] => {DCA}
+  [ISP: (641.0,142.0)] => {DCA}
+  [null] => {DCA LUF}
+  [null] => {DCA SAN}
+  (y=500.0) 49:26 => {BHM BOI BUR DCA LBB LUF SAN SKF TPA}
+  (x=250.0) 24:14 => {BHM BOI BUR DCA LBB SAN SKF TPA}
+  (y=750.0) 16:10 => {BHM BUR DCA LBB SAN}
+  (x=375.0) 9:7 => {BHM BUR LBB SAN}
+  (y=835.0) 5:3 => {BHM BUR LBB}
+  (y=905.0) 3:1 => {BHM BUR}
+  [GLS: (383.0,905.0)] => {BHM BUR}
+  (x=437.5) 2:0 => {BHM}
+  [CRP: (488.0,835.0)] => {BHM}
+  [MEM: (436.0,846.0)] => {BHM}
+  (x=444.0) 2:0 => {BHM}
+  (y=784.0) 2:0 => {BHM}
+  [FMY: (444.0,784.0)] => {BHM}
+  [MNM: (476.0,769.0)] => {BHM}
+  [null] => {BHM}
+  (y=875.0) 4:2 => {BHM BUR LBB}
+  [ALB: (294.0,985.0)] => {BHM BUR}
+  (x=312.5) 3:1 => {BHM BUR LBB}
+  [GRB: (321.0,811.0)] => {BHM BUR LBB}
+  (y=812.5) 2:0 => {BHM BUR LBB}
+  [MKO: (301.0,828.0)] => {BHM BUR LBB}
+  [MCI: (294.0,804.0)] => {BHM BUR LBB}
+  (x=375.0) 7:3 => {BHM BUR LBB SAN}
+  (y=625.0) 5:2 => {BHM SAN}
+  (x=437.5) 2:0 => {BHM}
+  [EWR: (459.0,671.0)] => {BHM}
+  [FTW: (414.0,705.0)] => {BHM}
+  (x=437.0) 3:1 => {BHM SAN}
+  [DSM: (437.0,608.0)] => {BHM SAN}
+  (y=562.5) 2:0 => {BHM SAN}
+  [BFI: (390.0,609.0)] => {BHM}
+  [LOU: (397.0,543.0)] => {BHM SAN}
+  (y=652.0) 2:0 => {BHM BUR LBB SAN}
+  (x=329.0) 2:0 => {BHM LBB}
+  (y=701.0) 2:0 => {BHM}
+  [AMA: (371.0,711.0)] => {BHM}
+  [GWO: (329.0,652.0)] => {BHM}
+  [null] => {BHM LBB}
+  [null] => {BHM LBB SAN}
+  (y=750.0) 8:4 => {BHM BUR LBB SAN TPA}
+  (x=167.0) 5:3 => {BHM BUR LBB}
+  (y=892.0) 3:1 => {BHM BUR LBB}
+  (y=924.0) 2:0 => {BUR}
+  [BGR: (167.0,924.0)] => {BUR}
+  [ART: (210.0,892.0)] => {BUR}
+  [MIA: (228.0,834.0)] => {BHM BUR LBB}
+  (x=105.0) 2:0 => {BUR LBB}
+  (x=136.0) 2:0 => {BUR LBB}
+  [LNA: (158.0,767.0)] => {BUR LBB}
+  [ILM: (105.0,767.0)] => {BUR LBB}
+  [null] => {BUR LBB}
+  (x=152.0) 3:1 => {LBB SAN}
+  (y=571.0) 3:1 => {LBB SAN}
+  (y=635.0) 2:0 => {LBB}
+  [HRO: (208.0,635.0)] => {LBB}
+  [CLL: (152.0,571.0)] => {LBB}
+  [DPA: (182.0,537.0)] => {LBB SAN}
+  [null] => {LBB}
+  (x=250.0) 25:12 => {BHM BOI BUR DCA LBB LUF SAN TPA}
+  (y=250.0) 15:7 => {BHM DCA LBB SAN TPA}
+  (x=375.0) 11:4 => {BHM DCA LBB SAN}
+  (y=375.0) 7:2 => {BHM DCA SAN}
+  (x=437.5) 3:0 => {BHM SAN}
+  [AUS: (458.0,489.0)] => {BHM SAN}
+  (y=437.5) 2:0 => {SAN}
+  [DMA: (437.0,486.0)] => {SAN}
+  [BTR: (412.0,395.0)] => {SAN}
+  (x=437.5) 4:2 => {DCA SAN}
+  [AKR: (447.0,265.0)] => {DCA SAN}
+  (y=312.5) 3:1 => {SAN}
+  [INT: (430.0,345.0)] => {SAN}
+  (x=406.25) 2:0 => {SAN}
+  [CHA: (422.0,265.0)] => {SAN}
+  [JBR: (396.0,307.0)] => {SAN}
+  (y=368.0) 4:2 => {SAN}
+  [EFD: (257.0,368.0)] => {SAN}
+  (x=308.0) 3:1 => {SAN}
+  [HMN: (308.0,262.0)] => {SAN}
+  (y=309.0) 2:0 => {SAN}
+  [BCT: (280.0,341.0)] => {SAN}
+  [MOD: (262.0,277.0)] => {SAN}
+  (x=375.0) 4:2 => {DCA LBB SAN TPA}
+  (y=187.0) 2:0 => {DCA SAN TPA}
+  (x=437.5) 2:0 => {DCA SAN}
+  [DFW: (443.0,187.0)] => {DCA SAN}
+  [JFK: (405.0,229.0)] => {SAN}
+  [null] => {DCA SAN TPA}
+  (y=125.0) 2:0 => {DCA SAN TPA}
+  [HWO: (291.0,171.0)] => {SAN TPA}
+  [LRD: (355.0,120.0)] => {SAN TPA}
+  (y=250.0) 10:5 => {BHM DCA LBB SAN TPA}
+  (x=125.0) 7:4 => {BHM LBB SAN TPA}
+  (y=375.0) 5:3 => {LBB SAN TPA}
+  (x=187.5) 2:0 => {LBB SAN}
+  [GTF: (230.0,393.0)] => {LBB SAN}
+  [MKE: (125.0,412.0)] => {LBB SAN}
+  (x=203.0) 3:1 => {LBB SAN TPA}
+  (y=307.0) 3:1 => {SAN TPA}
+  (y=310.0) 2:0 => {SAN}
+  [JAX: (230.0,310.0)] => {SAN}
+  [GVT: (216.0,307.0)] => {SAN}
+  [BWI: (203.0,270.0)] => {SAN TPA}
+  [null] => {LBB SAN TPA}
+  (y=340.0) 2:0 => {LBB SAN TPA}
+  [DAY: (108.0,340.0)] => {LBB SAN TPA}
+  [EYW: (106.0,285.0)] => {SAN TPA}
+  (x=165.0) 3:1 => {SAN TPA}
+  (y=125.0) 3:1 => {SAN TPA}
+  [BFM: (165.0,197.0)] => {SAN TPA}
+  (y=106.0) 2:0 => {TPA}
+  (x=207.5) 2:0 => {TPA}
+  [CIC: (231.0,106.0)] => {TPA}
+  [LCK: (169.0,120.0)] => {TPA}
+  [null] => {TPA}
+  [null] => {TPA}
+ca-list-kd [tree structure]:
+  | | | | | | | [FAT: (890.0,926.0)] => {SKF}
+  | | | | | | (x=890.0) 2:0 => {SKF}
+  | | | | | | | [IKK: (888.0,931.0)] => {SKF}
+  | | | | | (y=926.0) 2:0 => {BOI SKF}
+  | | | | | | [null] => {BOI SKF}
+  | | | | (x=875.0) 6:3 => {BOI SKF}
+  | | | | | | [CPR: (850.0,927.0)] => {SKF}
+  | | | | | (y=875.0) 4:2 => {BOI SKF}
+  | | | | | | | [HFD: (852.0,846.0)] => {BOI SKF}
+  | | | | | | (x=812.5) 3:1 => {BOI SKF}
+  | | | | | | | | [BRO: (803.0,851.0)] => {SKF}
+  | | | | | | | (y=812.5) 2:0 => {BOI SKF}
+  | | | | | | | | [LUK: (794.0,774.0)] => {BOI SKF}
+  | | | (y=750.0) 15:8 => {BHM BOI DCA LUF SAN SKF}
+  | | | | | | | | [IAB: (978.0,731.0)] => {BOI}
+  | | | | | | | (y=687.5) 2:0 => {BOI}
+  | | | | | | | | [LGA: (940.0,649.0)] => {BOI}
+  | | | | | | (x=937.5) 3:1 => {BOI SKF}
+  | | | | | | | [FLL: (928.0,656.0)] => {BOI SKF}
+  | | | | | (y=625.0) 7:5 => {BOI SKF}
+  | | | | | | | [GEG: (998.0,610.0)] => {BOI}
+  | | | | | | (x=937.5) 4:2 => {BOI}
+  | | | | | | | | [GRR: (932.0,559.0)] => {BOI}
+  | | | | | | | (y=559.0) 3:1 => {BOI}
+  | | | | | | | | | [MDT: (926.0,547.0)] => {BOI}
+  | | | | | | | | (x=906.25) 2:0 => {BOI}
+  | | | | | | | | | [CVG: (877.0,555.0)] => {BOI}
+  | | | | (x=875.0) 9:5 => {BHM BOI DCA SKF}
+  | | | | | | [DUG: (833.0,685.0)] => {BHM BOI SKF}
+  | | | | | (y=625.0) 2:0 => {BHM BOI DCA SKF}
+  | | | | | | [DEN: (868.0,571.0)] => {BOI}
+  | | (x=750.0) 34:15 => {BHM BOI BUR DCA LBB LUF SAN SKF TPA}
+  | | | | | | | [JAN: (701.0,876.0)] => {SKF}
+  | | | | | | (x=687.5) 2:0 => {BHM SKF}
+  | | | | | | | [CNW: (667.0,935.0)] => {BHM SKF}
+  | | | | | (y=875.0) 4:2 => {BHM BOI SKF}
+  | | | | | | | [FYV: (722.0,756.0)] => {BHM BOI SKF}
+  | | | | | | (x=687.5) 2:0 => {BHM BOI SKF}
+  | | | | | | | [MDW: (650.0,787.0)] => {BHM SKF}
+  | | | | (x=625.0) 8:4 => {BHM BOI BUR LBB SAN SKF}
+  | | | | | | | [ABQ: (503.0,947.0)] => {BHM SKF}
+  | | | | | | (y=928.0) 2:0 => {BHM SKF}
+  | | | | | | | [CNM: (536.0,856.0)] => {BHM}
+  | | | | | (y=856.0) 4:1 => {BHM SKF}
+  | | | | | | | [ACK: (529.0,766.0)] => {BHM}
+  | | | | | | (x=529.0) 2:0 => {BHM}
+  | | | | | | | [CLT: (514.0,771.0)] => {BHM}
+  | | | (y=750.0) 19:7 => {BHM BOI BUR DCA LBB SAN SKF}
+  | | | | | | | | | [EDW: (733.0,741.0)] => {BHM BOI SKF}
+  | | | | | | | | (y=720.5) 2:0 => {BHM BOI SKF}
+  | | | | | | | | | [ACY: (735.0,691.0)] => {BHM BOI}
+  | | | | | | | (y=691.0) 2:0 => {BHM BOI SKF}
+  | | | | | | | | [null] => {BHM BOI}
+  | | | | | | (x=733.0) 2:0 => {BHM BOI SKF}
+  | | | | | | | [null] => {BHM BOI}
+  | | | | | (y=625.0) 4:1 => {BHM BOI DCA SAN SKF}
+  | | | | | | | [DET: (634.0,568.0)] => {BHM BOI DCA SAN}
+  | | | | | | (x=634.0) 2:0 => {BHM BOI DCA SAN}
+  | | | | | | | [IND: (630.0,617.0)] => {BHM}
+  | | | | (x=625.0) 11:3 => {BHM BOI DCA SAN SKF}
+  | | | | | | | | | | [CMH: (601.0,749.0)] => {BHM}
+  | | | | | | | | | (y=736.5) 2:0 => {BHM}
+  | | | | | | | | | | [COS: (613.0,723.0)] => {BHM}
+  | | | | | | | | (y=723.0) 2:0 => {BHM}
+  | | | | | | | | | [null] => {BHM}
+  | | | | | | | (y=687.5) 4:1 => {BHM}
+  | | | | | | | | | [LRF: (624.0,674.0)] => {BHM}
+  | | | | | | | | (y=656.25) 2:0 => {BHM}
+  | | | | | | | | | [DAL: (619.0,646.0)] => {BHM}
+  | | | | | | (x=601.0) 4:1 => {BHM}
+  | | | | | | | [null] => {BHM}
+  | | | | | (y=625.0) 7:2 => {BHM SAN}
+  | | | | | | | | | [HOU: (614.0,584.0)] => {BHM}
+  | | | | | | | | (x=591.5) 2:0 => {BHM}
+  | | | | | | | | | [FFO: (558.0,607.0)] => {BHM}
+  | | | | | | | (y=584.0) 2:0 => {BHM}
+  | | | | | | | | [null] => {BHM}
+  | | | | | | (x=558.0) 3:1 => {BHM SAN}
+  | | | | | | | [BOS: (533.0,588.0)] => {BHM SAN}
+  | (y=500.0) 71:36 => {BHM BOI BUR DCA LBB LUF SAN SKF TPA}
+  | | | | | | | | [LAX: (917.0,462.0)] => {BOI}
+  | | | | | | | (y=433.5) 2:0 => {BOI}
+  | | | | | | | | [HUF: (982.0,367.0)] => {BOI}
+  | | | | | | (y=367.0) 4:2 => {BOI DCA LUF}
+  | | | | | | | | [BNA: (913.0,299.0)] => {BOI DCA LUF}
+  | | | | | | | (x=913.0) 2:0 => {BOI DCA LUF}
+  | | | | | | | | [LAS: (896.0,363.0)] => {BOI DCA LUF}
+  | | | | | (y=299.0) 5:3 => {BOI DCA LUF}
+  | | | | | | [CHS: (992.0,271.0)] => {LUF}
+  | | | | (x=875.0) 10:5 => {BHM BOI DCA LUF}
+  | | | | | | | [AUG: (857.0,426.0)] => {BOI DCA}
+  | | | | | | (x=812.5) 3:1 => {BOI DCA LUF}
+  | | | | | | | | [MCF: (755.0,486.0)] => {BOI DCA}
+  | | | | | | | (y=437.5) 2:0 => {BOI DCA}
+  | | | | | | | | [DRT: (776.0,410.0)] => {BOI DCA}
+  | | | | | (y=375.0) 5:2 => {BOI DCA LUF}
+  | | | | | | | [FXE: (842.0,251.0)] => {BOI DCA LUF}
+  | | | | | | (x=812.5) 2:0 => {BOI DCA LUF}
+  | | | | | | | [BLI: (783.0,276.0)] => {DCA}
+  | | | (y=250.0) 16:8 => {BHM BOI DCA LUF SAN}
+  | | | | | | | [ATL: (948.0,149.0)] => {LUF}
+  | | | | | | (x=937.5) 2:0 => {LUF}
+  | | | | | | | [GVW: (883.0,192.0)] => {LUF}
+  | | | | | (y=149.0) 2:0 => {LUF}
+  | | | | | | [null] => {LUF}
+  | | | | (x=875.0) 6:3 => {DCA LUF}
+  | | | | | | | | | [MCC: (868.0,216.0)] => {LUF}
+  | | | | | | | | (y=204.5) 2:0 => {LUF}
+  | | | | | | | | | [DLH: (868.0,159.0)] => {LUF}
+  | | | | | | | (y=159.0) 3:1 => {LUF}
+  | | | | | | | | [CBM: (874.0,145.0)] => {LUF}
+  | | | | | | (x=868.0) 4:2 => {DCA LUF}
+  | | | | | | | [LNK: (805.0,237.0)] => {DCA LUF}
+  | | | | | (y=145.0) 4:2 => {DCA LUF}
+  | | | | | | [null] => {DCA LUF}
+  | | (x=750.0) 37:21 => {BHM BOI DCA LBB LUF SAN TPA}
+  | | | | | | | [DYS: (732.0,465.0)] => {BOI DCA}
+  | | | | | | (x=687.5) 2:0 => {BHM BOI DCA}
+  | | | | | | | [CYS: (645.0,479.0)] => {BHM DCA}
+  | | | | | (y=415.0) 4:0 => {BHM BOI DCA}
+  | | | | | | | [CLE: (689.0,330.0)] => {DCA}
+  | | | | | | (x=687.5) 2:0 => {DCA}
+  | | | | | | | [DTW: (679.0,347.0)] => {DCA}
+  | | | | (x=625.0) 15:7 => {BHM BOI DCA LUF SAN}
+  | | | | | | | | [IAD: (579.0,499.0)] => {BHM DCA SAN}
+  | | | | | | | (x=578.0) 4:2 => {BHM DCA SAN}
+  | | | | | | | | | [IAG: (546.0,454.0)] => {BHM DCA SAN}
+  | | | | | | | | (y=454.0) 3:1 => {BHM DCA SAN}
+  | | | | | | | | | | [LSV: (535.0,442.0)] => {BHM DCA SAN}
+  | | | | | | | | | (x=535.0) 2:0 => {BHM DCA SAN}
+  | | | | | | | | | | [BUF: (531.0,435.0)] => {SAN}
+  | | | | | | (x=531.0) 7:4 => {BHM DCA SAN}
+  | | | | | | | | | | [DLF: (526.0,488.0)] => {BHM}
+  | | | | | | | | | (y=488.0) 2:0 => {BHM SAN}
+  | | | | | | | | | | [AEX: (522.0,476.0)] => {BHM SAN}
+  | | | | | | | | (x=522.0) 2:0 => {BHM SAN}
+  | | | | | | | | | [null] => {BHM SAN}
+  | | | | | | | (y=476.0) 3:1 => {BHM SAN}
+  | | | | | | | | [FOE: (518.0,448.0)] => {BHM SAN}
+  | | | | | (y=415.0) 11:7 => {BHM DCA SAN}
+  | | | | | | | | [MAF: (607.0,409.0)] => {DCA}
+  | | | | | | | (y=372.5) 2:0 => {DCA}
+  | | | | | | | | [ELP: (578.0,371.0)] => {DCA}
+  | | | | | | (x=562.5) 4:2 => {DCA SAN}
+  | | | | | | | | | [LIT: (550.0,408.0)] => {DCA SAN}
+  | | | | | | | | (x=531.25) 2:0 => {DCA SAN}
+  | | | | | | | | | [GSB: (519.0,375.0)] => {SAN}
+  | | | | | | | (y=375.0) 2:0 => {DCA SAN}
+  | | | | | | | | [null] => {DCA SAN}
+  | | | (y=330.0) 21:13 => {BHM BOI DCA LUF SAN}
+  | | | | | | | [LGB: (718.0,233.0)] => {DCA}
+  | | | | | | (y=233.0) 2:0 => {DCA}
+  | | | | | | | [IAH: (677.0,183.0)] => {DCA}
+  | | | | | (x=625.0) 4:2 => {DCA SAN}
+  | | | | | | | [MCO: (506.0,262.0)] => {DCA SAN}
+  | | | | | | (y=256.5) 2:0 => {DCA SAN}
+  | | | | | | | [HPN: (607.0,229.0)] => {DCA}
+  | | | | (y=183.0) 6:4 => {DCA LUF SAN}
+  | | | | | | | | [MHR: (701.0,155.0)] => {DCA}
+  | | | | | | | (x=695.5) 2:0 => {DCA}
+  | | | | | | | | [ISP: (641.0,142.0)] => {DCA}
+  | | | | | | (y=142.0) 2:0 => {DCA LUF}
+  | | | | | | | [null] => {DCA LUF}
+  | | | | | (x=641.0) 2:0 => {DCA LUF SAN}
+  | | | | | | [null] => {DCA SAN}
+  (x=500.0) 120:62 => {BHM BOI BUR DCA LBB LUF SAN SKF TPA}
+  | | | | | | | [GLS: (383.0,905.0)] => {BHM BUR}
+  | | | | | | (y=905.0) 3:1 => {BHM BUR}
+  | | | | | | | | [CRP: (488.0,835.0)] => {BHM}
+  | | | | | | | (x=437.5) 2:0 => {BHM}
+  | | | | | | | | [MEM: (436.0,846.0)] => {BHM}
+  | | | | | (y=835.0) 5:3 => {BHM BUR LBB}
+  | | | | | | | | [FMY: (444.0,784.0)] => {BHM}
+  | | | | | | | (y=784.0) 2:0 => {BHM}
+  | | | | | | | | [MNM: (476.0,769.0)] => {BHM}
+  | | | | | | (x=444.0) 2:0 => {BHM}
+  | | | | | | | [null] => {BHM}
+  | | | | (x=375.0) 9:7 => {BHM BUR LBB SAN}
+  | | | | | | [ALB: (294.0,985.0)] => {BHM BUR}
+  | | | | | (y=875.0) 4:2 => {BHM BUR LBB}
+  | | | | | | | [GRB: (321.0,811.0)] => {BHM BUR LBB}
+  | | | | | | (x=312.5) 3:1 => {BHM BUR LBB}
+  | | | | | | | | [MKO: (301.0,828.0)] => {BHM BUR LBB}
+  | | | | | | | (y=812.5) 2:0 => {BHM BUR LBB}
+  | | | | | | | | [MCI: (294.0,804.0)] => {BHM BUR LBB}
+  | | | (y=750.0) 16:10 => {BHM BUR DCA LBB SAN}
+  | | | | | | | [EWR: (459.0,671.0)] => {BHM}
+  | | | | | | (x=437.5) 2:0 => {BHM}
+  | | | | | | | [FTW: (414.0,705.0)] => {BHM}
+  | | | | | (y=625.0) 5:2 => {BHM SAN}
+  | | | | | | | [DSM: (437.0,608.0)] => {BHM SAN}
+  | | | | | | (x=437.0) 3:1 => {BHM SAN}
+  | | | | | | | | [BFI: (390.0,609.0)] => {BHM}
+  | | | | | | | (y=562.5) 2:0 => {BHM SAN}
+  | | | | | | | | [LOU: (397.0,543.0)] => {BHM SAN}
+  | | | | (x=375.0) 7:3 => {BHM BUR LBB SAN}
+  | | | | | | | | [AMA: (371.0,711.0)] => {BHM}
+  | | | | | | | (y=701.0) 2:0 => {BHM}
+  | | | | | | | | [GWO: (329.0,652.0)] => {BHM}
+  | | | | | | (x=329.0) 2:0 => {BHM LBB}
+  | | | | | | | [null] => {BHM LBB}
+  | | | | | (y=652.0) 2:0 => {BHM BUR LBB SAN}
+  | | | | | | [null] => {BHM LBB SAN}
+  | | (x=250.0) 24:14 => {BHM BOI BUR DCA LBB SAN SKF TPA}
+  | | | | | | | [BGR: (167.0,924.0)] => {BUR}
+  | | | | | | (y=924.0) 2:0 => {BUR}
+  | | | | | | | [ART: (210.0,892.0)] => {BUR}
+  | | | | | (y=892.0) 3:1 => {BHM BUR LBB}
+  | | | | | | [MIA: (228.0,834.0)] => {BHM BUR LBB}
+  | | | | (x=167.0) 5:3 => {BHM BUR LBB}
+  | | | | | | | [LNA: (158.0,767.0)] => {BUR LBB}
+  | | | | | | (x=136.0) 2:0 => {BUR LBB}
+  | | | | | | | [ILM: (105.0,767.0)] => {BUR LBB}
+  | | | | | (x=105.0) 2:0 => {BUR LBB}
+  | | | | | | [null] => {BUR LBB}
+  | | | (y=750.0) 8:4 => {BHM BUR LBB SAN TPA}
+  | | | | | | | [HRO: (208.0,635.0)] => {LBB}
+  | | | | | | (y=635.0) 2:0 => {LBB}
+  | | | | | | | [CLL: (152.0,571.0)] => {LBB}
+  | | | | | (y=571.0) 3:1 => {LBB SAN}
+  | | | | | | [DPA: (182.0,537.0)] => {LBB SAN}
+  | | | | (x=152.0) 3:1 => {LBB SAN}
+  | | | | | [null] => {LBB}
+  | (y=500.0) 49:26 => {BHM BOI BUR DCA LBB LUF SAN SKF TPA}
+  | | | | | | | [AUS: (458.0,489.0)] => {BHM SAN}
+  | | | | | | (x=437.5) 3:0 => {BHM SAN}
+  | | | | | | | | [DMA: (437.0,486.0)] => {SAN}
+  | | | | | | | (y=437.5) 2:0 => {SAN}
+  | | | | | | | | [BTR: (412.0,395.0)] => {SAN}
+  | | | | | (y=375.0) 7:2 => {BHM DCA SAN}
+  | | | | | | | [AKR: (447.0,265.0)] => {DCA SAN}
+  | | | | | | (x=437.5) 4:2 => {DCA SAN}
+  | | | | | | | | [INT: (430.0,345.0)] => {SAN}
+  | | | | | | | (y=312.5) 3:1 => {SAN}
+  | | | | | | | | | [CHA: (422.0,265.0)] => {SAN}
+  | | | | | | | | (x=406.25) 2:0 => {SAN}
+  | | | | | | | | | [JBR: (396.0,307.0)] => {SAN}
+  | | | | (x=375.0) 11:4 => {BHM DCA LBB SAN}
+  | | | | | | [EFD: (257.0,368.0)] => {SAN}
+  | | | | | (y=368.0) 4:2 => {SAN}
+  | | | | | | | [HMN: (308.0,262.0)] => {SAN}
+  | | | | | | (x=308.0) 3:1 => {SAN}
+  | | | | | | | | [BCT: (280.0,341.0)] => {SAN}
+  | | | | | | | (y=309.0) 2:0 => {SAN}
+  | | | | | | | | [MOD: (262.0,277.0)] => {SAN}
+  | | | (y=250.0) 15:7 => {BHM DCA LBB SAN TPA}
+  | | | | | | | [DFW: (443.0,187.0)] => {DCA SAN}
+  | | | | | | (x=437.5) 2:0 => {DCA SAN}
+  | | | | | | | [JFK: (405.0,229.0)] => {SAN}
+  | | | | | (y=187.0) 2:0 => {DCA SAN TPA}
+  | | | | | | [null] => {DCA SAN TPA}
+  | | | | (x=375.0) 4:2 => {DCA LBB SAN TPA}
+  | | | | | | [HWO: (291.0,171.0)] => {SAN TPA}
+  | | | | | (y=125.0) 2:0 => {DCA SAN TPA}
+  | | | | | | [LRD: (355.0,120.0)] => {SAN TPA}
+  | | (x=250.0) 25:12 => {BHM BOI BUR DCA LBB LUF SAN TPA}
+  | | | | | | | [GTF: (230.0,393.0)] => {LBB SAN}
+  | | | | | | (x=187.5) 2:0 => {LBB SAN}
+  | | | | | | | [MKE: (125.0,412.0)] => {LBB SAN}
+  | | | | | (y=375.0) 5:3 => {LBB SAN TPA}
+  | | | | | | | | | [JAX: (230.0,310.0)] => {SAN}
+  | | | | | | | | (y=310.0) 2:0 => {SAN}
+  | | | | | | | | | [GVT: (216.0,307.0)] => {SAN}
+  | | | | | | | (y=307.0) 3:1 => {SAN TPA}
+  | | | | | | | | [BWI: (203.0,270.0)] => {SAN TPA}
+  | | | | | | (x=203.0) 3:1 => {LBB SAN TPA}
+  | | | | | | | [null] => {LBB SAN TPA}
+  | | | | (x=125.0) 7:4 => {BHM LBB SAN TPA}
+  | | | | | | [DAY: (108.0,340.0)] => {LBB SAN TPA}
+  | | | | | (y=340.0) 2:0 => {LBB SAN TPA}
+  | | | | | | [EYW: (106.0,285.0)] => {SAN TPA}
+  | | | (y=250.0) 10:5 => {BHM DCA LBB SAN TPA}
+  | | | | | | [BFM: (165.0,197.0)] => {SAN TPA}
+  | | | | | (y=125.0) 3:1 => {SAN TPA}
+  | | | | | | | | [CIC: (231.0,106.0)] => {TPA}
+  | | | | | | | (x=207.5) 2:0 => {TPA}
+  | | | | | | | | [LCK: (169.0,120.0)] => {TPA}
+  | | | | | | (y=106.0) 2:0 => {TPA}
+  | | | | | | | [null] => {TPA}
+  | | | | (x=165.0) 3:1 => {SAN TPA}
+  | | | | | [null] => {TPA}
+ca-centers-size: 9
+ca-list-centers:
+  BHM: (471.0,677.0)
+  BOI: (985.0,557.0)
+  BUR: (124.0,996.0)
+  DCA: (674.0,246.0)
+  LBB: (113.0,611.0)
+  LUF: (982.0,132.0)
+  SAN: (349.0,381.0)
+  SKF: (949.0,954.0)
+  TPA: (96.0,101.0)
+ca-list-assignments:
+  [EWR->BHM] distSq = 180.0
+  [ATL->LUF] distSq = 1445.0
+  [LGB->DCA] distSq = 2105.0
+  [GRR->BOI] distSq = 2813.0
+  [GEG->BOI] distSq = 2978.0
+  [CLL->LBB] distSq = 3121.0
+  [MDT->BOI] distSq = 3581.0
+  [IAH->DCA] distSq = 3978.0
+  [FTW->BHM] distSq = 4033.0
+  [BTR->SAN] distSq = 4165.0
+  [IKK->SKF] distSq = 4250.0
+  [FAT->SKF] distSq = 4265.0
+  [HPN->DCA] distSq = 4778.0
+  [LCK->TPA] distSq = 5690.0
+  [DSM->BHM] distSq = 5917.0
+  [BCT->SAN] distSq = 6361.0
+  [BGR->BUR] distSq = 7033.0
+  [CLE->DCA] distSq = 7281.0
+  [JBR->SAN] distSq = 7685.0
+  [INT->SAN] distSq = 7857.0
+  [MNM->BHM] distSq = 8489.0
+  [EFD->SAN] distSq = 8633.0
+  [MHR->DCA] distSq = 9010.0
+  [HRO->LBB] distSq = 9601.0
+  [DTW->DCA] distSq = 10226.0
+  [DPA->LBB] distSq = 10237.0
+  [LGA->BOI] distSq = 10489.0
+  [CPR->SKF] distSq = 10530.0
+  [CLT->BHM] distSq = 10685.0
+  [AMA->BHM] distSq = 11156.0
+  [BFI->BHM] distSq = 11185.0
+  [ACK->BHM] distSq = 11285.0
+  [CVG->BOI] distSq = 11668.0
+  [BOS->BHM] distSq = 11765.0
+  [CBM->LUF] distSq = 11833.0
+  [ISP->DCA] distSq = 11905.0
+  [FMY->BHM] distSq = 12178.0
+  [FFO->BHM] distSq = 12469.0
+  [BLI->DCA] distSq = 12781.0
+  [FLL->BOI] distSq = 13050.0
+  [GVW->LUF] distSq = 13401.0
+  [LAX->BOI] distSq = 13649.0
+  [DLH->LUF] distSq = 13725.0
+  [DEN->BOI] distSq = 13885.0
+  [BFM->TPA] distSq = 13977.0
+  [GTF->SAN] distSq = 14305.0
+  [HMN->SAN] distSq = 15842.0
+  [LNK->DCA] distSq = 17242.0
+  [ART->BUR] distSq = 18212.0
+  [CIC->TPA] distSq = 18250.0
+  [MOD->SAN] distSq = 18385.0
+  [DMA->SAN] distSq = 18769.0
+  [CHA->SAN] distSq = 18785.0
+  [JAX->SAN] distSq = 19202.0
+  [CHS->LUF] distSq = 19421.0
+  [MCC->LUF] distSq = 20052.0
+  [GWO->BHM] distSq = 20789.0
+  [HFD->SKF] distSq = 21073.0
+  [CMH->BHM] distSq = 22084.0
+  [COS->BHM] distSq = 22280.0
+  [DAL->BHM] distSq = 22865.0
+  [AKR->SAN] distSq = 23060.0
+  [GVT->SAN] distSq = 23165.0
+  [LRF->BHM] distSq = 23418.0
+  [LOU->BHM] distSq = 23432.0
+  [AUS->SAN] distSq = 23545.0
+  [ILM->LBB] distSq = 24400.0
+  [ELP->DCA] distSq = 24841.0
+  [CRP->BHM] distSq = 25253.0
+  [JFK->SAN] distSq = 26240.0
+  [LNA->LBB] distSq = 26361.0
+  [FXE->DCA] distSq = 28249.0
+  [MCO->DCA] distSq = 28480.0
+  [IND->BHM] distSq = 28881.0
+  [GSB->SAN] distSq = 28936.0
+  [ALB->BUR] distSq = 29021.0
+  [HOU->BHM] distSq = 29098.0
+  [MEM->BHM] distSq = 29786.0
+  [IAB->BOI] distSq = 30325.0
+  [MAF->DCA] distSq = 31058.0
+  [BRO->SKF] distSq = 31925.0
+  [BNA->LUF] distSq = 32650.0
+  [FOE->SAN] distSq = 33050.0
+  [AUG->BOI] distSq = 33545.0
+  [BWI->SAN] distSq = 33637.0
+  [EYW->TPA] distSq = 33956.0
+  [BUF->SAN] distSq = 36040.0
+  [HUF->BOI] distSq = 36109.0
+  [CNM->BHM] distSq = 36266.0
+  [MIA->BUR] distSq = 37060.0
+  [DRT->DCA] distSq = 37300.0
+  [LSV->SAN] distSq = 38317.0
+  [DET->BHM] distSq = 38450.0
+  [DLF->BHM] distSq = 38746.0
+  [AEX->SAN] distSq = 38954.0
+  [DUG->BOI] distSq = 39488.0
+  [MKE->LBB] distSq = 39745.0
+  [GRB->BHM] distSq = 40456.0
+  [LIT->SAN] distSq = 41130.0
+  [HWO->TPA] distSq = 42925.0
+  [IAD->BHM] distSq = 43348.0
+  [IAG->SAN] distSq = 44138.0
+  [MDW->BHM] distSq = 44141.0
+  [LAS->BOI] distSq = 45557.0
+  [DFW->SAN] distSq = 46472.0
+  [MCI->BHM] distSq = 47458.0
+  [DYS->DCA] distSq = 51325.0
+  [MKO->BHM] distSq = 51701.0
+  [CYS->DCA] distSq = 55130.0
+  [LUK->SKF] distSq = 56425.0
+  [DAY->TPA] distSq = 57265.0
+  [MCF->BOI] distSq = 57941.0
+  [GLS->BHM] distSq = 59728.0
+  [LRD->TPA] distSq = 67442.0
+  [JAN->SKF] distSq = 67588.0
+  [FYV->BHM] distSq = 69242.0
+  [ACY->BHM] distSq = 69892.0
+  [EDW->BHM] distSq = 72740.0
+  [ABQ->BHM] distSq = 73924.0
+  [CNW->SKF] distSq = 79885.0
+ca-add-site(MOT): successful {MINOT, (921.0,311.0)}
+ca-add-site(MPV): successful {MONTPELIER, (410.0,715.0)}
+ca-add-site(MQT): successful {MARQUETTE, (486.0,607.0)}
+ca-add-site(MSP): successful {MINNEAPOLIS, (563.0,187.0)}
+ca-add-site(MSS): successful {MASSENA, (477.0,213.0)}
+ca-add-site(MSY): successful {NEW ORLEANS, (512.0,504.0)}
+ca-add-site(MXF): successful {MONTGOMERY, (277.0,602.0)}
+ca-add-site(MYR): successful {MYRTLE BEACH, (937.0,189.0)}
+ca-add-site(NBG): successful {NEW ORLEANS, (308.0,224.0)}
+ca-add-site(NCA): successful {JACKSONVILLE, (505.0,352.0)}
+ca-add-site(NEL): successful {LAKEHURST, (396.0,169.0)}
+ca-add-site(NGU): successful {NORFOLK, (802.0,771.0)}
+ca-add-site(NHK): successful {PATUXENT RIVER, (105.0,136.0)}
+ca-add-site(NIP): successful {JACKSONVILLE, (446.0,741.0)}
+ca-add-site(NOW): successful {PORT ANGELES, (669.0,364.0)}
+ca-add-site(NPA): successful {PENSACOLA, (891.0,507.0)}
+ca-add-site(NQX): successful {KEY WEST, (656.0,361.0)}
+ca-add-site(NSE): successful {MILTON, (548.0,235.0)}
+ca-add-site(NZC): successful {JACKSONVILLE, (813.0,311.0)}
+ca-add-site(NZY): successful {SAN DIEGO, (147.0,422.0)}
+ca-add-site(OAK): successful {OAKLAND, (229.0,617.0)}
+ca-add-site(OFF): successful {OMAHA, (604.0,294.0)}
+ca-add-site(OKC): successful {OKLAHOMA CITY, (951.0,312.0)}
+ca-add-site(OMA): successful {OMAHA, (851.0,478.0)}
+ca-add-site(ONT): successful {ONTARIO, (317.0,249.0)}
+ca-add-site(OPF): successful {MIAMI, (993.0,249.0)}
+ca-add-site(ORD): successful {CHICAGO, (682.0,189.0)}
+ca-add-site(ORF): successful {NORFOLK, (565.0,296.0)}
+ca-add-site(ORL): successful {ORLANDO, (610.0,774.0)}
+ca-add-site(PAM): successful {PANAMA CITY, (260.0,959.0)}
+ca-add-site(PBI): successful {WEST PALM BEACH, (782.0,975.0)}
+ca-add-site(PDX): successful {PORTLAND, (790.0,394.0)}
+ca-add-site(PHF): successful {NEWPORT NEWS, (411.0,220.0)}
+ca-add-site(PHL): successful {PHILADELPHIA, (771.0,105.0)}
+ca-add-site(PHX): successful {PHOENIX, (461.0,650.0)}
+ca-add-site(PIE): successful {ST. PETERSBURG, (499.0,322.0)}
+ca-add-site(PIT): successful {PITTSBURGH, (433.0,695.0)}
+ca-add-site(PNE): successful {PHILADELPHIA, (965.0,136.0)}
+ca-add-site(PNM): successful {PRINCETON, (416.0,943.0)}
+ca-add-site(POB): successful {FAYETTEVILLE, (143.0,958.0)}
+ca-add-center(SAV): successful {SAVANNAH, (662.0,989.0)}
+ca-sites-size: 160
+ca-list-kd:
+  (x=500.0) 160:38 => {BHM BOI BUR DCA LBB LUF SAN SAV SKF TPA}
+  (y=500.0) 93:21 => {BHM BOI BUR DCA LBB LUF SAN SAV SKF TPA}
+  (x=750.0) 39:5 => {BHM BOI BUR DCA LBB LUF SAN SAV SKF TPA}
+  (y=750.0) 18:3 => {BHM BOI DCA LUF SAN SAV SKF}
+  (x=875.0) 8:2 => {BOI SAV SKF}
+  (y=926.0) 2:0 => {BOI SAV SKF}
+  (x=890.0) 2:0 => {SKF}
+  [FAT: (890.0,926.0)] => {SKF}
+  [IKK: (888.0,931.0)] => {SKF}
+  [null] => {BOI SKF}
+  (y=875.0) 6:2 => {BOI SAV SKF}
+  (x=812.5) 2:0 => {SAV SKF}
+  [CPR: (850.0,927.0)] => {SAV SKF}
+  [PBI: (782.0,975.0)] => {SAV SKF}
+  (x=812.5) 4:1 => {BOI SAV SKF}
+  [HFD: (852.0,846.0)] => {BOI SAV SKF}
+  (y=812.5) 3:1 => {BOI SAV SKF}
+  [BRO: (803.0,851.0)] => {SAV SKF}
+  (x=794.0) 2:0 => {BOI SAV SKF}
+  (y=774.0) 2:0 => {SAV SKF}
+  [LUK: (794.0,774.0)] => {SAV SKF}
+  [NGU: (802.0,771.0)] => {SAV SKF}
+  [null] => {BOI SAV SKF}
+  (x=875.0) 10:1 => {BHM BOI DCA SAV SKF}
+  (y=625.0) 8:1 => {BOI SKF}
+  (x=937.5) 3:0 => {BOI SKF}
+  (y=687.5) 2:0 => {BOI}
+  [IAB: (978.0,731.0)] => {BOI}
+  [LGA: (940.0,649.0)] => {BOI}
+  [FLL: (928.0,656.0)] => {BOI SKF}
+  (x=937.5) 5:1 => {BOI}
+  [GEG: (998.0,610.0)] => {BOI}
+  (y=559.0) 4:1 => {BOI}
+  [GRR: (932.0,559.0)] => {BOI}
+  (x=906.25) 3:1 => {BOI}
+  [MDT: (926.0,547.0)] => {BOI}
+  (y=529.5) 2:0 => {BOI}
+  [CVG: (877.0,555.0)] => {BOI}
+  [NPA: (891.0,507.0)] => {BOI}
+  (y=625.0) 2:0 => {BHM BOI DCA SAV SKF}
+  [DUG: (833.0,685.0)] => {BHM BOI SAV SKF}
+  [DEN: (868.0,571.0)] => {BOI}
+  (y=750.0) 21:2 => {BHM BOI BUR DCA LBB SAN SAV SKF}
+  (x=625.0) 9:1 => {BHM SAV SKF}
+  (y=875.0) 4:0 => {BHM SAV SKF}
+  (x=687.5) 2:0 => {SAV}
+  [JAN: (701.0,876.0)] => {SAV}
+  [CNW: (667.0,935.0)] => {SAV}
+  (x=687.5) 2:0 => {BHM SAV SKF}
+  [FYV: (722.0,756.0)] => {BHM SAV SKF}
+  [MDW: (650.0,787.0)] => {BHM SAV}
+  (y=875.0) 5:1 => {BHM SAV}
+  [ABQ: (503.0,947.0)] => {SAV}
+  (x=536.0) 4:1 => {BHM SAV}
+  (y=812.5) 2:0 => {BHM SAV}
+  [CNM: (536.0,856.0)] => {BHM SAV}
+  [ORL: (610.0,774.0)] => {BHM SAV}
+  (y=771.0) 2:0 => {BHM SAV}
+  [CLT: (514.0,771.0)] => {BHM SAV}
+  [ACK: (529.0,766.0)] => {BHM}
+  (x=625.0) 12:1 => {BHM BOI DCA SAN SAV SKF}
+  (y=625.0) 4:0 => {BHM BOI DCA SAN SAV SKF}
+  (x=733.0) 2:0 => {BHM BOI SAV SKF}
+  (y=691.0) 2:0 => {BHM BOI SAV SKF}
+  (y=720.5) 2:0 => {BHM BOI SAV SKF}
+  [EDW: (733.0,741.0)] => {BHM SAV}
+  [ACY: (735.0,691.0)] => {BHM BOI SAV}
+  [null] => {BHM BOI}
+  [null] => {BHM BOI SAV}
+  (x=634.0) 2:0 => {BHM BOI DCA SAN}
+  [DET: (634.0,568.0)] => {BHM BOI DCA SAN}
+  [IND: (630.0,617.0)] => {BHM}
+  (y=625.0) 8:1 => {BHM SAN}
+  (x=601.0) 4:0 => {BHM}
+  (y=687.5) 4:0 => {BHM}
+  (y=723.0) 2:0 => {BHM}
+  (y=736.5) 2:0 => {BHM}
+  [CMH: (601.0,749.0)] => {BHM}
+  [COS: (613.0,723.0)] => {BHM}
+  [null] => {BHM}
+  (y=656.25) 2:0 => {BHM}
+  [LRF: (624.0,674.0)] => {BHM}
+  [DAL: (619.0,646.0)] => {BHM}
+  [null] => {BHM}
+  (x=562.5) 4:1 => {BHM SAN}
+  [HOU: (614.0,584.0)] => {BHM}
+  (y=588.0) 3:1 => {BHM SAN}
+  (x=533.0) 2:0 => {BHM}
+  (y=606.5) 2:0 => {BHM}
+  [FFO: (558.0,607.0)] => {BHM}
+  [BOS: (533.0,588.0)] => {BHM}
+  [null] => {BHM}
+  [MSY: (512.0,504.0)] => {BHM SAN}
+  (x=750.0) 54:16 => {BHM BOI DCA LBB LUF SAN TPA}
+  (y=250.0) 25:8 => {BHM BOI DCA LUF SAN}
+  (x=875.0) 15:4 => {BHM BOI DCA LUF}
+  (y=375.0) 7:1 => {BOI DCA LUF}
+  [LAX: (917.0,462.0)] => {BOI}
+  (x=937.5) 6:1 => {BOI DCA LUF}
+  (y=312.5) 3:1 => {BOI LUF}
+  [HUF: (982.0,367.0)] => {BOI LUF}
+  (x=968.75) 2:0 => {LUF}
+  [CHS: (992.0,271.0)] => {LUF}
+  [OKC: (951.0,312.0)] => {LUF}
+  (y=312.5) 3:0 => {BOI DCA LUF}
+  [LAS: (896.0,363.0)] => {BOI DCA LUF}
+  (x=913.0) 2:0 => {DCA LUF}
+  (y=299.0) 2:0 => {LUF}
+  (x=921.0) 2:0 => {LUF}
+  [MOT: (921.0,311.0)] => {LUF}
+  [BNA: (913.0,299.0)] => {LUF}
+  [null] => {LUF}
+  [null] => {DCA LUF}
+  (y=375.0) 8:3 => {BOI DCA LUF}
+  (x=812.5) 5:2 => {BOI DCA LUF}
+  (y=437.5) 2:0 => {BOI DCA}
+  [OMA: (851.0,478.0)] => {BOI}
+  [AUG: (857.0,426.0)] => {BOI DCA}
+  (y=437.5) 3:1 => {BOI DCA}
+  [MCF: (755.0,486.0)] => {BOI DCA}
+  (x=781.25) 2:0 => {BOI DCA}
+  [PDX: (790.0,394.0)] => {BOI DCA}
+  [DRT: (776.0,410.0)] => {DCA}
+  (x=812.5) 3:1 => {BOI DCA LUF}
+  (y=311.0) 2:0 => {BOI DCA LUF}
+  [NZC: (813.0,311.0)] => {BOI DCA LUF}
+  [FXE: (842.0,251.0)] => {DCA LUF}
+  [BLI: (783.0,276.0)] => {DCA}
+  (x=875.0) 10:4 => {DCA LUF}
+  (y=149.0) 5:3 => {LUF}
+  (x=937.5) 4:2 => {LUF}
+  (y=199.5) 2:0 => {LUF}
+  [OPF: (993.0,249.0)] => {LUF}
+  [ATL: (948.0,149.0)] => {LUF}
+  (y=192.0) 2:0 => {LUF}
+  [GVW: (883.0,192.0)] => {LUF}
+  [MYR: (937.0,189.0)] => {LUF}
+  [PNE: (965.0,136.0)] => {LUF}
+  (y=145.0) 5:1 => {DCA LUF}
+  (x=812.5) 4:0 => {DCA LUF}
+  (y=197.5) 3:0 => {DCA LUF}
+  [MCC: (868.0,216.0)] => {DCA LUF}
+  (x=868.0) 2:0 => {DCA LUF}
+  (y=159.0) 2:0 => {LUF}
+  [DLH: (868.0,159.0)] => {LUF}
+  [CBM: (874.0,145.0)] => {LUF}
+  [null] => {DCA LUF}
+  [LNK: (805.0,237.0)] => {DCA LUF}
+  [PHL: (771.0,105.0)] => {DCA LUF}
+  (y=250.0) 29:8 => {BHM BOI DCA LUF SAN}
+  (x=625.0) 21:5 => {BHM BOI DCA LUF SAN}
+  (y=375.0) 6:2 => {BHM BOI DCA LUF}
+  (x=687.5) 2:0 => {BHM BOI DCA}
+  [DYS: (732.0,465.0)] => {BOI DCA}
+  [CYS: (645.0,479.0)] => {BHM DCA}
+  (x=687.5) 4:2 => {DCA}
+  [CLE: (689.0,330.0)] => {DCA}
+  (y=347.0) 3:1 => {DCA}
+  (x=669.0) 3:1 => {DCA}
+  (y=361.0) 2:0 => {DCA}
+  [NOW: (669.0,364.0)] => {DCA}
+  [DTW: (679.0,347.0)] => {DCA}
+  [NQX: (656.0,361.0)] => {DCA}
+  [null] => {DCA}
+  (y=375.0) 15:3 => {BHM DCA SAN}
+  (x=562.5) 10:0 => {BHM DCA SAN}
+  (y=437.5) 2:0 => {BHM DCA SAN}
+  [IAD: (579.0,499.0)] => {BHM DCA SAN}
+  [MAF: (607.0,409.0)] => {DCA SAN}
+  (y=437.5) 8:0 => {BHM DCA SAN}
+  (x=531.25) 5:0 => {BHM DCA SAN}
+  (y=454.0) 2:0 => {BHM DCA SAN}
+  [IAG: (546.0,454.0)] => {BHM DCA SAN}
+  [LSV: (535.0,442.0)] => {DCA SAN}
+  (y=468.75) 3:0 => {BHM SAN}
+  (x=522.0) 2:0 => {BHM SAN}
+  (y=484.375) 2:0 => {BHM SAN}
+  [DLF: (526.0,488.0)] => {BHM SAN}
+  [AEX: (522.0,476.0)] => {BHM SAN}
+  [null] => {BHM SAN}
+  [FOE: (518.0,448.0)] => {SAN}
+  (x=531.25) 3:0 => {DCA SAN}
+  [LIT: (550.0,408.0)] => {DCA SAN}
+  (y=406.25) 2:0 => {SAN}
+  [BUF: (531.0,435.0)] => {SAN}
+  [GSB: (519.0,375.0)] => {SAN}
+  (x=562.5) 5:3 => {DCA SAN}
+  (y=312.5) 3:1 => {DCA}
+  [ELP: (578.0,371.0)] => {DCA}
+  (x=593.75) 2:0 => {DCA}
+  [OFF: (604.0,294.0)] => {DCA}
+  [ORF: (565.0,296.0)] => {DCA}
+  (y=312.5) 2:0 => {DCA SAN}
+  [NCA: (505.0,352.0)] => {DCA SAN}
+  [MCO: (506.0,262.0)] => {DCA SAN}
+  (x=625.0) 8:3 => {DCA LUF SAN}
+  (y=142.0) 5:1 => {DCA LUF}
+  (x=687.5) 5:1 => {DCA}
+  (y=196.0) 2:0 => {DCA}
+  [LGB: (718.0,233.0)] => {DCA}
+  [MHR: (701.0,155.0)] => {DCA}
+  (y=183.0) 3:1 => {DCA}
+  (y=189.0) 2:0 => {DCA}
+  [ORD: (682.0,189.0)] => {DCA}
+  [IAH: (677.0,183.0)] => {DCA}
+  [ISP: (641.0,142.0)] => {DCA}
+  [null] => {DCA LUF}
+  (y=187.0) 3:1 => {DCA SAN}
+  (x=563.0) 3:1 => {DCA}
+  (y=218.5) 2:0 => {DCA}
+  [HPN: (607.0,229.0)] => {DCA}
+  [MSP: (563.0,187.0)] => {DCA}
+  [NSE: (548.0,235.0)] => {DCA}
+  [null] => {DCA SAN}
+  (y=500.0) 67:17 => {BHM BOI BUR DCA LBB LUF SAN SAV SKF TPA}
+  (x=250.0) 34:9 => {BHM BOI BUR DCA LBB SAN SAV SKF TPA}
+  (y=750.0) 24:7 => {BHM BUR DCA LBB SAN SAV}
+  (x=375.0) 11:2 => {BHM BUR LBB SAN SAV}
+  (y=875.0) 6:1 => {BHM BUR LBB SAV}
+  (x=416.0) 2:0 => {BHM BUR SAV}
+  [PNM: (416.0,943.0)] => {BHM SAV}
+  [GLS: (383.0,905.0)] => {BHM BUR SAV}
+  (x=437.5) 4:0 => {BHM SAV}
+  (y=812.5) 3:0 => {BHM SAV}
+  [CRP: (488.0,835.0)] => {BHM SAV}
+  (x=468.75) 2:0 => {BHM}
+  [MNM: (476.0,769.0)] => {BHM}
+  [FMY: (444.0,784.0)] => {BHM}
+  [MEM: (436.0,846.0)] => {BHM}
+  (y=875.0) 5:1 => {BHM BUR LBB SAV}
+  (x=294.0) 2:0 => {BHM BUR}
+  [ALB: (294.0,985.0)] => {BHM BUR}
+  [PAM: (260.0,959.0)] => {BUR}
+  (x=312.5) 3:0 => {BHM BUR LBB}
+  [GRB: (321.0,811.0)] => {BHM BUR LBB}
+  (y=812.5) 2:0 => {BHM BUR LBB}
+  [MKO: (301.0,828.0)] => {BHM BUR LBB}
+  [MCI: (294.0,804.0)] => {BHM BUR LBB}
+  (x=375.0) 13:5 => {BHM BUR LBB SAN}
+  (y=625.0) 10:4 => {BHM SAN}
+  (x=437.5) 6:3 => {BHM}
+  (y=687.5) 3:1 => {BHM}
+  [NIP: (446.0,741.0)] => {BHM}
+  (x=461.0) 2:0 => {BHM}
+  [PHX: (461.0,650.0)] => {BHM}
+  [EWR: (459.0,671.0)] => {BHM}
+  (y=705.0) 3:1 => {BHM}
+  (x=410.0) 2:0 => {BHM}
+  (y=715.0) 2:0 => {BHM}
+  [MPV: (410.0,715.0)] => {BHM}
+  [FTW: (414.0,705.0)] => {BHM}
+  [null] => {BHM}
+  [PIT: (433.0,695.0)] => {BHM}
+  (x=437.0) 4:1 => {BHM SAN}
+  (y=607.0) 2:0 => {BHM SAN}
+  (x=468.5) 2:0 => {BHM}
+  [MQT: (486.0,607.0)] => {BHM}
+  [DSM: (437.0,608.0)] => {BHM}
+  [null] => {BHM SAN}
+  (y=562.5) 2:0 => {BHM SAN}
+  [BFI: (390.0,609.0)] => {BHM}
+  [LOU: (397.0,543.0)] => {BHM SAN}
+  (y=652.0) 3:1 => {BHM BUR LBB SAN}
+  (x=329.0) 2:0 => {BHM LBB}
+  (y=701.0) 2:0 => {BHM}
+  [AMA: (371.0,711.0)] => {BHM}
+  [GWO: (329.0,652.0)] => {BHM}
+  [null] => {BHM LBB}
+  [MXF: (277.0,602.0)] => {BHM LBB SAN}
+  (y=750.0) 10:2 => {BHM BUR LBB SAN SAV TPA}
+  (x=125.0) 6:1 => {BHM BUR LBB}
+  (y=875.0) 5:1 => {BHM BUR LBB}
+  (x=187.5) 3:1 => {BUR}
+  [ART: (210.0,892.0)] => {BUR}
+  (y=937.5) 2:0 => {BUR}
+  [POB: (143.0,958.0)] => {BUR}
+  [BGR: (167.0,924.0)] => {BUR}
+  (x=187.5) 2:0 => {BHM BUR LBB}
+  [MIA: (228.0,834.0)] => {BHM BUR LBB}
+  [LNA: (158.0,767.0)] => {BUR LBB}
+  [ILM: (105.0,767.0)] => {BUR LBB}
+  (x=152.0) 4:1 => {LBB SAN}
+  (y=625.0) 4:1 => {LBB SAN}
+  [HRO: (208.0,635.0)] => {LBB}
+  (y=562.5) 3:1 => {LBB SAN}
+  (x=201.0) 2:0 => {LBB}
+  [OAK: (229.0,617.0)] => {LBB}
+  [CLL: (152.0,571.0)] => {LBB}
+  [DPA: (182.0,537.0)] => {LBB SAN}
+  [null] => {LBB}
+  (x=250.0) 33:8 => {BHM BOI BUR DCA LBB LUF SAN SAV TPA}
+  (y=250.0) 21:6 => {BHM DCA LBB SAN TPA}
+  (x=375.0) 12:1 => {BHM DCA LBB SAN}
+  (y=375.0) 8:1 => {BHM DCA SAN}
+  (x=437.5) 3:0 => {BHM SAN}
+  [AUS: (458.0,489.0)] => {BHM SAN}
+  (y=437.5) 2:0 => {SAN}
+  [DMA: (437.0,486.0)] => {SAN}
+  [BTR: (412.0,395.0)] => {SAN}
+  (x=437.5) 5:1 => {DCA SAN}
+  (y=312.5) 2:0 => {DCA SAN}
+  [PIE: (499.0,322.0)] => {SAN}
+  [AKR: (447.0,265.0)] => {DCA SAN}
+  (y=312.5) 3:0 => {SAN}
+  [INT: (430.0,345.0)] => {SAN}
+  (x=406.25) 2:0 => {SAN}
+  [CHA: (422.0,265.0)] => {SAN}
+  [JBR: (396.0,307.0)] => {SAN}
+  (y=368.0) 4:0 => {SAN}
+  [EFD: (257.0,368.0)] => {SAN}
+  (x=308.0) 3:0 => {SAN}
+  [HMN: (308.0,262.0)] => {SAN}
+  (y=309.0) 2:0 => {SAN}
+  [BCT: (280.0,341.0)] => {SAN}
+  [MOD: (262.0,277.0)] => {SAN}
+  (x=375.0) 9:5 => {DCA LBB SAN TPA}
+  (y=187.0) 5:3 => {DCA SAN TPA}
+  (x=437.5) 4:2 => {DCA SAN}
+  (y=213.0) 2:0 => {DCA SAN}
+  [MSS: (477.0,213.0)] => {DCA SAN}
+  [DFW: (443.0,187.0)] => {DCA SAN}
+  (y=220.0) 2:0 => {SAN}
+  (x=406.25) 2:0 => {SAN}
+  [PHF: (411.0,220.0)] => {SAN}
+  [JFK: (405.0,229.0)] => {SAN}
+  [null] => {SAN}
+  [NEL: (396.0,169.0)] => {DCA SAN TPA}
+  (y=125.0) 4:2 => {DCA SAN TPA}
+  (x=308.0) 3:1 => {SAN TPA}
+  (y=224.0) 2:0 => {SAN TPA}
+  (x=317.0) 2:0 => {SAN}
+  [ONT: (317.0,249.0)] => {SAN}
+  [NBG: (308.0,224.0)] => {SAN}
+  [null] => {SAN TPA}
+  [HWO: (291.0,171.0)] => {SAN TPA}
+  [LRD: (355.0,120.0)] => {SAN TPA}
+  (y=250.0) 12:2 => {BHM DCA LBB SAN TPA}
+  (x=125.0) 8:1 => {BHM LBB SAN TPA}
+  (y=375.0) 6:1 => {LBB SAN TPA}
+  (x=187.5) 3:1 => {LBB SAN}
+  [GTF: (230.0,393.0)] => {LBB SAN}
+  (y=422.0) 2:0 => {LBB SAN}
+  [NZY: (147.0,422.0)] => {LBB SAN}
+  [MKE: (125.0,412.0)] => {LBB SAN}
+  (x=203.0) 3:0 => {LBB SAN TPA}
+  (y=310.0) 3:0 => {SAN TPA}
+  [JAX: (230.0,310.0)] => {SAN}
+  (y=280.0) 2:0 => {SAN TPA}
+  [GVT: (216.0,307.0)] => {SAN}
+  [BWI: (203.0,270.0)] => {SAN TPA}
+  [null] => {LBB SAN TPA}
+  (y=340.0) 2:0 => {LBB SAN TPA}
+  [DAY: (108.0,340.0)] => {LBB SAN TPA}
+  [EYW: (106.0,285.0)] => {SAN TPA}
+  (x=165.0) 4:1 => {SAN TPA}
+  (y=125.0) 3:0 => {SAN TPA}
+  [BFM: (165.0,197.0)] => {SAN TPA}
+  (y=106.0) 2:0 => {TPA}
+  (x=207.5) 2:0 => {TPA}
+  [CIC: (231.0,106.0)] => {TPA}
+  [LCK: (169.0,120.0)] => {TPA}
+  [null] => {TPA}
+  [NHK: (105.0,136.0)] => {TPA}
+ca-list-kd [tree structure]:
+  | | | | | | | [FAT: (890.0,926.0)] => {SKF}
+  | | | | | | (x=890.0) 2:0 => {SKF}
+  | | | | | | | [IKK: (888.0,931.0)] => {SKF}
+  | | | | | (y=926.0) 2:0 => {BOI SAV SKF}
+  | | | | | | [null] => {BOI SKF}
+  | | | | (x=875.0) 8:2 => {BOI SAV SKF}
+  | | | | | | | [CPR: (850.0,927.0)] => {SAV SKF}
+  | | | | | | (x=812.5) 2:0 => {SAV SKF}
+  | | | | | | | [PBI: (782.0,975.0)] => {SAV SKF}
+  | | | | | (y=875.0) 6:2 => {BOI SAV SKF}
+  | | | | | | | [HFD: (852.0,846.0)] => {BOI SAV SKF}
+  | | | | | | (x=812.5) 4:1 => {BOI SAV SKF}
+  | | | | | | | | [BRO: (803.0,851.0)] => {SAV SKF}
+  | | | | | | | (y=812.5) 3:1 => {BOI SAV SKF}
+  | | | | | | | | | | [LUK: (794.0,774.0)] => {SAV SKF}
+  | | | | | | | | | (y=774.0) 2:0 => {SAV SKF}
+  | | | | | | | | | | [NGU: (802.0,771.0)] => {SAV SKF}
+  | | | | | | | | (x=794.0) 2:0 => {BOI SAV SKF}
+  | | | | | | | | | [null] => {BOI SAV SKF}
+  | | | (y=750.0) 18:3 => {BHM BOI DCA LUF SAN SAV SKF}
+  | | | | | | | | [IAB: (978.0,731.0)] => {BOI}
+  | | | | | | | (y=687.5) 2:0 => {BOI}
+  | | | | | | | | [LGA: (940.0,649.0)] => {BOI}
+  | | | | | | (x=937.5) 3:0 => {BOI SKF}
+  | | | | | | | [FLL: (928.0,656.0)] => {BOI SKF}
+  | | | | | (y=625.0) 8:1 => {BOI SKF}
+  | | | | | | | [GEG: (998.0,610.0)] => {BOI}
+  | | | | | | (x=937.5) 5:1 => {BOI}
+  | | | | | | | | [GRR: (932.0,559.0)] => {BOI}
+  | | | | | | | (y=559.0) 4:1 => {BOI}
+  | | | | | | | | | [MDT: (926.0,547.0)] => {BOI}
+  | | | | | | | | (x=906.25) 3:1 => {BOI}
+  | | | | | | | | | | [CVG: (877.0,555.0)] => {BOI}
+  | | | | | | | | | (y=529.5) 2:0 => {BOI}
+  | | | | | | | | | | [NPA: (891.0,507.0)] => {BOI}
+  | | | | (x=875.0) 10:1 => {BHM BOI DCA SAV SKF}
+  | | | | | | [DUG: (833.0,685.0)] => {BHM BOI SAV SKF}
+  | | | | | (y=625.0) 2:0 => {BHM BOI DCA SAV SKF}
+  | | | | | | [DEN: (868.0,571.0)] => {BOI}
+  | | (x=750.0) 39:5 => {BHM BOI BUR DCA LBB LUF SAN SAV SKF TPA}
+  | | | | | | | [JAN: (701.0,876.0)] => {SAV}
+  | | | | | | (x=687.5) 2:0 => {SAV}
+  | | | | | | | [CNW: (667.0,935.0)] => {SAV}
+  | | | | | (y=875.0) 4:0 => {BHM SAV SKF}
+  | | | | | | | [FYV: (722.0,756.0)] => {BHM SAV SKF}
+  | | | | | | (x=687.5) 2:0 => {BHM SAV SKF}
+  | | | | | | | [MDW: (650.0,787.0)] => {BHM SAV}
+  | | | | (x=625.0) 9:1 => {BHM SAV SKF}
+  | | | | | | [ABQ: (503.0,947.0)] => {SAV}
+  | | | | | (y=875.0) 5:1 => {BHM SAV}
+  | | | | | | | | [CNM: (536.0,856.0)] => {BHM SAV}
+  | | | | | | | (y=812.5) 2:0 => {BHM SAV}
+  | | | | | | | | [ORL: (610.0,774.0)] => {BHM SAV}
+  | | | | | | (x=536.0) 4:1 => {BHM SAV}
+  | | | | | | | | [CLT: (514.0,771.0)] => {BHM SAV}
+  | | | | | | | (y=771.0) 2:0 => {BHM SAV}
+  | | | | | | | | [ACK: (529.0,766.0)] => {BHM}
+  | | | (y=750.0) 21:2 => {BHM BOI BUR DCA LBB SAN SAV SKF}
+  | | | | | | | | | [EDW: (733.0,741.0)] => {BHM SAV}
+  | | | | | | | | (y=720.5) 2:0 => {BHM BOI SAV SKF}
+  | | | | | | | | | [ACY: (735.0,691.0)] => {BHM BOI SAV}
+  | | | | | | | (y=691.0) 2:0 => {BHM BOI SAV SKF}
+  | | | | | | | | [null] => {BHM BOI}
+  | | | | | | (x=733.0) 2:0 => {BHM BOI SAV SKF}
+  | | | | | | | [null] => {BHM BOI SAV}
+  | | | | | (y=625.0) 4:0 => {BHM BOI DCA SAN SAV SKF}
+  | | | | | | | [DET: (634.0,568.0)] => {BHM BOI DCA SAN}
+  | | | | | | (x=634.0) 2:0 => {BHM BOI DCA SAN}
+  | | | | | | | [IND: (630.0,617.0)] => {BHM}
+  | | | | (x=625.0) 12:1 => {BHM BOI DCA SAN SAV SKF}
+  | | | | | | | | | | [CMH: (601.0,749.0)] => {BHM}
+  | | | | | | | | | (y=736.5) 2:0 => {BHM}
+  | | | | | | | | | | [COS: (613.0,723.0)] => {BHM}
+  | | | | | | | | (y=723.0) 2:0 => {BHM}
+  | | | | | | | | | [null] => {BHM}
+  | | | | | | | (y=687.5) 4:0 => {BHM}
+  | | | | | | | | | [LRF: (624.0,674.0)] => {BHM}
+  | | | | | | | | (y=656.25) 2:0 => {BHM}
+  | | | | | | | | | [DAL: (619.0,646.0)] => {BHM}
+  | | | | | | (x=601.0) 4:0 => {BHM}
+  | | | | | | | [null] => {BHM}
+  | | | | | (y=625.0) 8:1 => {BHM SAN}
+  | | | | | | | [HOU: (614.0,584.0)] => {BHM}
+  | | | | | | (x=562.5) 4:1 => {BHM SAN}
+  | | | | | | | | | | [FFO: (558.0,607.0)] => {BHM}
+  | | | | | | | | | (y=606.5) 2:0 => {BHM}
+  | | | | | | | | | | [BOS: (533.0,588.0)] => {BHM}
+  | | | | | | | | (x=533.0) 2:0 => {BHM}
+  | | | | | | | | | [null] => {BHM}
+  | | | | | | | (y=588.0) 3:1 => {BHM SAN}
+  | | | | | | | | [MSY: (512.0,504.0)] => {BHM SAN}
+  | (y=500.0) 93:21 => {BHM BOI BUR DCA LBB LUF SAN SAV SKF TPA}
+  | | | | | | [LAX: (917.0,462.0)] => {BOI}
+  | | | | | (y=375.0) 7:1 => {BOI DCA LUF}
+  | | | | | | | | [HUF: (982.0,367.0)] => {BOI LUF}
+  | | | | | | | (y=312.5) 3:1 => {BOI LUF}
+  | | | | | | | | | [CHS: (992.0,271.0)] => {LUF}
+  | | | | | | | | (x=968.75) 2:0 => {LUF}
+  | | | | | | | | | [OKC: (951.0,312.0)] => {LUF}
+  | | | | | | (x=937.5) 6:1 => {BOI DCA LUF}
+  | | | | | | | | [LAS: (896.0,363.0)] => {BOI DCA LUF}
+  | | | | | | | (y=312.5) 3:0 => {BOI DCA LUF}
+  | | | | | | | | | | | [MOT: (921.0,311.0)] => {LUF}
+  | | | | | | | | | | (x=921.0) 2:0 => {LUF}
+  | | | | | | | | | | | [BNA: (913.0,299.0)] => {LUF}
+  | | | | | | | | | (y=299.0) 2:0 => {LUF}
+  | | | | | | | | | | [null] => {LUF}
+  | | | | | | | | (x=913.0) 2:0 => {DCA LUF}
+  | | | | | | | | | [null] => {DCA LUF}
+  | | | | (x=875.0) 15:4 => {BHM BOI DCA LUF}
+  | | | | | | | | [OMA: (851.0,478.0)] => {BOI}
+  | | | | | | | (y=437.5) 2:0 => {BOI DCA}
+  | | | | | | | | [AUG: (857.0,426.0)] => {BOI DCA}
+  | | | | | | (x=812.5) 5:2 => {BOI DCA LUF}
+  | | | | | | | | [MCF: (755.0,486.0)] => {BOI DCA}
+  | | | | | | | (y=437.5) 3:1 => {BOI DCA}
+  | | | | | | | | | [PDX: (790.0,394.0)] => {BOI DCA}
+  | | | | | | | | (x=781.25) 2:0 => {BOI DCA}
+  | | | | | | | | | [DRT: (776.0,410.0)] => {DCA}
+  | | | | | (y=375.0) 8:3 => {BOI DCA LUF}
+  | | | | | | | | [NZC: (813.0,311.0)] => {BOI DCA LUF}
+  | | | | | | | (y=311.0) 2:0 => {BOI DCA LUF}
+  | | | | | | | | [FXE: (842.0,251.0)] => {DCA LUF}
+  | | | | | | (x=812.5) 3:1 => {BOI DCA LUF}
+  | | | | | | | [BLI: (783.0,276.0)] => {DCA}
+  | | | (y=250.0) 25:8 => {BHM BOI DCA LUF SAN}
+  | | | | | | | | [OPF: (993.0,249.0)] => {LUF}
+  | | | | | | | (y=199.5) 2:0 => {LUF}
+  | | | | | | | | [ATL: (948.0,149.0)] => {LUF}
+  | | | | | | (x=937.5) 4:2 => {LUF}
+  | | | | | | | | [GVW: (883.0,192.0)] => {LUF}
+  | | | | | | | (y=192.0) 2:0 => {LUF}
+  | | | | | | | | [MYR: (937.0,189.0)] => {LUF}
+  | | | | | (y=149.0) 5:3 => {LUF}
+  | | | | | | [PNE: (965.0,136.0)] => {LUF}
+  | | | | (x=875.0) 10:4 => {DCA LUF}
+  | | | | | | | | [MCC: (868.0,216.0)] => {DCA LUF}
+  | | | | | | | (y=197.5) 3:0 => {DCA LUF}
+  | | | | | | | | | | [DLH: (868.0,159.0)] => {LUF}
+  | | | | | | | | | (y=159.0) 2:0 => {LUF}
+  | | | | | | | | | | [CBM: (874.0,145.0)] => {LUF}
+  | | | | | | | | (x=868.0) 2:0 => {DCA LUF}
+  | | | | | | | | | [null] => {DCA LUF}
+  | | | | | | (x=812.5) 4:0 => {DCA LUF}
+  | | | | | | | [LNK: (805.0,237.0)] => {DCA LUF}
+  | | | | | (y=145.0) 5:1 => {DCA LUF}
+  | | | | | | [PHL: (771.0,105.0)] => {DCA LUF}
+  | | (x=750.0) 54:16 => {BHM BOI DCA LBB LUF SAN TPA}
+  | | | | | | | [DYS: (732.0,465.0)] => {BOI DCA}
+  | | | | | | (x=687.5) 2:0 => {BHM BOI DCA}
+  | | | | | | | [CYS: (645.0,479.0)] => {BHM DCA}
+  | | | | | (y=375.0) 6:2 => {BHM BOI DCA LUF}
+  | | | | | | | [CLE: (689.0,330.0)] => {DCA}
+  | | | | | | (x=687.5) 4:2 => {DCA}
+  | | | | | | | | | | [NOW: (669.0,364.0)] => {DCA}
+  | | | | | | | | | (y=361.0) 2:0 => {DCA}
+  | | | | | | | | | | [DTW: (679.0,347.0)] => {DCA}
+  | | | | | | | | (x=669.0) 3:1 => {DCA}
+  | | | | | | | | | [NQX: (656.0,361.0)] => {DCA}
+  | | | | | | | (y=347.0) 3:1 => {DCA}
+  | | | | | | | | [null] => {DCA}
+  | | | | (x=625.0) 21:5 => {BHM BOI DCA LUF SAN}
+  | | | | | | | | [IAD: (579.0,499.0)] => {BHM DCA SAN}
+  | | | | | | | (y=437.5) 2:0 => {BHM DCA SAN}
+  | | | | | | | | [MAF: (607.0,409.0)] => {DCA SAN}
+  | | | | | | (x=562.5) 10:0 => {BHM DCA SAN}
+  | | | | | | | | | | [IAG: (546.0,454.0)] => {BHM DCA SAN}
+  | | | | | | | | | (y=454.0) 2:0 => {BHM DCA SAN}
+  | | | | | | | | | | [LSV: (535.0,442.0)] => {DCA SAN}
+  | | | | | | | | (x=531.25) 5:0 => {BHM DCA SAN}
+  | | | | | | | | | | | | [DLF: (526.0,488.0)] => {BHM SAN}
+  | | | | | | | | | | | (y=484.375) 2:0 => {BHM SAN}
+  | | | | | | | | | | | | [AEX: (522.0,476.0)] => {BHM SAN}
+  | | | | | | | | | | (x=522.0) 2:0 => {BHM SAN}
+  | | | | | | | | | | | [null] => {BHM SAN}
+  | | | | | | | | | (y=468.75) 3:0 => {BHM SAN}
+  | | | | | | | | | | [FOE: (518.0,448.0)] => {SAN}
+  | | | | | | | (y=437.5) 8:0 => {BHM DCA SAN}
+  | | | | | | | | | [LIT: (550.0,408.0)] => {DCA SAN}
+  | | | | | | | | (x=531.25) 3:0 => {DCA SAN}
+  | | | | | | | | | | [BUF: (531.0,435.0)] => {SAN}
+  | | | | | | | | | (y=406.25) 2:0 => {SAN}
+  | | | | | | | | | | [GSB: (519.0,375.0)] => {SAN}
+  | | | | | (y=375.0) 15:3 => {BHM DCA SAN}
+  | | | | | | | | [ELP: (578.0,371.0)] => {DCA}
+  | | | | | | | (y=312.5) 3:1 => {DCA}
+  | | | | | | | | | [OFF: (604.0,294.0)] => {DCA}
+  | | | | | | | | (x=593.75) 2:0 => {DCA}
+  | | | | | | | | | [ORF: (565.0,296.0)] => {DCA}
+  | | | | | | (x=562.5) 5:3 => {DCA SAN}
+  | | | | | | | | [NCA: (505.0,352.0)] => {DCA SAN}
+  | | | | | | | (y=312.5) 2:0 => {DCA SAN}
+  | | | | | | | | [MCO: (506.0,262.0)] => {DCA SAN}
+  | | | (y=250.0) 29:8 => {BHM BOI DCA LUF SAN}
+  | | | | | | | | [LGB: (718.0,233.0)] => {DCA}
+  | | | | | | | (y=196.0) 2:0 => {DCA}
+  | | | | | | | | [MHR: (701.0,155.0)] => {DCA}
+  | | | | | | (x=687.5) 5:1 => {DCA}
+  | | | | | | | | | [ORD: (682.0,189.0)] => {DCA}
+  | | | | | | | | (y=189.0) 2:0 => {DCA}
+  | | | | | | | | | [IAH: (677.0,183.0)] => {DCA}
+  | | | | | | | (y=183.0) 3:1 => {DCA}
+  | | | | | | | | [ISP: (641.0,142.0)] => {DCA}
+  | | | | | (y=142.0) 5:1 => {DCA LUF}
+  | | | | | | [null] => {DCA LUF}
+  | | | | (x=625.0) 8:3 => {DCA LUF SAN}
+  | | | | | | | | [HPN: (607.0,229.0)] => {DCA}
+  | | | | | | | (y=218.5) 2:0 => {DCA}
+  | | | | | | | | [MSP: (563.0,187.0)] => {DCA}
+  | | | | | | (x=563.0) 3:1 => {DCA}
+  | | | | | | | [NSE: (548.0,235.0)] => {DCA}
+  | | | | | (y=187.0) 3:1 => {DCA SAN}
+  | | | | | | [null] => {DCA SAN}
+  (x=500.0) 160:38 => {BHM BOI BUR DCA LBB LUF SAN SAV SKF TPA}
+  | | | | | | | [PNM: (416.0,943.0)] => {BHM SAV}
+  | | | | | | (x=416.0) 2:0 => {BHM BUR SAV}
+  | | | | | | | [GLS: (383.0,905.0)] => {BHM BUR SAV}
+  | | | | | (y=875.0) 6:1 => {BHM BUR LBB SAV}
+  | | | | | | | | [CRP: (488.0,835.0)] => {BHM SAV}
+  | | | | | | | (y=812.5) 3:0 => {BHM SAV}
+  | | | | | | | | | [MNM: (476.0,769.0)] => {BHM}
+  | | | | | | | | (x=468.75) 2:0 => {BHM}
+  | | | | | | | | | [FMY: (444.0,784.0)] => {BHM}
+  | | | | | | (x=437.5) 4:0 => {BHM SAV}
+  | | | | | | | [MEM: (436.0,846.0)] => {BHM}
+  | | | | (x=375.0) 11:2 => {BHM BUR LBB SAN SAV}
+  | | | | | | | [ALB: (294.0,985.0)] => {BHM BUR}
+  | | | | | | (x=294.0) 2:0 => {BHM BUR}
+  | | | | | | | [PAM: (260.0,959.0)] => {BUR}
+  | | | | | (y=875.0) 5:1 => {BHM BUR LBB SAV}
+  | | | | | | | [GRB: (321.0,811.0)] => {BHM BUR LBB}
+  | | | | | | (x=312.5) 3:0 => {BHM BUR LBB}
+  | | | | | | | | [MKO: (301.0,828.0)] => {BHM BUR LBB}
+  | | | | | | | (y=812.5) 2:0 => {BHM BUR LBB}
+  | | | | | | | | [MCI: (294.0,804.0)] => {BHM BUR LBB}
+  | | | (y=750.0) 24:7 => {BHM BUR DCA LBB SAN SAV}
+  | | | | | | | | [NIP: (446.0,741.0)] => {BHM}
+  | | | | | | | (y=687.5) 3:1 => {BHM}
+  | | | | | | | | | [PHX: (461.0,650.0)] => {BHM}
+  | | | | | | | | (x=461.0) 2:0 => {BHM}
+  | | | | | | | | | [EWR: (459.0,671.0)] => {BHM}
+  | | | | | | (x=437.5) 6:3 => {BHM}
+  | | | | | | | | | | [MPV: (410.0,715.0)] => {BHM}
+  | | | | | | | | | (y=715.0) 2:0 => {BHM}
+  | | | | | | | | | | [FTW: (414.0,705.0)] => {BHM}
+  | | | | | | | | (x=410.0) 2:0 => {BHM}
+  | | | | | | | | | [null] => {BHM}
+  | | | | | | | (y=705.0) 3:1 => {BHM}
+  | | | | | | | | [PIT: (433.0,695.0)] => {BHM}
+  | | | | | (y=625.0) 10:4 => {BHM SAN}
+  | | | | | | | | | [MQT: (486.0,607.0)] => {BHM}
+  | | | | | | | | (x=468.5) 2:0 => {BHM}
+  | | | | | | | | | [DSM: (437.0,608.0)] => {BHM}
+  | | | | | | | (y=607.0) 2:0 => {BHM SAN}
+  | | | | | | | | [null] => {BHM SAN}
+  | | | | | | (x=437.0) 4:1 => {BHM SAN}
+  | | | | | | | | [BFI: (390.0,609.0)] => {BHM}
+  | | | | | | | (y=562.5) 2:0 => {BHM SAN}
+  | | | | | | | | [LOU: (397.0,543.0)] => {BHM SAN}
+  | | | | (x=375.0) 13:5 => {BHM BUR LBB SAN}
+  | | | | | | | | [AMA: (371.0,711.0)] => {BHM}
+  | | | | | | | (y=701.0) 2:0 => {BHM}
+  | | | | | | | | [GWO: (329.0,652.0)] => {BHM}
+  | | | | | | (x=329.0) 2:0 => {BHM LBB}
+  | | | | | | | [null] => {BHM LBB}
+  | | | | | (y=652.0) 3:1 => {BHM BUR LBB SAN}
+  | | | | | | [MXF: (277.0,602.0)] => {BHM LBB SAN}
+  | | (x=250.0) 34:9 => {BHM BOI BUR DCA LBB SAN SAV SKF TPA}
+  | | | | | | | [ART: (210.0,892.0)] => {BUR}
+  | | | | | | (x=187.5) 3:1 => {BUR}
+  | | | | | | | | [POB: (143.0,958.0)] => {BUR}
+  | | | | | | | (y=937.5) 2:0 => {BUR}
+  | | | | | | | | [BGR: (167.0,924.0)] => {BUR}
+  | | | | | (y=875.0) 5:1 => {BHM BUR LBB}
+  | | | | | | | [MIA: (228.0,834.0)] => {BHM BUR LBB}
+  | | | | | | (x=187.5) 2:0 => {BHM BUR LBB}
+  | | | | | | | [LNA: (158.0,767.0)] => {BUR LBB}
+  | | | | (x=125.0) 6:1 => {BHM BUR LBB}
+  | | | | | [ILM: (105.0,767.0)] => {BUR LBB}
+  | | | (y=750.0) 10:2 => {BHM BUR LBB SAN SAV TPA}
+  | | | | | | [HRO: (208.0,635.0)] => {LBB}
+  | | | | | (y=625.0) 4:1 => {LBB SAN}
+  | | | | | | | | [OAK: (229.0,617.0)] => {LBB}
+  | | | | | | | (x=201.0) 2:0 => {LBB}
+  | | | | | | | | [CLL: (152.0,571.0)] => {LBB}
+  | | | | | | (y=562.5) 3:1 => {LBB SAN}
+  | | | | | | | [DPA: (182.0,537.0)] => {LBB SAN}
+  | | | | (x=152.0) 4:1 => {LBB SAN}
+  | | | | | [null] => {LBB}
+  | (y=500.0) 67:17 => {BHM BOI BUR DCA LBB LUF SAN SAV SKF TPA}
+  | | | | | | | [AUS: (458.0,489.0)] => {BHM SAN}
+  | | | | | | (x=437.5) 3:0 => {BHM SAN}
+  | | | | | | | | [DMA: (437.0,486.0)] => {SAN}
+  | | | | | | | (y=437.5) 2:0 => {SAN}
+  | | | | | | | | [BTR: (412.0,395.0)] => {SAN}
+  | | | | | (y=375.0) 8:1 => {BHM DCA SAN}
+  | | | | | | | | [PIE: (499.0,322.0)] => {SAN}
+  | | | | | | | (y=312.5) 2:0 => {DCA SAN}
+  | | | | | | | | [AKR: (447.0,265.0)] => {DCA SAN}
+  | | | | | | (x=437.5) 5:1 => {DCA SAN}
+  | | | | | | | | [INT: (430.0,345.0)] => {SAN}
+  | | | | | | | (y=312.5) 3:0 => {SAN}
+  | | | | | | | | | [CHA: (422.0,265.0)] => {SAN}
+  | | | | | | | | (x=406.25) 2:0 => {SAN}
+  | | | | | | | | | [JBR: (396.0,307.0)] => {SAN}
+  | | | | (x=375.0) 12:1 => {BHM DCA LBB SAN}
+  | | | | | | [EFD: (257.0,368.0)] => {SAN}
+  | | | | | (y=368.0) 4:0 => {SAN}
+  | | | | | | | [HMN: (308.0,262.0)] => {SAN}
+  | | | | | | (x=308.0) 3:0 => {SAN}
+  | | | | | | | | [BCT: (280.0,341.0)] => {SAN}
+  | | | | | | | (y=309.0) 2:0 => {SAN}
+  | | | | | | | | [MOD: (262.0,277.0)] => {SAN}
+  | | | (y=250.0) 21:6 => {BHM DCA LBB SAN TPA}
+  | | | | | | | | [MSS: (477.0,213.0)] => {DCA SAN}
+  | | | | | | | (y=213.0) 2:0 => {DCA SAN}
+  | | | | | | | | [DFW: (443.0,187.0)] => {DCA SAN}
+  | | | | | | (x=437.5) 4:2 => {DCA SAN}
+  | | | | | | | | | [PHF: (411.0,220.0)] => {SAN}
+  | | | | | | | | (x=406.25) 2:0 => {SAN}
+  | | | | | | | | | [JFK: (405.0,229.0)] => {SAN}
+  | | | | | | | (y=220.0) 2:0 => {SAN}
+  | | | | | | | | [null] => {SAN}
+  | | | | | (y=187.0) 5:3 => {DCA SAN TPA}
+  | | | | | | [NEL: (396.0,169.0)] => {DCA SAN TPA}
+  | | | | (x=375.0) 9:5 => {DCA LBB SAN TPA}
+  | | | | | | | | | [ONT: (317.0,249.0)] => {SAN}
+  | | | | | | | | (x=317.0) 2:0 => {SAN}
+  | | | | | | | | | [NBG: (308.0,224.0)] => {SAN}
+  | | | | | | | (y=224.0) 2:0 => {SAN TPA}
+  | | | | | | | | [null] => {SAN TPA}
+  | | | | | | (x=308.0) 3:1 => {SAN TPA}
+  | | | | | | | [HWO: (291.0,171.0)] => {SAN TPA}
+  | | | | | (y=125.0) 4:2 => {DCA SAN TPA}
+  | | | | | | [LRD: (355.0,120.0)] => {SAN TPA}
+  | | (x=250.0) 33:8 => {BHM BOI BUR DCA LBB LUF SAN SAV TPA}
+  | | | | | | | [GTF: (230.0,393.0)] => {LBB SAN}
+  | | | | | | (x=187.5) 3:1 => {LBB SAN}
+  | | | | | | | | [NZY: (147.0,422.0)] => {LBB SAN}
+  | | | | | | | (y=422.0) 2:0 => {LBB SAN}
+  | | | | | | | | [MKE: (125.0,412.0)] => {LBB SAN}
+  | | | | | (y=375.0) 6:1 => {LBB SAN TPA}
+  | | | | | | | | [JAX: (230.0,310.0)] => {SAN}
+  | | | | | | | (y=310.0) 3:0 => {SAN TPA}
+  | | | | | | | | | [GVT: (216.0,307.0)] => {SAN}
+  | | | | | | | | (y=280.0) 2:0 => {SAN TPA}
+  | | | | | | | | | [BWI: (203.0,270.0)] => {SAN TPA}
+  | | | | | | (x=203.0) 3:0 => {LBB SAN TPA}
+  | | | | | | | [null] => {LBB SAN TPA}
+  | | | | (x=125.0) 8:1 => {BHM LBB SAN TPA}
+  | | | | | | [DAY: (108.0,340.0)] => {LBB SAN TPA}
+  | | | | | (y=340.0) 2:0 => {LBB SAN TPA}
+  | | | | | | [EYW: (106.0,285.0)] => {SAN TPA}
+  | | | (y=250.0) 12:2 => {BHM DCA LBB SAN TPA}
+  | | | | | | [BFM: (165.0,197.0)] => {SAN TPA}
+  | | | | | (y=125.0) 3:0 => {SAN TPA}
+  | | | | | | | | [CIC: (231.0,106.0)] => {TPA}
+  | | | | | | | (x=207.5) 2:0 => {TPA}
+  | | | | | | | | [LCK: (169.0,120.0)] => {TPA}
+  | | | | | | (y=106.0) 2:0 => {TPA}
+  | | | | | | | [null] => {TPA}
+  | | | | (x=165.0) 4:1 => {SAN TPA}
+  | | | | | [NHK: (105.0,136.0)] => {TPA}
+ca-centers-size: 10
+ca-list-centers:
+  BHM: (471.0,677.0)
+  BOI: (985.0,557.0)
+  BUR: (124.0,996.0)
+  DCA: (674.0,246.0)
+  LBB: (113.0,611.0)
+  LUF: (982.0,132.0)
+  SAN: (349.0,381.0)
+  SAV: (662.0,989.0)
+  SKF: (949.0,954.0)
+  TPA: (96.0,101.0)
+ca-list-assignments:
+  [EWR->BHM] distSq = 180.0
+  [PNE->LUF] distSq = 305.0
+  [PHX->BHM] distSq = 829.0
+  [NHK->TPA] distSq = 1306.0
+  [ATL->LUF] distSq = 1445.0
+  [PIT->BHM] distSq = 1768.0
+  [POB->BUR] distSq = 1805.0
+  [LGB->DCA] distSq = 2105.0
+  [GRR->BOI] distSq = 2813.0
+  [CNW->SAV] distSq = 2941.0
+  [GEG->BOI] distSq = 2978.0
+  [CLL->LBB] distSq = 3121.0
+  [ORD->DCA] distSq = 3313.0
+  [MDT->BOI] distSq = 3581.0
+  [IAH->DCA] distSq = 3978.0
+  [FTW->BHM] distSq = 4033.0
+  [BTR->SAN] distSq = 4165.0
+  [IKK->SKF] distSq = 4250.0
+  [FAT->SKF] distSq = 4265.0
+  [NIP->BHM] distSq = 4721.0
+  [HPN->DCA] distSq = 4778.0
+  [MQT->BHM] distSq = 5125.0
+  [MPV->BHM] distSq = 5165.0
+  [MYR->LUF] distSq = 5274.0
+  [LCK->TPA] distSq = 5690.0
+  [DSM->BHM] distSq = 5917.0
+  [BCT->SAN] distSq = 6361.0
+  [BGR->BUR] distSq = 7033.0
+  [OFF->DCA] distSq = 7204.0
+  [CLE->DCA] distSq = 7281.0
+  [JBR->SAN] distSq = 7685.0
+  [INT->SAN] distSq = 7857.0
+  [MNM->BHM] distSq = 8489.0
+  [EFD->SAN] distSq = 8633.0
+  [MHR->DCA] distSq = 9010.0
+  [HRO->LBB] distSq = 9601.0
+  [DTW->DCA] distSq = 10226.0
+  [DPA->LBB] distSq = 10237.0
+  [LGA->BOI] distSq = 10489.0
+  [CPR->SKF] distSq = 10530.0
+  [CLT->BHM] distSq = 10685.0
+  [AMA->BHM] distSq = 11156.0
+  [BFI->BHM] distSq = 11185.0
+  [ACK->BHM] distSq = 11285.0
+  [NPA->BOI] distSq = 11336.0
+  [CVG->BOI] distSq = 11668.0
+  [BOS->BHM] distSq = 11765.0
+  [CBM->LUF] distSq = 11833.0
+  [ISP->DCA] distSq = 11905.0
+  [FMY->BHM] distSq = 12178.0
+  [FFO->BHM] distSq = 12469.0
+  [BLI->DCA] distSq = 12781.0
+  [FLL->BOI] distSq = 13050.0
+  [GVW->LUF] distSq = 13401.0
+  [OAK->LBB] distSq = 13492.0
+  [NQX->DCA] distSq = 13549.0
+  [LAX->BOI] distSq = 13649.0
+  [DLH->LUF] distSq = 13725.0
+  [OPF->LUF] distSq = 13810.0
+  [DEN->BOI] distSq = 13885.0
+  [NOW->DCA] distSq = 13949.0
+  [BFM->TPA] distSq = 13977.0
+  [JAN->SAV] distSq = 14290.0
+  [GTF->SAN] distSq = 14305.0
+  [ORF->DCA] distSq = 14381.0
+  [PBI->SAV] distSq = 14596.0
+  [MSP->DCA] distSq = 15802.0
+  [HMN->SAN] distSq = 15842.0
+  [NSE->DCA] distSq = 15997.0
+  [LNK->DCA] distSq = 17242.0
+  [ART->BUR] distSq = 18212.0
+  [CIC->TPA] distSq = 18250.0
+  [MOD->SAN] distSq = 18385.0
+  [ONT->SAN] distSq = 18448.0
+  [DMA->SAN] distSq = 18769.0
+  [CHA->SAN] distSq = 18785.0
+  [JAX->SAN] distSq = 19202.0
+  [CHS->LUF] distSq = 19421.0
+  [PAM->BUR] distSq = 19865.0
+  [MCC->LUF] distSq = 20052.0
+  [GWO->BHM] distSq = 20789.0
+  [HFD->SKF] distSq = 21073.0
+  [CMH->BHM] distSq = 22084.0
+  [COS->BHM] distSq = 22280.0
+  [DAL->BHM] distSq = 22865.0
+  [AKR->SAN] distSq = 23060.0
+  [GVT->SAN] distSq = 23165.0
+  [LRF->BHM] distSq = 23418.0
+  [LOU->BHM] distSq = 23432.0
+  [AUS->SAN] distSq = 23545.0
+  [NZC->DCA] distSq = 23546.0
+  [OMA->BOI] distSq = 24197.0
+  [ILM->LBB] distSq = 24400.0
+  [ELP->DCA] distSq = 24841.0
+  [NCA->SAN] distSq = 25177.0
+  [CRP->BHM] distSq = 25253.0
+  [PIE->SAN] distSq = 25981.0
+  [JFK->SAN] distSq = 26240.0
+  [NBG->SAN] distSq = 26330.0
+  [LNA->LBB] distSq = 26361.0
+  [MXF->LBB] distSq = 26977.0
+  [ABQ->SAV] distSq = 27045.0
+  [FXE->DCA] distSq = 28249.0
+  [MCO->DCA] distSq = 28480.0
+  [ORL->BHM] distSq = 28730.0
+  [IND->BHM] distSq = 28881.0
+  [GSB->SAN] distSq = 28936.0
+  [ALB->BUR] distSq = 29021.0
+  [HOU->BHM] distSq = 29098.0
+  [PHL->DCA] distSq = 29290.0
+  [PHF->SAN] distSq = 29765.0
+  [MEM->BHM] distSq = 29786.0
+  [IAB->BOI] distSq = 30325.0
+  [MAF->DCA] distSq = 31058.0
+  [MSY->BHM] distSq = 31610.0
+  [BRO->SKF] distSq = 31925.0
+  [BNA->LUF] distSq = 32650.0
+  [FOE->SAN] distSq = 33050.0
+  [OKC->LUF] distSq = 33361.0
+  [AUG->BOI] distSq = 33545.0
+  [CNM->SAV] distSq = 33565.0
+  [BWI->SAN] distSq = 33637.0
+  [EYW->TPA] distSq = 33956.0
+  [PDX->DCA] distSq = 35360.0
+  [MOT->LUF] distSq = 35762.0
+  [BUF->SAN] distSq = 36040.0
+  [HUF->BOI] distSq = 36109.0
+  [NZY->LBB] distSq = 36877.0
+  [MIA->BUR] distSq = 37060.0
+  [DRT->DCA] distSq = 37300.0
+  [LSV->SAN] distSq = 38317.0
+  [DET->BHM] distSq = 38450.0
+  [DLF->BHM] distSq = 38746.0
+  [AEX->SAN] distSq = 38954.0
+  [DUG->BOI] distSq = 39488.0
+  [MKE->LBB] distSq = 39745.0
+  [MSS->DCA] distSq = 39898.0
+  [GRB->BHM] distSq = 40456.0
+  [MDW->SAV] distSq = 40948.0
+  [LIT->SAN] distSq = 41130.0
+  [HWO->TPA] distSq = 42925.0
+  [IAD->BHM] distSq = 43348.0
+  [IAG->SAN] distSq = 44138.0
+  [LAS->BOI] distSq = 45557.0
+  [DFW->SAN] distSq = 46472.0
+  [NEL->SAN] distSq = 47153.0
+  [MCI->BHM] distSq = 47458.0
+  [DYS->DCA] distSq = 51325.0
+  [MKO->BHM] distSq = 51701.0
+  [NGU->SKF] distSq = 55098.0
+  [CYS->DCA] distSq = 55130.0
+  [LUK->SKF] distSq = 56425.0
+  [DAY->TPA] distSq = 57265.0
+  [FYV->SAV] distSq = 57889.0
+  [MCF->BOI] distSq = 57941.0
+  [GLS->BHM] distSq = 59728.0
+  [PNM->SAV] distSq = 62632.0
+  [EDW->SAV] distSq = 66545.0
+  [LRD->TPA] distSq = 67442.0
+  [ACY->BHM] distSq = 69892.0
+ca-add-site(PSX): successful {PALACIOS, (648.0,875.0)}
+ca-add-site(RDR): successful {RED RIVER, (163.0,591.0)}
+ca-add-site(RDU): successful {RALEIGH-DURHAM, (277.0,315.0)}
+ca-add-site(RIC): successful {RICHMOND, (490.0,561.0)}
+ca-add-site(RME): successful {ROME, (876.0,639.0)}
+ca-add-site(RND): successful {SAN ANTONIO, (933.0,243.0)}
+ca-add-site(RNO): successful {RENO, (285.0,358.0)}
+ca-add-site(ROC): successful {ROCHESTER, (495.0,779.0)}
+ca-add-site(ROW): successful {ROSWELL, (839.0,292.0)}
+ca-add-site(SAC): successful {SACRAMENTO, (693.0,379.0)}
+ca-add-site(SAF): successful {SANTA FE, (523.0,659.0)}
+ca-add-site(SAT): successful {SAN ANTONIO, (224.0,653.0)}
+ca-add-site(SEA): successful {SEATTLE, (201.0,134.0)}
+ca-add-site(SFF): successful {SPOKANE, (831.0,928.0)}
+ca-add-site(SFO): successful {SAN FRANCISCO, (864.0,653.0)}
+ca-add-site(SJC): successful {SAN JOSE, (718.0,905.0)}
+ca-add-site(SKA): successful {SPOKANE, (577.0,142.0)}
+ca-add-site(SLC): successful {SALT LAKE CITY, (877.0,739.0)}
+ca-add-site(SMF): successful {SACRAMENTO, (105.0,100.0)}
+ca-add-site(SPG): successful {ST. PETERSBURG, (104.0,103.0)}
+ca-add-site(SPS): successful {WICHITA FALLS, (103.0,104.0)}
+ca-add-site(STL): successful {ST. LOUIS, (100.0,105.0)}
+ca-add-site(SUX): successful {SIOUX CITY, (97.0,104.0)}
+ca-add-site(TIK): successful {OKLAHOMA CITY, (96.0,103.0)}
+ca-add-site(TUL): successful {TULSA, (96.0,97.0)}
+ca-add-site(TUS): successful {TUCSON, (97.0,96.0)}
+ca-add-site(TYS): successful {KNOXVILLE, (100.0,95.0)}
+ca-add-site(WRB): successful {MACON, (103.0,96.0)}
+ca-add-site(YIP): successful {DETROIT, (104.0,97.0)}
+ca-add-center(PSP): successful {PALM SPRINGS, (746.0,736.0)}
+ca-sites-size: 189
+ca-list-kd:
+  (x=500.0) 189:67 => {BHM BOI BUR DCA LBB LUF PSP SAN SAV SKF...}
+  (y=500.0) 104:32 => {BHM BOI BUR DCA LBB LUF PSP SAN SAV SKF...}
+  (x=750.0) 46:12 => {BHM BOI DCA PSP SAN SAV SKF}
+  (y=750.0) 22:7 => {BHM BOI DCA PSP SAV SKF}
+  (x=875.0) 9:3 => {BOI PSP SAV SKF}
+  (y=926.0) 2:0 => {BOI PSP SAV SKF}
+  (x=890.0) 2:0 => {SKF}
+  [FAT: (890.0,926.0)] => {SKF}
+  [IKK: (888.0,931.0)] => {SKF}
+  [null] => {BOI PSP SKF}
+  (y=875.0) 7:3 => {BOI PSP SAV SKF}
+  (x=812.5) 3:1 => {PSP SAV SKF}
+  (y=928.0) 2:0 => {PSP SAV SKF}
+  [SFF: (831.0,928.0)] => {SKF}
+  [CPR: (850.0,927.0)] => {PSP SKF}
+  [PBI: (782.0,975.0)] => {PSP SAV SKF}
+  (x=812.5) 4:1 => {PSP SAV SKF}
+  [HFD: (852.0,846.0)] => {PSP SAV SKF}
+  (y=812.5) 3:1 => {PSP SAV}
+  [BRO: (803.0,851.0)] => {PSP SAV}
+  (x=794.0) 2:0 => {PSP}
+  (y=774.0) 2:0 => {PSP}
+  [LUK: (794.0,774.0)] => {PSP}
+  [NGU: (802.0,771.0)] => {PSP}
+  [null] => {PSP}
+  (x=875.0) 13:4 => {BHM BOI DCA PSP SAV SKF}
+  (y=625.0) 10:3 => {BOI PSP SKF}
+  (x=937.5) 5:2 => {BOI PSP SKF}
+  (y=687.5) 2:0 => {BOI PSP}
+  [IAB: (978.0,731.0)] => {BOI PSP}
+  [LGA: (940.0,649.0)] => {BOI}
+  (y=656.0) 3:1 => {BOI PSP SKF}
+  (y=703.0) 2:0 => {BOI PSP SKF}
+  [SLC: (877.0,739.0)] => {BOI PSP}
+  [FLL: (928.0,656.0)] => {BOI PSP}
+  [RME: (876.0,639.0)] => {BOI}
+  (x=937.5) 5:1 => {BOI}
+  [GEG: (998.0,610.0)] => {BOI}
+  (y=559.0) 4:1 => {BOI}
+  [GRR: (932.0,559.0)] => {BOI}
+  (x=906.25) 3:1 => {BOI}
+  [MDT: (926.0,547.0)] => {BOI}
+  (y=529.5) 2:0 => {BOI}
+  [CVG: (877.0,555.0)] => {BOI}
+  [NPA: (891.0,507.0)] => {BOI}
+  (y=625.0) 3:1 => {BOI DCA PSP SAV SKF}
+  (x=833.0) 2:0 => {BOI PSP}
+  (y=685.0) 2:0 => {BOI PSP}
+  [DUG: (833.0,685.0)] => {PSP}
+  [SFO: (864.0,653.0)] => {BOI PSP}
+  [null] => {PSP}
+  [DEN: (868.0,571.0)] => {BOI PSP}
+  (y=750.0) 24:5 => {BHM BOI DCA PSP SAN SAV SKF}
+  (x=625.0) 11:3 => {BHM PSP SAV SKF}
+  (y=875.0) 6:2 => {BHM PSP SAV SKF}
+  (x=687.5) 4:2 => {PSP SAV}
+  (y=905.0) 2:0 => {PSP SAV}
+  [SJC: (718.0,905.0)] => {SAV}
+  [JAN: (701.0,876.0)] => {PSP SAV}
+  (y=935.0) 2:0 => {SAV}
+  [CNW: (667.0,935.0)] => {SAV}
+  [PSX: (648.0,875.0)] => {SAV}
+  (x=687.5) 2:0 => {BHM PSP SAV}
+  [FYV: (722.0,756.0)] => {PSP SAV}
+  [MDW: (650.0,787.0)] => {BHM PSP SAV}
+  (y=875.0) 5:1 => {BHM PSP SAV}
+  [ABQ: (503.0,947.0)] => {PSP SAV}
+  (x=536.0) 4:1 => {BHM PSP SAV}
+  (y=812.5) 2:0 => {BHM PSP SAV}
+  [CNM: (536.0,856.0)] => {BHM PSP SAV}
+  [ORL: (610.0,774.0)] => {BHM PSP SAV}
+  (y=771.0) 2:0 => {BHM SAV}
+  [CLT: (514.0,771.0)] => {BHM SAV}
+  [ACK: (529.0,766.0)] => {BHM}
+  (x=625.0) 13:2 => {BHM BOI DCA PSP SAN SAV SKF}
+  (y=625.0) 4:0 => {BHM BOI DCA PSP SAV}
+  (x=733.0) 2:0 => {BHM PSP}
+  (y=691.0) 2:0 => {PSP}
+  (y=720.5) 2:0 => {PSP}
+  [EDW: (733.0,741.0)] => {PSP}
+  [ACY: (735.0,691.0)] => {PSP}
+  [null] => {PSP}
+  [null] => {BHM PSP}
+  (x=634.0) 2:0 => {BHM BOI DCA PSP}
+  [DET: (634.0,568.0)] => {BHM BOI DCA PSP}
+  [IND: (630.0,617.0)] => {BHM PSP}
+  (y=625.0) 9:2 => {BHM PSP SAN}
+  (x=601.0) 5:1 => {BHM PSP}
+  (y=687.5) 4:0 => {BHM PSP}
+  (y=723.0) 2:0 => {BHM PSP}
+  (y=736.5) 2:0 => {BHM PSP}
+  [CMH: (601.0,749.0)] => {BHM PSP}
+  [COS: (613.0,723.0)] => {BHM PSP}
+  [null] => {BHM PSP}
+  (y=656.25) 2:0 => {BHM PSP}
+  [LRF: (624.0,674.0)] => {BHM PSP}
+  [DAL: (619.0,646.0)] => {BHM PSP}
+  [SAF: (523.0,659.0)] => {BHM PSP}
+  (x=562.5) 4:1 => {BHM PSP SAN}
+  [HOU: (614.0,584.0)] => {BHM PSP}
+  (y=588.0) 3:1 => {BHM SAN}
+  (x=533.0) 2:0 => {BHM}
+  (y=606.5) 2:0 => {BHM}
+  [FFO: (558.0,607.0)] => {BHM}
+  [BOS: (533.0,588.0)] => {BHM}
+  [null] => {BHM}
+  [MSY: (512.0,504.0)] => {BHM SAN}
+  (x=750.0) 58:20 => {BHM BOI DCA LBB LUF PSP SAN TPA}
+  (y=250.0) 27:10 => {BHM BOI DCA LUF PSP SAN}
+  (x=875.0) 16:5 => {BHM BOI DCA LUF PSP}
+  (y=375.0) 7:1 => {BOI DCA LUF PSP}
+  [LAX: (917.0,462.0)] => {BOI}
+  (x=937.5) 6:1 => {BOI DCA LUF}
+  (y=312.5) 3:1 => {BOI LUF}
+  [HUF: (982.0,367.0)] => {BOI LUF}
+  (x=968.75) 2:0 => {LUF}
+  [CHS: (992.0,271.0)] => {LUF}
+  [OKC: (951.0,312.0)] => {LUF}
+  (y=312.5) 3:0 => {BOI DCA LUF}
+  [LAS: (896.0,363.0)] => {BOI DCA LUF}
+  (x=913.0) 2:0 => {DCA LUF}
+  (y=299.0) 2:0 => {LUF}
+  (x=921.0) 2:0 => {LUF}
+  [MOT: (921.0,311.0)] => {LUF}
+  [BNA: (913.0,299.0)] => {LUF}
+  [null] => {LUF}
+  [null] => {DCA LUF}
+  (y=375.0) 9:4 => {BOI DCA LUF PSP}
+  (x=812.5) 5:2 => {BOI DCA LUF PSP}
+  (y=437.5) 2:0 => {BOI DCA PSP}
+  [OMA: (851.0,478.0)] => {BOI}
+  [AUG: (857.0,426.0)] => {BOI DCA}
+  (y=437.5) 3:1 => {BOI DCA PSP}
+  [MCF: (755.0,486.0)] => {BOI DCA PSP}
+  (x=781.25) 2:0 => {BOI DCA}
+  [PDX: (790.0,394.0)] => {BOI DCA}
+  [DRT: (776.0,410.0)] => {DCA}
+  (x=812.5) 4:2 => {BOI DCA LUF}
+  (y=311.0) 3:1 => {BOI DCA LUF}
+  [NZC: (813.0,311.0)] => {BOI DCA LUF}
+  (x=842.0) 2:0 => {DCA LUF}
+  [FXE: (842.0,251.0)] => {DCA LUF}
+  [ROW: (839.0,292.0)] => {DCA}
+  [BLI: (783.0,276.0)] => {DCA}
+  (x=875.0) 11:5 => {DCA LUF}
+  (y=149.0) 6:4 => {LUF}
+  (x=937.5) 5:3 => {LUF}
+  (y=199.5) 2:0 => {LUF}
+  [OPF: (993.0,249.0)] => {LUF}
+  [ATL: (948.0,149.0)] => {LUF}
+  (y=192.0) 3:1 => {LUF}
+  (x=906.25) 2:0 => {LUF}
+  [RND: (933.0,243.0)] => {LUF}
+  [GVW: (883.0,192.0)] => {LUF}
+  [MYR: (937.0,189.0)] => {LUF}
+  [PNE: (965.0,136.0)] => {LUF}
+  (y=145.0) 5:1 => {DCA LUF}
+  (x=812.5) 4:0 => {DCA LUF}
+  (y=197.5) 3:0 => {DCA LUF}
+  [MCC: (868.0,216.0)] => {DCA LUF}
+  (x=868.0) 2:0 => {DCA LUF}
+  (y=159.0) 2:0 => {LUF}
+  [DLH: (868.0,159.0)] => {LUF}
+  [CBM: (874.0,145.0)] => {LUF}
+  [null] => {DCA LUF}
+  [LNK: (805.0,237.0)] => {DCA LUF}
+  [PHL: (771.0,105.0)] => {DCA LUF}
+  (y=250.0) 31:10 => {BHM BOI DCA LUF PSP SAN}
+  (x=625.0) 22:6 => {BHM BOI DCA LUF PSP SAN}
+  (y=375.0) 7:3 => {BHM BOI DCA LUF PSP}
+  (x=687.5) 3:1 => {BHM BOI DCA PSP}
+  (y=437.5) 2:0 => {BOI DCA PSP}
+  [DYS: (732.0,465.0)] => {BOI DCA PSP}
+  [SAC: (693.0,379.0)] => {DCA}
+  [CYS: (645.0,479.0)] => {BHM DCA PSP}
+  (x=687.5) 4:2 => {DCA}
+  [CLE: (689.0,330.0)] => {DCA}
+  (y=347.0) 3:1 => {DCA}
+  (x=669.0) 3:1 => {DCA}
+  (y=361.0) 2:0 => {DCA}
+  [NOW: (669.0,364.0)] => {DCA}
+  [DTW: (679.0,347.0)] => {DCA}
+  [NQX: (656.0,361.0)] => {DCA}
+  [null] => {DCA}
+  (y=375.0) 15:3 => {BHM DCA PSP SAN}
+  (x=562.5) 10:0 => {BHM DCA PSP SAN}
+  (y=437.5) 2:0 => {BHM DCA PSP SAN}
+  [IAD: (579.0,499.0)] => {BHM DCA PSP SAN}
+  [MAF: (607.0,409.0)] => {DCA SAN}
+  (y=437.5) 8:0 => {BHM DCA SAN}
+  (x=531.25) 5:0 => {BHM DCA SAN}
+  (y=454.0) 2:0 => {BHM DCA SAN}
+  [IAG: (546.0,454.0)] => {BHM DCA SAN}
+  [LSV: (535.0,442.0)] => {DCA SAN}
+  (y=468.75) 3:0 => {BHM SAN}
+  (x=522.0) 2:0 => {BHM SAN}
+  (y=484.375) 2:0 => {BHM SAN}
+  [DLF: (526.0,488.0)] => {BHM SAN}
+  [AEX: (522.0,476.0)] => {BHM SAN}
+  [null] => {BHM SAN}
+  [FOE: (518.0,448.0)] => {SAN}
+  (x=531.25) 3:0 => {DCA SAN}
+  [LIT: (550.0,408.0)] => {DCA SAN}
+  (y=406.25) 2:0 => {SAN}
+  [BUF: (531.0,435.0)] => {SAN}
+  [GSB: (519.0,375.0)] => {SAN}
+  (x=562.5) 5:3 => {DCA SAN}
+  (y=312.5) 3:1 => {DCA}
+  [ELP: (578.0,371.0)] => {DCA}
+  (x=593.75) 2:0 => {DCA}
+  [OFF: (604.0,294.0)] => {DCA}
+  [ORF: (565.0,296.0)] => {DCA}
+  (y=312.5) 2:0 => {DCA SAN}
+  [NCA: (505.0,352.0)] => {DCA SAN}
+  [MCO: (506.0,262.0)] => {DCA SAN}
+  (x=625.0) 9:4 => {DCA LUF SAN}
+  (y=142.0) 5:1 => {DCA LUF}
+  (x=687.5) 5:1 => {DCA}
+  (y=196.0) 2:0 => {DCA}
+  [LGB: (718.0,233.0)] => {DCA}
+  [MHR: (701.0,155.0)] => {DCA}
+  (y=183.0) 3:1 => {DCA}
+  (y=189.0) 2:0 => {DCA}
+  [ORD: (682.0,189.0)] => {DCA}
+  [IAH: (677.0,183.0)] => {DCA}
+  [ISP: (641.0,142.0)] => {DCA}
+  [null] => {DCA LUF}
+  (y=187.0) 4:2 => {DCA SAN}
+  (x=563.0) 3:1 => {DCA}
+  (y=218.5) 2:0 => {DCA}
+  [HPN: (607.0,229.0)] => {DCA}
+  [MSP: (563.0,187.0)] => {DCA}
+  [NSE: (548.0,235.0)] => {DCA}
+  [SKA: (577.0,142.0)] => {DCA SAN}
+  (y=500.0) 85:35 => {BHM BOI BUR DCA LBB LUF PSP SAN SAV SKF...}
+  (x=250.0) 38:13 => {BHM BOI BUR DCA LBB PSP SAN SAV SKF TPA}
+  (y=750.0) 26:9 => {BHM BUR DCA LBB PSP SAN SAV}
+  (x=375.0) 12:3 => {BHM BUR LBB PSP SAN SAV}
+  (y=875.0) 7:2 => {BHM BUR LBB PSP SAV}
+  (x=416.0) 2:0 => {BHM BUR PSP SAV}
+  [PNM: (416.0,943.0)] => {BHM SAV}
+  [GLS: (383.0,905.0)] => {BHM BUR SAV}
+  (x=437.5) 5:1 => {BHM SAV}
+  (y=812.5) 4:1 => {BHM SAV}
+  [CRP: (488.0,835.0)] => {BHM SAV}
+  (x=468.75) 3:1 => {BHM}
+  (y=779.0) 2:0 => {BHM}
+  [ROC: (495.0,779.0)] => {BHM}
+  [MNM: (476.0,769.0)] => {BHM}
+  [FMY: (444.0,784.0)] => {BHM}
+  [MEM: (436.0,846.0)] => {BHM}
+  (y=875.0) 5:1 => {BHM BUR LBB SAV}
+  (x=294.0) 2:0 => {BHM BUR}
+  [ALB: (294.0,985.0)] => {BHM BUR}
+  [PAM: (260.0,959.0)] => {BUR}
+  (x=312.5) 3:0 => {BHM BUR LBB}
+  [GRB: (321.0,811.0)] => {BHM BUR LBB}
+  (y=812.5) 2:0 => {BHM BUR LBB}
+  [MKO: (301.0,828.0)] => {BHM BUR LBB}
+  [MCI: (294.0,804.0)] => {BHM BUR LBB}
+  (x=375.0) 14:6 => {BHM BUR LBB PSP SAN}
+  (y=625.0) 11:5 => {BHM SAN}
+  (x=437.5) 6:3 => {BHM}
+  (y=687.5) 3:1 => {BHM}
+  [NIP: (446.0,741.0)] => {BHM}
+  (x=461.0) 2:0 => {BHM}
+  [PHX: (461.0,650.0)] => {BHM}
+  [EWR: (459.0,671.0)] => {BHM}
+  (y=705.0) 3:1 => {BHM}
+  (x=410.0) 2:0 => {BHM}
+  (y=715.0) 2:0 => {BHM}
+  [MPV: (410.0,715.0)] => {BHM}
+  [FTW: (414.0,705.0)] => {BHM}
+  [null] => {BHM}
+  [PIT: (433.0,695.0)] => {BHM}
+  (x=437.0) 5:2 => {BHM SAN}
+  (y=607.0) 3:1 => {BHM SAN}
+  (x=468.5) 2:0 => {BHM}
+  [MQT: (486.0,607.0)] => {BHM}
+  [DSM: (437.0,608.0)] => {BHM}
+  [RIC: (490.0,561.0)] => {BHM SAN}
+  (y=562.5) 2:0 => {BHM SAN}
+  [BFI: (390.0,609.0)] => {BHM}
+  [LOU: (397.0,543.0)] => {BHM SAN}
+  (y=652.0) 3:1 => {BHM BUR LBB SAN}
+  (x=329.0) 2:0 => {BHM LBB}
+  (y=701.0) 2:0 => {BHM}
+  [AMA: (371.0,711.0)] => {BHM}
+  [GWO: (329.0,652.0)] => {BHM}
+  [null] => {BHM LBB}
+  [MXF: (277.0,602.0)] => {BHM LBB SAN}
+  (y=750.0) 12:4 => {BHM BUR LBB SAN SAV TPA}
+  (x=125.0) 6:1 => {BHM BUR LBB}
+  (y=875.0) 5:1 => {BHM BUR LBB}
+  (x=187.5) 3:1 => {BUR}
+  [ART: (210.0,892.0)] => {BUR}
+  (y=937.5) 2:0 => {BUR}
+  [POB: (143.0,958.0)] => {BUR}
+  [BGR: (167.0,924.0)] => {BUR}
+  (x=187.5) 2:0 => {BHM BUR LBB}
+  [MIA: (228.0,834.0)] => {BHM BUR LBB}
+  [LNA: (158.0,767.0)] => {BUR LBB}
+  [ILM: (105.0,767.0)] => {BUR LBB}
+  (x=152.0) 6:3 => {LBB SAN}
+  (y=625.0) 6:3 => {LBB SAN}
+  (y=653.0) 2:0 => {LBB}
+  [SAT: (224.0,653.0)] => {LBB}
+  [HRO: (208.0,635.0)] => {LBB}
+  (y=562.5) 4:2 => {LBB SAN}
+  (x=201.0) 3:1 => {LBB}
+  [OAK: (229.0,617.0)] => {LBB}
+  (y=591.0) 2:0 => {LBB}
+  [RDR: (163.0,591.0)] => {LBB}
+  [CLL: (152.0,571.0)] => {LBB}
+  [DPA: (182.0,537.0)] => {LBB SAN}
+  [null] => {LBB}
+  (x=250.0) 47:22 => {BHM BOI BUR DCA LBB LUF PSP SAN SAV TPA}
+  (y=250.0) 23:8 => {BHM DCA LBB PSP SAN TPA}
+  (x=375.0) 14:3 => {BHM DCA LBB SAN}
+  (y=375.0) 8:1 => {BHM DCA SAN}
+  (x=437.5) 3:0 => {BHM SAN}
+  [AUS: (458.0,489.0)] => {BHM SAN}
+  (y=437.5) 2:0 => {SAN}
+  [DMA: (437.0,486.0)] => {SAN}
+  [BTR: (412.0,395.0)] => {SAN}
+  (x=437.5) 5:1 => {DCA SAN}
+  (y=312.5) 2:0 => {DCA SAN}
+  [PIE: (499.0,322.0)] => {SAN}
+  [AKR: (447.0,265.0)] => {DCA SAN}
+  (y=312.5) 3:0 => {SAN}
+  [INT: (430.0,345.0)] => {SAN}
+  (x=406.25) 2:0 => {SAN}
+  [CHA: (422.0,265.0)] => {SAN}
+  [JBR: (396.0,307.0)] => {SAN}
+  (y=368.0) 6:2 => {SAN}
+  [EFD: (257.0,368.0)] => {SAN}
+  (x=308.0) 5:2 => {SAN}
+  [HMN: (308.0,262.0)] => {SAN}
+  (y=309.0) 4:2 => {SAN}
+  (y=338.5) 3:1 => {SAN}
+  (x=280.0) 2:0 => {SAN}
+  (y=353.25) 2:0 => {SAN}
+  [RNO: (285.0,358.0)] => {SAN}
+  [BCT: (280.0,341.0)] => {SAN}
+  [null] => {SAN}
+  [RDU: (277.0,315.0)] => {SAN}
+  [MOD: (262.0,277.0)] => {SAN}
+  (x=375.0) 9:5 => {DCA LBB SAN TPA}
+  (y=187.0) 5:3 => {DCA SAN TPA}
+  (x=437.5) 4:2 => {DCA SAN}
+  (y=213.0) 2:0 => {DCA SAN}
+  [MSS: (477.0,213.0)] => {DCA SAN}
+  [DFW: (443.0,187.0)] => {DCA SAN}
+  (y=220.0) 2:0 => {SAN}
+  (x=406.25) 2:0 => {SAN}
+  [PHF: (411.0,220.0)] => {SAN}
+  [JFK: (405.0,229.0)] => {SAN}
+  [null] => {SAN}
+  [NEL: (396.0,169.0)] => {DCA SAN TPA}
+  (y=125.0) 4:2 => {DCA SAN TPA}
+  (x=308.0) 3:1 => {SAN TPA}
+  (y=224.0) 2:0 => {SAN TPA}
+  (x=317.0) 2:0 => {SAN}
+  [ONT: (317.0,249.0)] => {SAN}
+  [NBG: (308.0,224.0)] => {SAN}
+  [null] => {SAN TPA}
+  [HWO: (291.0,171.0)] => {SAN TPA}
+  [LRD: (355.0,120.0)] => {SAN TPA}
+  (y=250.0) 24:14 => {BHM DCA LBB SAN TPA}
+  (x=125.0) 8:1 => {BHM LBB SAN TPA}
+  (y=375.0) 6:1 => {LBB SAN TPA}
+  (x=187.5) 3:1 => {LBB SAN}
+  [GTF: (230.0,393.0)] => {LBB SAN}
+  (y=422.0) 2:0 => {LBB SAN}
+  [NZY: (147.0,422.0)] => {LBB SAN}
+  [MKE: (125.0,412.0)] => {LBB SAN}
+  (x=203.0) 3:0 => {LBB SAN TPA}
+  (y=310.0) 3:0 => {SAN TPA}
+  [JAX: (230.0,310.0)] => {SAN}
+  (y=280.0) 2:0 => {SAN TPA}
+  [GVT: (216.0,307.0)] => {SAN}
+  [BWI: (203.0,270.0)] => {SAN TPA}
+  [null] => {LBB SAN TPA}
+  (y=340.0) 2:0 => {LBB SAN TPA}
+  [DAY: (108.0,340.0)] => {LBB SAN TPA}
+  [EYW: (106.0,285.0)] => {SAN TPA}
+  (x=125.0) 16:4 => {SAN TPA}
+  (y=125.0) 4:0 => {SAN TPA}
+  (x=187.5) 2:0 => {SAN TPA}
+  [SEA: (201.0,134.0)] => {SAN TPA}
+  [BFM: (165.0,197.0)] => {TPA}
+  (x=187.5) 2:0 => {TPA}
+  [CIC: (231.0,106.0)] => {TPA}
+  [LCK: (169.0,120.0)] => {TPA}
+  (y=125.0) 12:4 => {TPA}
+  [NHK: (105.0,136.0)] => {TPA}
+  (x=96.0) 11:4 => {TPA}
+  (y=97.0) 11:4 => {TPA}
+  (x=105.0) 8:1 => {TPA}
+  [SMF: (105.0,100.0)] => {TPA}
+  (y=105.0) 7:1 => {TPA}
+  [STL: (100.0,105.0)] => {TPA}
+  (x=100.5) 6:1 => {TPA}
+  (y=103.0) 3:1 => {TPA}
+  (x=103.0) 2:0 => {TPA}
+  (x=104.0) 2:0 => {TPA}
+  [SPG: (104.0,103.0)] => {TPA}
+  [SPS: (103.0,104.0)] => {TPA}
+  [null] => {TPA}
+  [YIP: (104.0,97.0)] => {TPA}
+  (y=101.0) 3:0 => {TPA}
+  (x=97.0) 2:0 => {TPA}
+  [SUX: (97.0,104.0)] => {TPA}
+  [TIK: (96.0,103.0)] => {TPA}
+  [TUL: (96.0,97.0)] => {TPA}
+  (y=95.0) 3:1 => {TPA}
+  (x=100.0) 3:1 => {TPA}
+  (x=103.0) 2:0 => {TPA}
+  [WRB: (103.0,96.0)] => {TPA}
+  [TYS: (100.0,95.0)] => {TPA}
+  [TUS: (97.0,96.0)] => {TPA}
+  [null] => {TPA}
+  [null] => {TPA}
+ca-list-kd [tree structure]:
+  | | | | | | | [FAT: (890.0,926.0)] => {SKF}
+  | | | | | | (x=890.0) 2:0 => {SKF}
+  | | | | | | | [IKK: (888.0,931.0)] => {SKF}
+  | | | | | (y=926.0) 2:0 => {BOI PSP SAV SKF}
+  | | | | | | [null] => {BOI PSP SKF}
+  | | | | (x=875.0) 9:3 => {BOI PSP SAV SKF}
+  | | | | | | | | [SFF: (831.0,928.0)] => {SKF}
+  | | | | | | | (y=928.0) 2:0 => {PSP SAV SKF}
+  | | | | | | | | [CPR: (850.0,927.0)] => {PSP SKF}
+  | | | | | | (x=812.5) 3:1 => {PSP SAV SKF}
+  | | | | | | | [PBI: (782.0,975.0)] => {PSP SAV SKF}
+  | | | | | (y=875.0) 7:3 => {BOI PSP SAV SKF}
+  | | | | | | | [HFD: (852.0,846.0)] => {PSP SAV SKF}
+  | | | | | | (x=812.5) 4:1 => {PSP SAV SKF}
+  | | | | | | | | [BRO: (803.0,851.0)] => {PSP SAV}
+  | | | | | | | (y=812.5) 3:1 => {PSP SAV}
+  | | | | | | | | | | [LUK: (794.0,774.0)] => {PSP}
+  | | | | | | | | | (y=774.0) 2:0 => {PSP}
+  | | | | | | | | | | [NGU: (802.0,771.0)] => {PSP}
+  | | | | | | | | (x=794.0) 2:0 => {PSP}
+  | | | | | | | | | [null] => {PSP}
+  | | | (y=750.0) 22:7 => {BHM BOI DCA PSP SAV SKF}
+  | | | | | | | | [IAB: (978.0,731.0)] => {BOI PSP}
+  | | | | | | | (y=687.5) 2:0 => {BOI PSP}
+  | | | | | | | | [LGA: (940.0,649.0)] => {BOI}
+  | | | | | | (x=937.5) 5:2 => {BOI PSP SKF}
+  | | | | | | | | | [SLC: (877.0,739.0)] => {BOI PSP}
+  | | | | | | | | (y=703.0) 2:0 => {BOI PSP SKF}
+  | | | | | | | | | [FLL: (928.0,656.0)] => {BOI PSP}
+  | | | | | | | (y=656.0) 3:1 => {BOI PSP SKF}
+  | | | | | | | | [RME: (876.0,639.0)] => {BOI}
+  | | | | | (y=625.0) 10:3 => {BOI PSP SKF}
+  | | | | | | | [GEG: (998.0,610.0)] => {BOI}
+  | | | | | | (x=937.5) 5:1 => {BOI}
+  | | | | | | | | [GRR: (932.0,559.0)] => {BOI}
+  | | | | | | | (y=559.0) 4:1 => {BOI}
+  | | | | | | | | | [MDT: (926.0,547.0)] => {BOI}
+  | | | | | | | | (x=906.25) 3:1 => {BOI}
+  | | | | | | | | | | [CVG: (877.0,555.0)] => {BOI}
+  | | | | | | | | | (y=529.5) 2:0 => {BOI}
+  | | | | | | | | | | [NPA: (891.0,507.0)] => {BOI}
+  | | | | (x=875.0) 13:4 => {BHM BOI DCA PSP SAV SKF}
+  | | | | | | | | [DUG: (833.0,685.0)] => {PSP}
+  | | | | | | | (y=685.0) 2:0 => {BOI PSP}
+  | | | | | | | | [SFO: (864.0,653.0)] => {BOI PSP}
+  | | | | | | (x=833.0) 2:0 => {BOI PSP}
+  | | | | | | | [null] => {PSP}
+  | | | | | (y=625.0) 3:1 => {BOI DCA PSP SAV SKF}
+  | | | | | | [DEN: (868.0,571.0)] => {BOI PSP}
+  | | (x=750.0) 46:12 => {BHM BOI DCA PSP SAN SAV SKF}
+  | | | | | | | | [SJC: (718.0,905.0)] => {SAV}
+  | | | | | | | (y=905.0) 2:0 => {PSP SAV}
+  | | | | | | | | [JAN: (701.0,876.0)] => {PSP SAV}
+  | | | | | | (x=687.5) 4:2 => {PSP SAV}
+  | | | | | | | | [CNW: (667.0,935.0)] => {SAV}
+  | | | | | | | (y=935.0) 2:0 => {SAV}
+  | | | | | | | | [PSX: (648.0,875.0)] => {SAV}
+  | | | | | (y=875.0) 6:2 => {BHM PSP SAV SKF}
+  | | | | | | | [FYV: (722.0,756.0)] => {PSP SAV}
+  | | | | | | (x=687.5) 2:0 => {BHM PSP SAV}
+  | | | | | | | [MDW: (650.0,787.0)] => {BHM PSP SAV}
+  | | | | (x=625.0) 11:3 => {BHM PSP SAV SKF}
+  | | | | | | [ABQ: (503.0,947.0)] => {PSP SAV}
+  | | | | | (y=875.0) 5:1 => {BHM PSP SAV}
+  | | | | | | | | [CNM: (536.0,856.0)] => {BHM PSP SAV}
+  | | | | | | | (y=812.5) 2:0 => {BHM PSP SAV}
+  | | | | | | | | [ORL: (610.0,774.0)] => {BHM PSP SAV}
+  | | | | | | (x=536.0) 4:1 => {BHM PSP SAV}
+  | | | | | | | | [CLT: (514.0,771.0)] => {BHM SAV}
+  | | | | | | | (y=771.0) 2:0 => {BHM SAV}
+  | | | | | | | | [ACK: (529.0,766.0)] => {BHM}
+  | | | (y=750.0) 24:5 => {BHM BOI DCA PSP SAN SAV SKF}
+  | | | | | | | | | [EDW: (733.0,741.0)] => {PSP}
+  | | | | | | | | (y=720.5) 2:0 => {PSP}
+  | | | | | | | | | [ACY: (735.0,691.0)] => {PSP}
+  | | | | | | | (y=691.0) 2:0 => {PSP}
+  | | | | | | | | [null] => {PSP}
+  | | | | | | (x=733.0) 2:0 => {BHM PSP}
+  | | | | | | | [null] => {BHM PSP}
+  | | | | | (y=625.0) 4:0 => {BHM BOI DCA PSP SAV}
+  | | | | | | | [DET: (634.0,568.0)] => {BHM BOI DCA PSP}
+  | | | | | | (x=634.0) 2:0 => {BHM BOI DCA PSP}
+  | | | | | | | [IND: (630.0,617.0)] => {BHM PSP}
+  | | | | (x=625.0) 13:2 => {BHM BOI DCA PSP SAN SAV SKF}
+  | | | | | | | | | | [CMH: (601.0,749.0)] => {BHM PSP}
+  | | | | | | | | | (y=736.5) 2:0 => {BHM PSP}
+  | | | | | | | | | | [COS: (613.0,723.0)] => {BHM PSP}
+  | | | | | | | | (y=723.0) 2:0 => {BHM PSP}
+  | | | | | | | | | [null] => {BHM PSP}
+  | | | | | | | (y=687.5) 4:0 => {BHM PSP}
+  | | | | | | | | | [LRF: (624.0,674.0)] => {BHM PSP}
+  | | | | | | | | (y=656.25) 2:0 => {BHM PSP}
+  | | | | | | | | | [DAL: (619.0,646.0)] => {BHM PSP}
+  | | | | | | (x=601.0) 5:1 => {BHM PSP}
+  | | | | | | | [SAF: (523.0,659.0)] => {BHM PSP}
+  | | | | | (y=625.0) 9:2 => {BHM PSP SAN}
+  | | | | | | | [HOU: (614.0,584.0)] => {BHM PSP}
+  | | | | | | (x=562.5) 4:1 => {BHM PSP SAN}
+  | | | | | | | | | | [FFO: (558.0,607.0)] => {BHM}
+  | | | | | | | | | (y=606.5) 2:0 => {BHM}
+  | | | | | | | | | | [BOS: (533.0,588.0)] => {BHM}
+  | | | | | | | | (x=533.0) 2:0 => {BHM}
+  | | | | | | | | | [null] => {BHM}
+  | | | | | | | (y=588.0) 3:1 => {BHM SAN}
+  | | | | | | | | [MSY: (512.0,504.0)] => {BHM SAN}
+  | (y=500.0) 104:32 => {BHM BOI BUR DCA LBB LUF PSP SAN SAV SKF...}
+  | | | | | | [LAX: (917.0,462.0)] => {BOI}
+  | | | | | (y=375.0) 7:1 => {BOI DCA LUF PSP}
+  | | | | | | | | [HUF: (982.0,367.0)] => {BOI LUF}
+  | | | | | | | (y=312.5) 3:1 => {BOI LUF}
+  | | | | | | | | | [CHS: (992.0,271.0)] => {LUF}
+  | | | | | | | | (x=968.75) 2:0 => {LUF}
+  | | | | | | | | | [OKC: (951.0,312.0)] => {LUF}
+  | | | | | | (x=937.5) 6:1 => {BOI DCA LUF}
+  | | | | | | | | [LAS: (896.0,363.0)] => {BOI DCA LUF}
+  | | | | | | | (y=312.5) 3:0 => {BOI DCA LUF}
+  | | | | | | | | | | | [MOT: (921.0,311.0)] => {LUF}
+  | | | | | | | | | | (x=921.0) 2:0 => {LUF}
+  | | | | | | | | | | | [BNA: (913.0,299.0)] => {LUF}
+  | | | | | | | | | (y=299.0) 2:0 => {LUF}
+  | | | | | | | | | | [null] => {LUF}
+  | | | | | | | | (x=913.0) 2:0 => {DCA LUF}
+  | | | | | | | | | [null] => {DCA LUF}
+  | | | | (x=875.0) 16:5 => {BHM BOI DCA LUF PSP}
+  | | | | | | | | [OMA: (851.0,478.0)] => {BOI}
+  | | | | | | | (y=437.5) 2:0 => {BOI DCA PSP}
+  | | | | | | | | [AUG: (857.0,426.0)] => {BOI DCA}
+  | | | | | | (x=812.5) 5:2 => {BOI DCA LUF PSP}
+  | | | | | | | | [MCF: (755.0,486.0)] => {BOI DCA PSP}
+  | | | | | | | (y=437.5) 3:1 => {BOI DCA PSP}
+  | | | | | | | | | [PDX: (790.0,394.0)] => {BOI DCA}
+  | | | | | | | | (x=781.25) 2:0 => {BOI DCA}
+  | | | | | | | | | [DRT: (776.0,410.0)] => {DCA}
+  | | | | | (y=375.0) 9:4 => {BOI DCA LUF PSP}
+  | | | | | | | | [NZC: (813.0,311.0)] => {BOI DCA LUF}
+  | | | | | | | (y=311.0) 3:1 => {BOI DCA LUF}
+  | | | | | | | | | [FXE: (842.0,251.0)] => {DCA LUF}
+  | | | | | | | | (x=842.0) 2:0 => {DCA LUF}
+  | | | | | | | | | [ROW: (839.0,292.0)] => {DCA}
+  | | | | | | (x=812.5) 4:2 => {BOI DCA LUF}
+  | | | | | | | [BLI: (783.0,276.0)] => {DCA}
+  | | | (y=250.0) 27:10 => {BHM BOI DCA LUF PSP SAN}
+  | | | | | | | | [OPF: (993.0,249.0)] => {LUF}
+  | | | | | | | (y=199.5) 2:0 => {LUF}
+  | | | | | | | | [ATL: (948.0,149.0)] => {LUF}
+  | | | | | | (x=937.5) 5:3 => {LUF}
+  | | | | | | | | | [RND: (933.0,243.0)] => {LUF}
+  | | | | | | | | (x=906.25) 2:0 => {LUF}
+  | | | | | | | | | [GVW: (883.0,192.0)] => {LUF}
+  | | | | | | | (y=192.0) 3:1 => {LUF}
+  | | | | | | | | [MYR: (937.0,189.0)] => {LUF}
+  | | | | | (y=149.0) 6:4 => {LUF}
+  | | | | | | [PNE: (965.0,136.0)] => {LUF}
+  | | | | (x=875.0) 11:5 => {DCA LUF}
+  | | | | | | | | [MCC: (868.0,216.0)] => {DCA LUF}
+  | | | | | | | (y=197.5) 3:0 => {DCA LUF}
+  | | | | | | | | | | [DLH: (868.0,159.0)] => {LUF}
+  | | | | | | | | | (y=159.0) 2:0 => {LUF}
+  | | | | | | | | | | [CBM: (874.0,145.0)] => {LUF}
+  | | | | | | | | (x=868.0) 2:0 => {DCA LUF}
+  | | | | | | | | | [null] => {DCA LUF}
+  | | | | | | (x=812.5) 4:0 => {DCA LUF}
+  | | | | | | | [LNK: (805.0,237.0)] => {DCA LUF}
+  | | | | | (y=145.0) 5:1 => {DCA LUF}
+  | | | | | | [PHL: (771.0,105.0)] => {DCA LUF}
+  | | (x=750.0) 58:20 => {BHM BOI DCA LBB LUF PSP SAN TPA}
+  | | | | | | | | [DYS: (732.0,465.0)] => {BOI DCA PSP}
+  | | | | | | | (y=437.5) 2:0 => {BOI DCA PSP}
+  | | | | | | | | [SAC: (693.0,379.0)] => {DCA}
+  | | | | | | (x=687.5) 3:1 => {BHM BOI DCA PSP}
+  | | | | | | | [CYS: (645.0,479.0)] => {BHM DCA PSP}
+  | | | | | (y=375.0) 7:3 => {BHM BOI DCA LUF PSP}
+  | | | | | | | [CLE: (689.0,330.0)] => {DCA}
+  | | | | | | (x=687.5) 4:2 => {DCA}
+  | | | | | | | | | | [NOW: (669.0,364.0)] => {DCA}
+  | | | | | | | | | (y=361.0) 2:0 => {DCA}
+  | | | | | | | | | | [DTW: (679.0,347.0)] => {DCA}
+  | | | | | | | | (x=669.0) 3:1 => {DCA}
+  | | | | | | | | | [NQX: (656.0,361.0)] => {DCA}
+  | | | | | | | (y=347.0) 3:1 => {DCA}
+  | | | | | | | | [null] => {DCA}
+  | | | | (x=625.0) 22:6 => {BHM BOI DCA LUF PSP SAN}
+  | | | | | | | | [IAD: (579.0,499.0)] => {BHM DCA PSP SAN}
+  | | | | | | | (y=437.5) 2:0 => {BHM DCA PSP SAN}
+  | | | | | | | | [MAF: (607.0,409.0)] => {DCA SAN}
+  | | | | | | (x=562.5) 10:0 => {BHM DCA PSP SAN}
+  | | | | | | | | | | [IAG: (546.0,454.0)] => {BHM DCA SAN}
+  | | | | | | | | | (y=454.0) 2:0 => {BHM DCA SAN}
+  | | | | | | | | | | [LSV: (535.0,442.0)] => {DCA SAN}
+  | | | | | | | | (x=531.25) 5:0 => {BHM DCA SAN}
+  | | | | | | | | | | | | [DLF: (526.0,488.0)] => {BHM SAN}
+  | | | | | | | | | | | (y=484.375) 2:0 => {BHM SAN}
+  | | | | | | | | | | | | [AEX: (522.0,476.0)] => {BHM SAN}
+  | | | | | | | | | | (x=522.0) 2:0 => {BHM SAN}
+  | | | | | | | | | | | [null] => {BHM SAN}
+  | | | | | | | | | (y=468.75) 3:0 => {BHM SAN}
+  | | | | | | | | | | [FOE: (518.0,448.0)] => {SAN}
+  | | | | | | | (y=437.5) 8:0 => {BHM DCA SAN}
+  | | | | | | | | | [LIT: (550.0,408.0)] => {DCA SAN}
+  | | | | | | | | (x=531.25) 3:0 => {DCA SAN}
+  | | | | | | | | | | [BUF: (531.0,435.0)] => {SAN}
+  | | | | | | | | | (y=406.25) 2:0 => {SAN}
+  | | | | | | | | | | [GSB: (519.0,375.0)] => {SAN}
+  | | | | | (y=375.0) 15:3 => {BHM DCA PSP SAN}
+  | | | | | | | | [ELP: (578.0,371.0)] => {DCA}
+  | | | | | | | (y=312.5) 3:1 => {DCA}
+  | | | | | | | | | [OFF: (604.0,294.0)] => {DCA}
+  | | | | | | | | (x=593.75) 2:0 => {DCA}
+  | | | | | | | | | [ORF: (565.0,296.0)] => {DCA}
+  | | | | | | (x=562.5) 5:3 => {DCA SAN}
+  | | | | | | | | [NCA: (505.0,352.0)] => {DCA SAN}
+  | | | | | | | (y=312.5) 2:0 => {DCA SAN}
+  | | | | | | | | [MCO: (506.0,262.0)] => {DCA SAN}
+  | | | (y=250.0) 31:10 => {BHM BOI DCA LUF PSP SAN}
+  | | | | | | | | [LGB: (718.0,233.0)] => {DCA}
+  | | | | | | | (y=196.0) 2:0 => {DCA}
+  | | | | | | | | [MHR: (701.0,155.0)] => {DCA}
+  | | | | | | (x=687.5) 5:1 => {DCA}
+  | | | | | | | | | [ORD: (682.0,189.0)] => {DCA}
+  | | | | | | | | (y=189.0) 2:0 => {DCA}
+  | | | | | | | | | [IAH: (677.0,183.0)] => {DCA}
+  | | | | | | | (y=183.0) 3:1 => {DCA}
+  | | | | | | | | [ISP: (641.0,142.0)] => {DCA}
+  | | | | | (y=142.0) 5:1 => {DCA LUF}
+  | | | | | | [null] => {DCA LUF}
+  | | | | (x=625.0) 9:4 => {DCA LUF SAN}
+  | | | | | | | | [HPN: (607.0,229.0)] => {DCA}
+  | | | | | | | (y=218.5) 2:0 => {DCA}
+  | | | | | | | | [MSP: (563.0,187.0)] => {DCA}
+  | | | | | | (x=563.0) 3:1 => {DCA}
+  | | | | | | | [NSE: (548.0,235.0)] => {DCA}
+  | | | | | (y=187.0) 4:2 => {DCA SAN}
+  | | | | | | [SKA: (577.0,142.0)] => {DCA SAN}
+  (x=500.0) 189:67 => {BHM BOI BUR DCA LBB LUF PSP SAN SAV SKF...}
+  | | | | | | | [PNM: (416.0,943.0)] => {BHM SAV}
+  | | | | | | (x=416.0) 2:0 => {BHM BUR PSP SAV}
+  | | | | | | | [GLS: (383.0,905.0)] => {BHM BUR SAV}
+  | | | | | (y=875.0) 7:2 => {BHM BUR LBB PSP SAV}
+  | | | | | | | | [CRP: (488.0,835.0)] => {BHM SAV}
+  | | | | | | | (y=812.5) 4:1 => {BHM SAV}
+  | | | | | | | | | | [ROC: (495.0,779.0)] => {BHM}
+  | | | | | | | | | (y=779.0) 2:0 => {BHM}
+  | | | | | | | | | | [MNM: (476.0,769.0)] => {BHM}
+  | | | | | | | | (x=468.75) 3:1 => {BHM}
+  | | | | | | | | | [FMY: (444.0,784.0)] => {BHM}
+  | | | | | | (x=437.5) 5:1 => {BHM SAV}
+  | | | | | | | [MEM: (436.0,846.0)] => {BHM}
+  | | | | (x=375.0) 12:3 => {BHM BUR LBB PSP SAN SAV}
+  | | | | | | | [ALB: (294.0,985.0)] => {BHM BUR}
+  | | | | | | (x=294.0) 2:0 => {BHM BUR}
+  | | | | | | | [PAM: (260.0,959.0)] => {BUR}
+  | | | | | (y=875.0) 5:1 => {BHM BUR LBB SAV}
+  | | | | | | | [GRB: (321.0,811.0)] => {BHM BUR LBB}
+  | | | | | | (x=312.5) 3:0 => {BHM BUR LBB}
+  | | | | | | | | [MKO: (301.0,828.0)] => {BHM BUR LBB}
+  | | | | | | | (y=812.5) 2:0 => {BHM BUR LBB}
+  | | | | | | | | [MCI: (294.0,804.0)] => {BHM BUR LBB}
+  | | | (y=750.0) 26:9 => {BHM BUR DCA LBB PSP SAN SAV}
+  | | | | | | | | [NIP: (446.0,741.0)] => {BHM}
+  | | | | | | | (y=687.5) 3:1 => {BHM}
+  | | | | | | | | | [PHX: (461.0,650.0)] => {BHM}
+  | | | | | | | | (x=461.0) 2:0 => {BHM}
+  | | | | | | | | | [EWR: (459.0,671.0)] => {BHM}
+  | | | | | | (x=437.5) 6:3 => {BHM}
+  | | | | | | | | | | [MPV: (410.0,715.0)] => {BHM}
+  | | | | | | | | | (y=715.0) 2:0 => {BHM}
+  | | | | | | | | | | [FTW: (414.0,705.0)] => {BHM}
+  | | | | | | | | (x=410.0) 2:0 => {BHM}
+  | | | | | | | | | [null] => {BHM}
+  | | | | | | | (y=705.0) 3:1 => {BHM}
+  | | | | | | | | [PIT: (433.0,695.0)] => {BHM}
+  | | | | | (y=625.0) 11:5 => {BHM SAN}
+  | | | | | | | | | [MQT: (486.0,607.0)] => {BHM}
+  | | | | | | | | (x=468.5) 2:0 => {BHM}
+  | | | | | | | | | [DSM: (437.0,608.0)] => {BHM}
+  | | | | | | | (y=607.0) 3:1 => {BHM SAN}
+  | | | | | | | | [RIC: (490.0,561.0)] => {BHM SAN}
+  | | | | | | (x=437.0) 5:2 => {BHM SAN}
+  | | | | | | | | [BFI: (390.0,609.0)] => {BHM}
+  | | | | | | | (y=562.5) 2:0 => {BHM SAN}
+  | | | | | | | | [LOU: (397.0,543.0)] => {BHM SAN}
+  | | | | (x=375.0) 14:6 => {BHM BUR LBB PSP SAN}
+  | | | | | | | | [AMA: (371.0,711.0)] => {BHM}
+  | | | | | | | (y=701.0) 2:0 => {BHM}
+  | | | | | | | | [GWO: (329.0,652.0)] => {BHM}
+  | | | | | | (x=329.0) 2:0 => {BHM LBB}
+  | | | | | | | [null] => {BHM LBB}
+  | | | | | (y=652.0) 3:1 => {BHM BUR LBB SAN}
+  | | | | | | [MXF: (277.0,602.0)] => {BHM LBB SAN}
+  | | (x=250.0) 38:13 => {BHM BOI BUR DCA LBB PSP SAN SAV SKF TPA}
+  | | | | | | | [ART: (210.0,892.0)] => {BUR}
+  | | | | | | (x=187.5) 3:1 => {BUR}
+  | | | | | | | | [POB: (143.0,958.0)] => {BUR}
+  | | | | | | | (y=937.5) 2:0 => {BUR}
+  | | | | | | | | [BGR: (167.0,924.0)] => {BUR}
+  | | | | | (y=875.0) 5:1 => {BHM BUR LBB}
+  | | | | | | | [MIA: (228.0,834.0)] => {BHM BUR LBB}
+  | | | | | | (x=187.5) 2:0 => {BHM BUR LBB}
+  | | | | | | | [LNA: (158.0,767.0)] => {BUR LBB}
+  | | | | (x=125.0) 6:1 => {BHM BUR LBB}
+  | | | | | [ILM: (105.0,767.0)] => {BUR LBB}
+  | | | (y=750.0) 12:4 => {BHM BUR LBB SAN SAV TPA}
+  | | | | | | | [SAT: (224.0,653.0)] => {LBB}
+  | | | | | | (y=653.0) 2:0 => {LBB}
+  | | | | | | | [HRO: (208.0,635.0)] => {LBB}
+  | | | | | (y=625.0) 6:3 => {LBB SAN}
+  | | | | | | | | [OAK: (229.0,617.0)] => {LBB}
+  | | | | | | | (x=201.0) 3:1 => {LBB}
+  | | | | | | | | | [RDR: (163.0,591.0)] => {LBB}
+  | | | | | | | | (y=591.0) 2:0 => {LBB}
+  | | | | | | | | | [CLL: (152.0,571.0)] => {LBB}
+  | | | | | | (y=562.5) 4:2 => {LBB SAN}
+  | | | | | | | [DPA: (182.0,537.0)] => {LBB SAN}
+  | | | | (x=152.0) 6:3 => {LBB SAN}
+  | | | | | [null] => {LBB}
+  | (y=500.0) 85:35 => {BHM BOI BUR DCA LBB LUF PSP SAN SAV SKF...}
+  | | | | | | | [AUS: (458.0,489.0)] => {BHM SAN}
+  | | | | | | (x=437.5) 3:0 => {BHM SAN}
+  | | | | | | | | [DMA: (437.0,486.0)] => {SAN}
+  | | | | | | | (y=437.5) 2:0 => {SAN}
+  | | | | | | | | [BTR: (412.0,395.0)] => {SAN}
+  | | | | | (y=375.0) 8:1 => {BHM DCA SAN}
+  | | | | | | | | [PIE: (499.0,322.0)] => {SAN}
+  | | | | | | | (y=312.5) 2:0 => {DCA SAN}
+  | | | | | | | | [AKR: (447.0,265.0)] => {DCA SAN}
+  | | | | | | (x=437.5) 5:1 => {DCA SAN}
+  | | | | | | | | [INT: (430.0,345.0)] => {SAN}
+  | | | | | | | (y=312.5) 3:0 => {SAN}
+  | | | | | | | | | [CHA: (422.0,265.0)] => {SAN}
+  | | | | | | | | (x=406.25) 2:0 => {SAN}
+  | | | | | | | | | [JBR: (396.0,307.0)] => {SAN}
+  | | | | (x=375.0) 14:3 => {BHM DCA LBB SAN}
+  | | | | | | [EFD: (257.0,368.0)] => {SAN}
+  | | | | | (y=368.0) 6:2 => {SAN}
+  | | | | | | | [HMN: (308.0,262.0)] => {SAN}
+  | | | | | | (x=308.0) 5:2 => {SAN}
+  | | | | | | | | | | | [RNO: (285.0,358.0)] => {SAN}
+  | | | | | | | | | | (y=353.25) 2:0 => {SAN}
+  | | | | | | | | | | | [BCT: (280.0,341.0)] => {SAN}
+  | | | | | | | | | (x=280.0) 2:0 => {SAN}
+  | | | | | | | | | | [null] => {SAN}
+  | | | | | | | | (y=338.5) 3:1 => {SAN}
+  | | | | | | | | | [RDU: (277.0,315.0)] => {SAN}
+  | | | | | | | (y=309.0) 4:2 => {SAN}
+  | | | | | | | | [MOD: (262.0,277.0)] => {SAN}
+  | | | (y=250.0) 23:8 => {BHM DCA LBB PSP SAN TPA}
+  | | | | | | | | [MSS: (477.0,213.0)] => {DCA SAN}
+  | | | | | | | (y=213.0) 2:0 => {DCA SAN}
+  | | | | | | | | [DFW: (443.0,187.0)] => {DCA SAN}
+  | | | | | | (x=437.5) 4:2 => {DCA SAN}
+  | | | | | | | | | [PHF: (411.0,220.0)] => {SAN}
+  | | | | | | | | (x=406.25) 2:0 => {SAN}
+  | | | | | | | | | [JFK: (405.0,229.0)] => {SAN}
+  | | | | | | | (y=220.0) 2:0 => {SAN}
+  | | | | | | | | [null] => {SAN}
+  | | | | | (y=187.0) 5:3 => {DCA SAN TPA}
+  | | | | | | [NEL: (396.0,169.0)] => {DCA SAN TPA}
+  | | | | (x=375.0) 9:5 => {DCA LBB SAN TPA}
+  | | | | | | | | | [ONT: (317.0,249.0)] => {SAN}
+  | | | | | | | | (x=317.0) 2:0 => {SAN}
+  | | | | | | | | | [NBG: (308.0,224.0)] => {SAN}
+  | | | | | | | (y=224.0) 2:0 => {SAN TPA}
+  | | | | | | | | [null] => {SAN TPA}
+  | | | | | | (x=308.0) 3:1 => {SAN TPA}
+  | | | | | | | [HWO: (291.0,171.0)] => {SAN TPA}
+  | | | | | (y=125.0) 4:2 => {DCA SAN TPA}
+  | | | | | | [LRD: (355.0,120.0)] => {SAN TPA}
+  | | (x=250.0) 47:22 => {BHM BOI BUR DCA LBB LUF PSP SAN SAV TPA}
+  | | | | | | | [GTF: (230.0,393.0)] => {LBB SAN}
+  | | | | | | (x=187.5) 3:1 => {LBB SAN}
+  | | | | | | | | [NZY: (147.0,422.0)] => {LBB SAN}
+  | | | | | | | (y=422.0) 2:0 => {LBB SAN}
+  | | | | | | | | [MKE: (125.0,412.0)] => {LBB SAN}
+  | | | | | (y=375.0) 6:1 => {LBB SAN TPA}
+  | | | | | | | | [JAX: (230.0,310.0)] => {SAN}
+  | | | | | | | (y=310.0) 3:0 => {SAN TPA}
+  | | | | | | | | | [GVT: (216.0,307.0)] => {SAN}
+  | | | | | | | | (y=280.0) 2:0 => {SAN TPA}
+  | | | | | | | | | [BWI: (203.0,270.0)] => {SAN TPA}
+  | | | | | | (x=203.0) 3:0 => {LBB SAN TPA}
+  | | | | | | | [null] => {LBB SAN TPA}
+  | | | | (x=125.0) 8:1 => {BHM LBB SAN TPA}
+  | | | | | | [DAY: (108.0,340.0)] => {LBB SAN TPA}
+  | | | | | (y=340.0) 2:0 => {LBB SAN TPA}
+  | | | | | | [EYW: (106.0,285.0)] => {SAN TPA}
+  | | | (y=250.0) 24:14 => {BHM DCA LBB SAN TPA}
+  | | | | | | | [SEA: (201.0,134.0)] => {SAN TPA}
+  | | | | | | (x=187.5) 2:0 => {SAN TPA}
+  | | | | | | | [BFM: (165.0,197.0)] => {TPA}
+  | | | | | (y=125.0) 4:0 => {SAN TPA}
+  | | | | | | | [CIC: (231.0,106.0)] => {TPA}
+  | | | | | | (x=187.5) 2:0 => {TPA}
+  | | | | | | | [LCK: (169.0,120.0)] => {TPA}
+  | | | | (x=125.0) 16:4 => {SAN TPA}
+  | | | | | | [NHK: (105.0,136.0)] => {TPA}
+  | | | | | (y=125.0) 12:4 => {TPA}
+  | | | | | | | | | [SMF: (105.0,100.0)] => {TPA}
+  | | | | | | | | (x=105.0) 8:1 => {TPA}
+  | | | | | | | | | | [STL: (100.0,105.0)] => {TPA}
+  | | | | | | | | | (y=105.0) 7:1 => {TPA}
+  | | | | | | | | | | | | | | [SPG: (104.0,103.0)] => {TPA}
+  | | | | | | | | | | | | | (x=104.0) 2:0 => {TPA}
+  | | | | | | | | | | | | | | [SPS: (103.0,104.0)] => {TPA}
+  | | | | | | | | | | | | (x=103.0) 2:0 => {TPA}
+  | | | | | | | | | | | | | [null] => {TPA}
+  | | | | | | | | | | | (y=103.0) 3:1 => {TPA}
+  | | | | | | | | | | | | [YIP: (104.0,97.0)] => {TPA}
+  | | | | | | | | | | (x=100.5) 6:1 => {TPA}
+  | | | | | | | | | | | | | [SUX: (97.0,104.0)] => {TPA}
+  | | | | | | | | | | | | (x=97.0) 2:0 => {TPA}
+  | | | | | | | | | | | | | [TIK: (96.0,103.0)] => {TPA}
+  | | | | | | | | | | | (y=101.0) 3:0 => {TPA}
+  | | | | | | | | | | | | [TUL: (96.0,97.0)] => {TPA}
+  | | | | | | | (y=97.0) 11:4 => {TPA}
+  | | | | | | | | | | | [WRB: (103.0,96.0)] => {TPA}
+  | | | | | | | | | | (x=103.0) 2:0 => {TPA}
+  | | | | | | | | | | | [TYS: (100.0,95.0)] => {TPA}
+  | | | | | | | | | (x=100.0) 3:1 => {TPA}
+  | | | | | | | | | | [TUS: (97.0,96.0)] => {TPA}
+  | | | | | | | | (y=95.0) 3:1 => {TPA}
+  | | | | | | | | | [null] => {TPA}
+  | | | | | | (x=96.0) 11:4 => {TPA}
+  | | | | | | | [null] => {TPA}
+ca-centers-size: 11
+ca-list-centers:
+  BHM: (471.0,677.0)
+  BOI: (985.0,557.0)
+  BUR: (124.0,996.0)
+  DCA: (674.0,246.0)
+  LBB: (113.0,611.0)
+  LUF: (982.0,132.0)
+  PSP: (746.0,736.0)
+  SAN: (349.0,381.0)
+  SAV: (662.0,989.0)
+  SKF: (949.0,954.0)
+  TPA: (96.0,101.0)
+ca-list-assignments:
+  [TIK->TPA] distSq = 4.0
+  [SUX->TPA] distSq = 10.0
+  [TUL->TPA] distSq = 16.0
+  [TUS->TPA] distSq = 26.0
+  [STL->TPA] distSq = 32.0
+  [TYS->TPA] distSq = 52.0
+  [SPS->TPA] distSq = 58.0
+  [SPG->TPA] distSq = 68.0
+  [WRB->TPA] distSq = 74.0
+  [YIP->TPA] distSq = 80.0
+  [SMF->TPA] distSq = 82.0
+  [EWR->BHM] distSq = 180.0
+  [EDW->PSP] distSq = 194.0
+  [PNE->LUF] distSq = 305.0
+  [PHX->BHM] distSq = 829.0
+  [FYV->PSP] distSq = 976.0
+  [NHK->TPA] distSq = 1306.0
+  [ATL->LUF] distSq = 1445.0
+  [PIT->BHM] distSq = 1768.0
+  [POB->BUR] distSq = 1805.0
+  [LGB->DCA] distSq = 2105.0
+  [ACY->PSP] distSq = 2146.0
+  [GRR->BOI] distSq = 2813.0
+  [RDR->LBB] distSq = 2900.0
+  [CNW->SAV] distSq = 2941.0
+  [GEG->BOI] distSq = 2978.0
+  [SAF->BHM] distSq = 3028.0
+  [CLL->LBB] distSq = 3121.0
+  [ORD->DCA] distSq = 3313.0
+  [MDT->BOI] distSq = 3581.0
+  [LUK->PSP] distSq = 3748.0
+  [IAH->DCA] distSq = 3978.0
+  [FTW->BHM] distSq = 4033.0
+  [BTR->SAN] distSq = 4165.0
+  [IKK->SKF] distSq = 4250.0
+  [FAT->SKF] distSq = 4265.0
+  [NGU->PSP] distSq = 4361.0
+  [RNO->SAN] distSq = 4625.0
+  [NIP->BHM] distSq = 4721.0
+  [HPN->DCA] distSq = 4778.0
+  [MQT->BHM] distSq = 5125.0
+  [MPV->BHM] distSq = 5165.0
+  [MYR->LUF] distSq = 5274.0
+  [LCK->TPA] distSq = 5690.0
+  [DSM->BHM] distSq = 5917.0
+  [BCT->SAN] distSq = 6361.0
+  [BGR->BUR] distSq = 7033.0
+  [OFF->DCA] distSq = 7204.0
+  [CLE->DCA] distSq = 7281.0
+  [JBR->SAN] distSq = 7685.0
+  [INT->SAN] distSq = 7857.0
+  [MNM->BHM] distSq = 8489.0
+  [EFD->SAN] distSq = 8633.0
+  [MHR->DCA] distSq = 9010.0
+  [RDU->SAN] distSq = 9540.0
+  [HRO->LBB] distSq = 9601.0
+  [DUG->PSP] distSq = 10170.0
+  [SJC->SAV] distSq = 10192.0
+  [DTW->DCA] distSq = 10226.0
+  [DPA->LBB] distSq = 10237.0
+  [LGA->BOI] distSq = 10489.0
+  [CPR->SKF] distSq = 10530.0
+  [CLT->BHM] distSq = 10685.0
+  [ROC->BHM] distSq = 10980.0
+  [AMA->BHM] distSq = 11156.0
+  [BFI->BHM] distSq = 11185.0
+  [ACK->BHM] distSq = 11285.0
+  [NPA->BOI] distSq = 11336.0
+  [CVG->BOI] distSq = 11668.0
+  [BOS->BHM] distSq = 11765.0
+  [MDW->PSP] distSq = 11817.0
+  [CBM->LUF] distSq = 11833.0
+  [ISP->DCA] distSq = 11905.0
+  [SEA->TPA] distSq = 12114.0
+  [FMY->BHM] distSq = 12178.0
+  [FFO->BHM] distSq = 12469.0
+  [BLI->DCA] distSq = 12781.0
+  [FLL->BOI] distSq = 13050.0
+  [PSX->SAV] distSq = 13192.0
+  [GVW->LUF] distSq = 13401.0
+  [OAK->LBB] distSq = 13492.0
+  [NQX->DCA] distSq = 13549.0
+  [LAX->BOI] distSq = 13649.0
+  [DLH->LUF] distSq = 13725.0
+  [OPF->LUF] distSq = 13810.0
+  [RIC->BHM] distSq = 13817.0
+  [DEN->BOI] distSq = 13885.0
+  [NOW->DCA] distSq = 13949.0
+  [BFM->TPA] distSq = 13977.0
+  [SAT->LBB] distSq = 14085.0
+  [JAN->SAV] distSq = 14290.0
+  [GTF->SAN] distSq = 14305.0
+  [ORF->DCA] distSq = 14381.0
+  [PBI->SAV] distSq = 14596.0
+  [SFF->SKF] distSq = 14600.0
+  [RND->LUF] distSq = 14722.0
+  [MSP->DCA] distSq = 15802.0
+  [HMN->SAN] distSq = 15842.0
+  [NSE->DCA] distSq = 15997.0
+  [BRO->PSP] distSq = 16474.0
+  [SLC->PSP] distSq = 17170.0
+  [LNK->DCA] distSq = 17242.0
+  [COS->PSP] distSq = 17858.0
+  [SAC->DCA] distSq = 18050.0
+  [ART->BUR] distSq = 18212.0
+  [CIC->TPA] distSq = 18250.0
+  [MOD->SAN] distSq = 18385.0
+  [ONT->SAN] distSq = 18448.0
+  [RME->BOI] distSq = 18605.0
+  [LRF->PSP] distSq = 18728.0
+  [DMA->SAN] distSq = 18769.0
+  [CHA->SAN] distSq = 18785.0
+  [JAX->SAN] distSq = 19202.0
+  [CHS->LUF] distSq = 19421.0
+  [PAM->BUR] distSq = 19865.0
+  [ORL->PSP] distSq = 19940.0
+  [MCC->LUF] distSq = 20052.0
+  [SKA->DCA] distSq = 20225.0
+  [GWO->BHM] distSq = 20789.0
+  [SFO->PSP] distSq = 20813.0
+  [HFD->SKF] distSq = 21073.0
+  [CMH->PSP] distSq = 21194.0
+  [DAL->BHM] distSq = 22865.0
+  [AKR->SAN] distSq = 23060.0
+  [GVT->SAN] distSq = 23165.0
+  [LOU->BHM] distSq = 23432.0
+  [AUS->SAN] distSq = 23545.0
+  [NZC->DCA] distSq = 23546.0
+  [OMA->BOI] distSq = 24197.0
+  [ILM->LBB] distSq = 24400.0
+  [ELP->DCA] distSq = 24841.0
+  [NCA->SAN] distSq = 25177.0
+  [CRP->BHM] distSq = 25253.0
+  [PIE->SAN] distSq = 25981.0
+  [JFK->SAN] distSq = 26240.0
+  [NBG->SAN] distSq = 26330.0
+  [LNA->LBB] distSq = 26361.0
+  [MXF->LBB] distSq = 26977.0
+  [ABQ->SAV] distSq = 27045.0
+  [IND->PSP] distSq = 27617.0
+  [FXE->DCA] distSq = 28249.0
+  [MCO->DCA] distSq = 28480.0
+  [GSB->SAN] distSq = 28936.0
+  [ALB->BUR] distSq = 29021.0
+  [HOU->BHM] distSq = 29098.0
+  [PHL->DCA] distSq = 29290.0
+  [ROW->DCA] distSq = 29341.0
+  [PHF->SAN] distSq = 29765.0
+  [MEM->BHM] distSq = 29786.0
+  [IAB->BOI] distSq = 30325.0
+  [MAF->DCA] distSq = 31058.0
+  [MSY->BHM] distSq = 31610.0
+  [BNA->LUF] distSq = 32650.0
+  [FOE->SAN] distSq = 33050.0
+  [OKC->LUF] distSq = 33361.0
+  [AUG->BOI] distSq = 33545.0
+  [CNM->SAV] distSq = 33565.0
+  [BWI->SAN] distSq = 33637.0
+  [EYW->TPA] distSq = 33956.0
+  [PDX->DCA] distSq = 35360.0
+  [MOT->LUF] distSq = 35762.0
+  [BUF->SAN] distSq = 36040.0
+  [HUF->BOI] distSq = 36109.0
+  [NZY->LBB] distSq = 36877.0
+  [MIA->BUR] distSq = 37060.0
+  [DRT->DCA] distSq = 37300.0
+  [LSV->SAN] distSq = 38317.0
+  [DET->BHM] distSq = 38450.0
+  [DLF->BHM] distSq = 38746.0
+  [AEX->SAN] distSq = 38954.0
+  [MKE->LBB] distSq = 39745.0
+  [MSS->DCA] distSq = 39898.0
+  [GRB->BHM] distSq = 40456.0
+  [LIT->SAN] distSq = 41130.0
+  [HWO->TPA] distSq = 42925.0
+  [IAD->BHM] distSq = 43348.0
+  [IAG->SAN] distSq = 44138.0
+  [LAS->BOI] distSq = 45557.0
+  [DFW->SAN] distSq = 46472.0
+  [NEL->SAN] distSq = 47153.0
+  [MCI->BHM] distSq = 47458.0
+  [DYS->DCA] distSq = 51325.0
+  [MKO->BHM] distSq = 51701.0
+  [CYS->DCA] distSq = 55130.0
+  [DAY->TPA] distSq = 57265.0
+  [MCF->BOI] distSq = 57941.0
+  [GLS->BHM] distSq = 59728.0
+  [PNM->SAV] distSq = 62632.0
+  [LRD->TPA] distSq = 67442.0

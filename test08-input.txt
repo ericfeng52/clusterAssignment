@@ -1,0 +1,230 @@
+comment:ClusterAssignment with roughly 200 points.
+initialize:5:0:1000:0:1000
+comment:Initial center is DCA (674,246)
+ca-initialize:DCA:WASHINGTON:674:246
+comment:Inserting 5 more centers
+ca-add-center:BUR:BURBANK:124:996
+ca-add-center:SKF:SAN ANTONIO:949:954
+ca-add-center:TPA:TAMPA:96:101
+ca-add-center:BHM:BIRMINGHAM:471:677
+ca-add-center:BOI:BOISE:985:557
+comment:Adding many sites
+ca-add-site:ACK:NANTUCKET:529:766
+ca-add-site:ACY:ATLANTIC CITY:735:691
+ca-add-site:AEX:ALEXANDRIA:522:476
+ca-add-site:AKR:AKRON:447:265
+ca-add-site:ALB:ALBANY:294:985
+ca-add-site:AMA:AMARILLO:371:711
+ca-add-site:ART:WATERTOWN:210:892
+ca-add-site:ATL:ATLANTA:948:149
+ca-add-site:AUG:AUGUSTA:857:426
+ca-add-site:AUS:AUSTIN:458:489
+ca-add-site:BCT:BOCA RATON:280:341
+ca-add-site:BFI:SEATTLE:390:609
+ca-add-site:BFM:MOBILE:165:197
+ca-add-site:BGR:BANGOR:167:924
+ca-add-site:BLI:BELLINGHAM:783:276
+ca-add-site:BNA:NASHVILLE:913:299
+ca-add-site:BOS:BOSTON:533:588
+ca-add-site:BRO:BROWNSVILLE:803:851
+ca-add-site:BTR:BATON ROUGE:412:395
+ca-add-site:BUF:BUFFALO:531:435
+ca-add-site:BWI:BALTIMORE:203:270
+ca-add-site:CBM:COLUMBUS:874:145
+ca-add-site:CHA:CHATTANOOGA:422:265
+ca-add-site:CHS:CHARLESTON:992:271
+ca-add-site:CIC:CHICO:231:106
+ca-add-site:CLE:CLEVELAND:689:330
+ca-add-site:CLL:COLLEGE STATION:152:571
+ca-add-site:CLT:CHARLOTTE:514:771
+ca-add-site:CMH:COLUMBUS:601:749
+ca-add-site:CNM:CARLSBAD:536:856
+ca-add-site:CNW:WACO:667:935
+ca-add-site:COS:COLORADO SPRINGS:613:723
+ca-add-site:CPR:CASPER:850:927
+ca-add-site:CRP:CORPUS CHRISTI:488:835
+ca-add-site:CVG:CINCINNATI:877:555
+ca-add-site:CYS:CHEYENNE:645:479
+ca-add-site:DAL:DALLAS:619:646
+ca-add-site:DAY:DAYTON:108:340
+ca-add-site:DEN:DENVER:868:571
+ca-add-site:DET:DETROIT:634:568
+ca-add-center:LBB:LUBBOCK:113:611
+ca-sites-size
+ca-list-kd
+ca-centers-size
+ca-list-centers
+ca-list-assignments
+ca-add-site:DFW:DALLAS-FORT WORTH:443:187
+ca-add-site:DLF:DEL RIO:526:488
+ca-add-site:DLH:DULUTH:868:159
+ca-add-site:DMA:TUCSON:437:486
+ca-add-site:DPA:WEST CHICAGO:182:537
+ca-add-site:DRT:DEL RIO:776:410
+ca-add-site:DSM:DES MOINES:437:608
+ca-add-site:DTW:DETROIT:679:347
+ca-add-site:DUG:DOUGLAS:833:685
+ca-add-site:DYS:ABILENE:732:465
+ca-add-site:EDW:EDWARDS AFB:733:741
+ca-add-site:EFD:HOUSTON:257:368
+ca-add-site:ELP:EL PASO:578:371
+ca-add-site:EWR:NEWARK:459:671
+ca-add-site:EYW:KEY WEST:106:285
+ca-add-site:FAT:FRESNO:890:926
+ca-add-site:FFO:DAYTON:558:607
+ca-add-site:FLL:FORT LAUDERDALE:928:656
+ca-add-site:FMY:FORT MYERS:444:784
+ca-add-site:FOE:TOPEKA:518:448
+ca-add-site:FTW:FORT WORTH:414:705
+ca-add-site:FXE:FORT LAUDERDALE:842:251
+ca-add-site:FYV:FAYETTEVILLE:722:756
+ca-add-site:GEG:SPOKANE:998:610
+ca-add-site:GLS:GALVESTON:383:905
+ca-add-site:GRB:GREEN BAY:321:811
+ca-add-site:GRR:GRAND RAPIDS:932:559
+ca-add-site:GSB:GOLDSBORO:519:375
+ca-add-site:GTF:GREAT FALLS:230:393
+ca-add-site:GVT:GREENVILE:216:307
+ca-add-site:GVW:GRANDVIEW:883:192
+ca-add-site:GWO:GREENWOOD:329:652
+ca-add-site:HFD:HARTFORD:852:846
+ca-add-site:HMN:ALAMOGORDO:308:262
+ca-add-site:HOU:HOUSTON:614:584
+ca-add-site:HPN:WHITE PLAINS:607:229
+ca-add-site:HRO:HARRISON:208:635
+ca-add-site:HUF:TERRE HAUTE:982:367
+ca-add-site:HWO:HOLLYWOOD:291:171
+ca-add-site:IAB:WICHITA:978:731
+ca-add-center:LUF:PHOENIX:982:132
+ca-sites-size
+ca-list-kd
+ca-centers-size
+ca-list-centers
+ca-list-assignments
+ca-add-site:IAD:WASHINGTON:579:499
+ca-add-site:IAG:NIAGARA FALLS:546:454
+ca-add-site:IAH:HOUSTON:677:183
+ca-add-site:IKK:KANKAKEE:888:931
+ca-add-site:ABQ:KIRTLAND A.F.B.:503:947
+ca-add-site:ILM:WILMINGTON:105:767
+ca-add-site:IND:INDIANAPOLIS:630:617
+ca-add-site:INT:WINSTON-SALEM:430:345
+ca-add-site:ISP:ISLIP:641:142
+ca-add-site:JAN:JACKSON:701:876
+ca-add-site:JAX:JACKSONVILLE:230:310
+ca-add-site:JBR:JONESBORO:396:307
+ca-add-site:JFK:NEW YORK:405:229
+ca-add-site:LAS:LAS VEGAS:896:363
+ca-add-site:LAX:LOS ANGELES:917:462
+ca-add-site:LCK:COLUMBUS:169:120
+ca-add-site:LGA:NEW YORK:940:649
+ca-add-site:LGB:LONG BEACH:718:233
+ca-add-site:LIT:LITTLE ROCK:550:408
+ca-add-site:LNA:WEST PALM BEACH:158:767
+ca-add-site:LNK:LINCOLN:805:237
+ca-add-site:LOU:LOUISVILLE:397:543
+ca-add-site:LRD:LAREDO:355:120
+ca-add-site:LRF:JACKSONVILLE:624:674
+ca-add-site:LSV:LAS VEGAS:535:442
+ca-add-site:LUK:CINCINNATI:794:774
+ca-add-site:MAF:MIDLAND:607:409
+ca-add-site:MCC:SACRAMENTO:868:216
+ca-add-site:MCF:TAMPA:755:486
+ca-add-site:MCI:KANSAS CITY:294:804
+ca-add-site:MCO:ORLANDO:506:262
+ca-add-site:MDT:HARRISBURG:926:547
+ca-add-site:MDW:CHICAGO:650:787
+ca-add-site:MEM:MEMPHIS:436:846
+ca-add-site:MHR:SACRAMENTO:701:155
+ca-add-site:MIA:MIAMI:228:834
+ca-add-site:MKE:MILWAUKEE:125:412
+ca-add-site:MKO:MUSKOGEE:301:828
+ca-add-site:MNM:MACON:476:769
+ca-add-site:MOD:MODESTO:262:277
+ca-add-center:SAN:SAN DIEGO:349:381
+ca-sites-size
+ca-list-kd
+ca-centers-size
+ca-list-centers
+ca-list-assignments
+ca-add-site:MOT:MINOT:921:311
+ca-add-site:MPV:MONTPELIER:410:715
+ca-add-site:MQT:MARQUETTE:486:607
+ca-add-site:MSP:MINNEAPOLIS:563:187
+ca-add-site:MSS:MASSENA:477:213
+ca-add-site:MSY:NEW ORLEANS:512:504
+ca-add-site:MXF:MONTGOMERY:277:602
+ca-add-site:MYR:MYRTLE BEACH:937:189
+ca-add-site:NBG:NEW ORLEANS:308:224
+ca-add-site:NCA:JACKSONVILLE:505:352
+ca-add-site:NEL:LAKEHURST:396:169
+ca-add-site:NGU:NORFOLK:802:771
+ca-add-site:NHK:PATUXENT RIVER:105:136
+ca-add-site:NIP:JACKSONVILLE:446:741
+ca-add-site:NOW:PORT ANGELES:669:364
+ca-add-site:NPA:PENSACOLA:891:507
+ca-add-site:NQX:KEY WEST:656:361
+ca-add-site:NSE:MILTON:548:235
+ca-add-site:NZC:JACKSONVILLE:813:311
+ca-add-site:NZY:SAN DIEGO:147:422
+ca-add-site:OAK:OAKLAND:229:617
+ca-add-site:OFF:OMAHA:604:294
+ca-add-site:OKC:OKLAHOMA CITY:951:312
+ca-add-site:OMA:OMAHA:851:478
+ca-add-site:ONT:ONTARIO:317:249
+ca-add-site:OPF:MIAMI:993:249
+ca-add-site:ORD:CHICAGO:682:189
+ca-add-site:ORF:NORFOLK:565:296
+ca-add-site:ORL:ORLANDO:610:774
+ca-add-site:PAM:PANAMA CITY:260:959
+ca-add-site:PBI:WEST PALM BEACH:782:975
+ca-add-site:PDX:PORTLAND:790:394
+ca-add-site:PHF:NEWPORT NEWS:411:220
+ca-add-site:PHL:PHILADELPHIA:771:105
+ca-add-site:PHX:PHOENIX:461:650
+ca-add-site:PIE:ST. PETERSBURG:499:322
+ca-add-site:PIT:PITTSBURGH:433:695
+ca-add-site:PNE:PHILADELPHIA:965:136
+ca-add-site:PNM:PRINCETON:416:943
+ca-add-site:POB:FAYETTEVILLE:143:958
+ca-add-center:SAV:SAVANNAH:662:989
+ca-sites-size
+ca-list-kd
+ca-centers-size
+ca-list-centers
+ca-list-assignments
+ca-add-site:PSX:PALACIOS:648:875
+ca-add-site:RDR:RED RIVER:163:591
+ca-add-site:RDU:RALEIGH-DURHAM:277:315
+ca-add-site:RIC:RICHMOND:490:561
+ca-add-site:RME:ROME:876:639
+ca-add-site:RND:SAN ANTONIO:933:243
+ca-add-site:RNO:RENO:285:358
+ca-add-site:ROC:ROCHESTER:495:779
+ca-add-site:ROW:ROSWELL:839:292
+ca-add-site:SAC:SACRAMENTO:693:379
+ca-add-site:SAF:SANTA FE:523:659
+ca-add-site:SAT:SAN ANTONIO:224:653
+ca-add-site:SEA:SEATTLE:201:134
+ca-add-site:SFF:SPOKANE:831:928
+ca-add-site:SFO:SAN FRANCISCO:864:653
+ca-add-site:SJC:SAN JOSE:718:905
+ca-add-site:SKA:SPOKANE:577:142
+ca-add-site:SLC:SALT LAKE CITY:877:739
+ca-add-site:SMF:SACRAMENTO:105:100
+ca-add-site:SPG:ST. PETERSBURG:104:103
+ca-add-site:SPS:WICHITA FALLS:103:104
+ca-add-site:STL:ST. LOUIS:100:105
+ca-add-site:SUX:SIOUX CITY:97:104
+ca-add-site:TIK:OKLAHOMA CITY:96:103
+ca-add-site:TUL:TULSA:96:97
+ca-add-site:TUS:TUCSON:97:96
+ca-add-site:TYS:KNOXVILLE:100:95
+ca-add-site:WRB:MACON:103:96
+ca-add-site:YIP:DETROIT:104:97
+ca-add-center:PSP:PALM SPRINGS:746:736
+ca-sites-size
+ca-list-kd
+ca-centers-size
+ca-list-centers
+ca-list-assignments

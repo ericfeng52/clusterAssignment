@@ -1,0 +1,349 @@
+comment: FarthestFirst with 150 points.
+initialize: rebuild-offset = 10 bounding-box = [(-100.0,-2000.0),(800.0,2000.0)]
+ff-initialize(start = HRB): successful
+comment: Testing operations on an empty tree
+ff-sites-size: 0
+Failure due to exception: "Error - farthestFirst.listKdWithCenters returned a null result"
+Failure due to exception: "farthestFirst.listCenters returned a null result"
+Failure due to exception: "farthestFirst.listAssignments returned a null result"
+ff-traversal-size: 0
+Failure due to exception: "Error - farthestFirst.getTraversal returned a null result"
+comment: Adding many sites
+ff-add-site(TMX): successful {TIMIMOUN, (290.0,6.0)}
+ff-add-site(NRD): successful {NORDERNEY, (532.0,57.0)}
+ff-add-site(GWT): successful {WESTERLAND, (544.0,83.0)}
+ff-add-site(TLL): successful {TALLINN, (597.0,234.0)}
+ff-add-site(ENF): successful {ENONTEKIO, (699.0,239.0)}
+ff-add-site(KEV): successful {HALLI, (630.0,242.0)}
+ff-add-site(HEM): successful {HELSINKI, (608.0,273.0)}
+ff-add-site(HEL): successful {HELSINKI, (601.0,243.0)}
+ff-add-site(BSK): successful {BISKRA, (344.0,55.0)}
+ff-add-site(ELG): successful {EL GOLEA, (301.0,23.0)}
+ff-add-site(HTN): successful {HOTAN, (371.0,796.0)}
+ff-add-site(URC): successful {URUMQI, (432.0,877.0)}
+ff-add-site(DLC): successful {DALIAN, (387.0,1211.0)}
+ff-add-site(NYI): successful {SUNYANI, (77.0,-29.0)}
+ff-add-site(TKD): successful {TAKORADI, (40.0,-12.0)}
+ff-add-site(ABJ): successful {ABIDJAN, (57.0,-33.0)}
+ff-add-site(BYK): successful {BOUAKE, (71.0,-53.0)}
+ff-add-site(DJO): successful {DALOA, (67.0,-65.0)}
+ff-add-site(HGO): successful {KORHOGO, (99.0,-55.0)}
+ff-add-site(MJC): successful {MAN, (71.0,-76.0)}
+ff-add-site(JYV): successful {JYVASKYLA, (632.0,257.0)}
+ff-add-site(KAU): successful {KAUHAVA, (634.0,333.0)}
+ff-add-site(KEM): successful {KEMI, (657.0,244.0)}
+ff-add-site(KAJ): successful {KAJAANI, (655.0,279.0)}
+ff-add-site(LDY): successful {LONDONDERRY, (540.0,-72.0)}
+ff-add-site(BHX): successful {BIRMINGHAM, (528.0,-13.0)}
+ff-add-site(CVT): successful {COVENTRY, (519.0,-23.0)}
+ff-add-site(BNI): successful {BENIN, (55.0,55.0)}
+ff-add-site(CBQ): successful {CALABAR, (44.0,88.0)}
+ff-add-site(ENU): successful {ENUGU, (61.0,76.0)}
+ff-add-site(QUS): successful {GUSAU, (123.0,67.0)}
+ff-add-site(DJE): successful {DJERBA, (353.0,145.0)}
+ff-add-site(EBM): successful {EL BORMA, (347.0,144.0)}
+ff-add-site(SFA): successful {SFAX, (333.0,239.0)}
+ff-add-site(TOE): successful {TOZEUR, (331.0,142.0)}
+ff-add-site(LRL): successful {NIATOUGOU, (98.0,13.0)}
+ff-add-site(LFW): successful {LOME, (61.0,13.0)}
+ff-add-site(HHN): successful {HAHN, (499.0,73.0)}
+ff-add-site(MHG): successful {MANNHEIM, (499.0,67.0)}
+ff-add-site(XFW): successful {HAMBURG, (531.0,96.0)}
+ff-add-site(KEL): successful {KIEL, (542.0,117.0)}
+ff-add-site(LBC): successful {LUEBECK, (533.0,93.0)}
+ff-add-site(EME): successful {EMDEN, (537.0,74.0)}
+ff-add-site(WVN): successful {WILHELMSHAVEN, (532.0,89.0)}
+ff-add-site(BMK): successful {BORKUM, (530.0,62.0)}
+ff-add-site(ENA): successful {KENAI, (608.0,-1513.0)}
+ff-add-site(FAI): successful {FAIRBANKS, (641.0,-1463.0)}
+ff-add-site(FBK): successful {FORT WAINWRIGHT, (644.0,-1475.0)}
+ff-add-site(GAL): successful {GALENA, (644.0,-1566.0)}
+ff-add-site(GKN): successful {GULKANA, (621.0,-1456.0)}
+ff-add-site(SGY): successful {SKAGWAY, (592.0,-1357.0)}
+ff-add-site(HOM): successful {HOMER, (598.0,-1519.0)}
+ff-add-site(ILI): successful {ILIAMNA, (597.0,-1544.0)}
+ff-add-site(UTO): successful {INDIAN MOUNTAINS, (655.0,-1539.0)}
+ff-add-site(NGB): successful {NINBO, (290.0,1212.0)}
+ff-add-site(NKG): successful {NANJING, (318.0,1183.0)}
+ff-add-site(HFE): successful {HEFEI, (311.0,1173.0)}
+ff-add-site(TAO): successful {QINGDAO, (366.0,1205.0)}
+ff-add-site(SHA): successful {SHANGHAI, (311.0,1211.0)}
+ff-add-site(YNT): successful {YANTAI, (371.0,1216.0)}
+ff-add-site(CKG): successful {CHONGQING, (292.0,1067.0)}
+ff-add-site(LXA): successful {LHASA, (0.0,0.0)}
+ff-add-site(CTU): successful {CHENGDU, (307.0,1034.0)}
+ff-add-site(HME): successful {HASSI-MESSAOUD, (313.0,69.0)}
+ff-add-site(INZ): successful {IN SALAH, (270.0,32.0)}
+ff-add-site(YEV): successful {INUVIK, (688.0,-1333.0)}
+ff-add-site(YFB): successful {IQALUIT, (631.0,-683.0)}
+ff-add-site(YFC): successful {FREDERICTON, (449.0,-663.0)}
+ff-add-site(IVL): successful {IVALO, (688.0,277.0)}
+ff-add-site(JOE): successful {JOENSUU, (621.0,296.0)}
+ff-add-site(GKA): successful {GOROKA, (-63.0,1457.0)}
+ff-add-site(MAG): successful {MADANG, (-55.0,1455.0)}
+ff-add-site(HGU): successful {MOUNT HAGEN, (-57.0,1443.0)}
+ff-add-site(LAE): successful {NADZAB, (-66.0,1469.0)}
+ff-add-site(POM): successful {PORT MORESBY, (-90.0,1472.0)}
+ff-add-site(WWK): successful {WEWAK, (-33.0,1423.0)}
+ff-add-site(VEY): successful {VESTMANNAEYJAR, (631.0,-203.0)}
+ff-add-site(YAM): successful {SAULT SAINTE MARIE, (461.0,-843.0)}
+ff-add-site(YAV): successful {WINNIPEG, (500.0,-977.0)}
+ff-add-site(YAW): successful {HALIFAX, (441.0,-637.0)}
+ff-add-site(YAY): successful {ST. ANTHONY, (512.0,-567.0)}
+ff-add-site(YAZ): successful {TOFINO, (499.0,-1259.0)}
+ff-add-site(YBB): successful {PELLY BAY, (687.0,-894.0)}
+ff-add-site(YDQ): successful {DAWSON CREEK, (555.0,-1209.0)}
+ff-add-site(GHA): successful {GHARDAIA, (321.0,32.0)}
+ff-add-site(PKO): successful {PARAKOU, (98.0,23.0)}
+ff-add-site(OUA): successful {OUAGADOUGOU, (121.0,-13.0)}
+ff-add-site(BOY): successful {BOBO-DIOULASSO, (111.0,-33.0)}
+ff-add-site(ACC): successful {ACCRA, (56.0,0.0)}
+ff-add-site(TML): successful {TAMALE, (91.0,6.0)}
+ff-add-site(GLO): successful {GOLOUCHESTERSHIRE, (512.0,-27.0)}
+ff-add-site(OGX): successful {OUARGLA, (311.0,51.0)}
+ff-add-site(IAM): successful {ZARZAITINE, (287.0,94.0)}
+ff-add-site(COO): successful {COTONOU, (67.0,29.0)}
+ff-add-site(TLM): successful {TLEMCEN, (350.0,-12.0)}
+ff-add-site(ORN): successful {ORAN, (358.0,22.0)}
+ff-add-site(MUW): successful {GHRISS, (351.0,33.0)}
+ff-add-site(AZR): successful {ADRAR, (271.0,13.0)}
+ff-add-site(TGR): successful {TOUGGOURT, (322.0,144.0)}
+ff-add-site(LOO): successful {LAGHOUAT, (331.0,27.0)}
+ff-add-site(XIC): successful {XICHANG, (272.0,1029.0)}
+ff-add-site(KHG): successful {KASHI, (399.0,769.0)}
+ff-add-site(QAS): successful {ECH-CHELIFF, (367.0,14.0)}
+ff-add-site(TAF): successful {ORAN, (355.0,9.0)}
+ff-add-site(YFO): successful {FLIN FLON, (540.0,-1012.0)}
+ff-add-site(YHM): successful {HAMILTON, (428.0,-793.0)}
+ff-add-site(YHU): successful {MONTREAL, (451.0,-733.0)}
+ff-add-site(YHY): successful {HAY RIVER, (601.0,-1153.0)}
+ff-add-site(YHZ): successful {HALIFAX, (444.0,-622.0)}
+ff-add-site(YIB): successful {ATIKOKAN, (391.0,146.0)}
+ff-add-site(YIO): successful {POND INLET, (722.0,-777.0)}
+ff-add-site(YJN): successful {ST. JEAN, (456.0,-725.0)}
+ff-add-site(YND): successful {GATINEAU, (457.0,-764.0)}
+ff-add-site(YNM): successful {MATAGAMI, (499.0,-779.0)}
+ff-add-site(YOC): successful {OLD CROW, (670.0,-1392.0)}
+ff-add-site(YOD): successful {COLD LAKE, (548.0,-1103.0)}
+ff-add-site(YOJ): successful {HIGH LEVEL, (581.0,-1173.0)}
+ff-add-site(YOW): successful {OTTAWA, (451.0,-753.0)}
+ff-add-site(YRM): successful {ROCKY MOUNTAIN HOUSE, (522.0,-1144.0)}
+ff-add-site(YRT): successful {RANKIN INLET, (621.0,-926.0)}
+ff-add-site(YSB): successful {SUDBURY, (462.0,-807.0)}
+ff-add-site(YSC): successful {SHERBROOKE, (455.0,-715.0)}
+ff-add-site(YSJ): successful {ST. JOHN, (457.0,-654.0)}
+ff-add-site(YWA): successful {PETAWAWA, (455.0,-779.0)}
+ff-add-site(YED): successful {EDMONTON, (530.0,-1132.0)}
+ff-add-site(YEG): successful {EDMONTON, (548.0,-1133.0)}
+ff-add-site(YEK): successful {ESKIMO POINT, (611.0,-943.0)}
+ff-add-site(YEN): successful {ESTEVAN, (491.0,-1023.0)}
+ff-add-site(YET): successful {EDSON, (534.0,-1166.0)}
+ff-add-site(YEU): successful {EUREKA, (791.0,-856.0)}
+ff-add-site(YWG): successful {WINNIPEG, (492.0,-977.0)}
+ff-add-site(YWK): successful {WABUSH, (522.0,-662.0)}
+ff-add-site(YWL): successful {WILLIAMS LAKE, (527.0,-1224.0)}
+ff-add-site(YWY): successful {WRIGLEY, (388.0,149.0)}
+ff-add-site(YXC): successful {CRANBROOK, (490.0,-1152.0)}
+ff-add-site(YYU): successful {KAPUSKASING, (498.0,-823.0)}
+ff-add-site(SPY): successful {SAN PEDRO, (41.0,-63.0)}
+ff-add-site(ASK): successful {YAMOUSSOUKRO, (61.0,-52.0)}
+ff-add-site(ABV): successful {ABUJA, (99.0,77.0)}
+ff-add-site(AKR): successful {AKURE, (71.0,56.0)}
+ff-add-site(YYW): successful {ARMSTRONG, (502.0,-887.0)}
+ff-add-site(YYY): successful {MONT JOLI, (488.0,-688.0)}
+ff-add-site(YYZ): successful {TORONTO, (437.0,-794.0)}
+ff-add-site(CZL): successful {CONSTANTINE, (366.0,69.0)}
+ff-add-site(TEE): successful {TEBESSA, (350.0,92.0)}
+ff-add-site(HRM): successful {TILREMPT, (327.0,23.0)}
+ff-add-site(TID): successful {TIARET, (352.0,13.0)}
+ff-add-site(TIN): successful {TINDOUF, (271.0,-83.0)}
+ff-add-site(BLI): successful {BELLINGHAM, (677.0,-966.0)}
+ff-sites-size: 0
+ff-traversal-size: 0
+Failure due to exception: "Error - farthestFirst.listKdWithCenters returned a null result"
+Failure due to exception: "Error - farthestFirst.getTraversal returned a null result"
+Failure due to exception: "farthestFirst.listAssignments returned a null result"
+ff-extract-next: [No more points remaining]
+ff-sites-size: 0
+ff-traversal-size: 0
+Failure due to exception: "Error - farthestFirst.getTraversal returned a null result"
+ff-extract-next: [No more points remaining]
+ff-sites-size: 0
+ff-traversal-size: 0
+Failure due to exception: "Error - farthestFirst.getTraversal returned a null result"
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-sites-size: 0
+ff-traversal-size: 0
+Failure due to exception: "Error - farthestFirst.getTraversal returned a null result"
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-sites-size: 0
+ff-traversal-size: 0
+Failure due to exception: "Error - farthestFirst.getTraversal returned a null result"
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-sites-size: 0
+ff-traversal-size: 0
+Failure due to exception: "Error - farthestFirst.listKdWithCenters returned a null result"
+Failure due to exception: "farthestFirst.listAssignments returned a null result"
+Failure due to exception: "Error - farthestFirst.getTraversal returned a null result"
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-sites-size: 0
+ff-traversal-size: 0
+Failure due to exception: "Error - farthestFirst.getTraversal returned a null result"
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-sites-size: 0
+ff-traversal-size: 0
+Failure due to exception: "Error - farthestFirst.getTraversal returned a null result"
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-sites-size: 0
+ff-traversal-size: 0
+Failure due to exception: "Error - farthestFirst.getTraversal returned a null result"
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-sites-size: 0
+ff-traversal-size: 0
+Failure due to exception: "Error - farthestFirst.getTraversal returned a null result"
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-sites-size: 0
+ff-traversal-size: 0
+Failure due to exception: "Error - farthestFirst.getTraversal returned a null result"
+ff-sites-size: 0
+ff-traversal-size: 0
+ff-extract-next: [No more points remaining]

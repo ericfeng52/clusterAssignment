@@ -1,0 +1,50 @@
+comment:Test of Farthest-First
+initialize:10:0:100:0:100
+comment:Initializing farthest-First structure starting at ORD
+ff-initialize:ORD:Chicago:20:60
+ff-add-site:ATL:Atlanta:10:50
+ff-add-site:JFK:New York:90:40
+ff-add-site:BWI:Baltimore:80:80
+ff-add-site:SEA:Seattle:50:51
+ff-add-site:SFO:San Francisco:20:100
+ff-add-site:DFW:Dallas-Fort Worth:30:79
+ff-add-site:DCA:Washington:61:71
+ff-add-site:LAX:Los Angeles:40:20
+ff-add-site:IAD:Dulles:31:40
+ff-add-site:PVD:Providence:90:20
+ff-add-site:LAS:Las Vegas:10:20
+ff-add-site:MCO:Orlando:61:30
+ff-sites-size
+ff-list-kd
+ff-list-centers
+ff-list-assignments
+ff-traversal-size
+ff-list-traversal
+ff-extract-next
+ff-sites-size
+ff-list-kd
+ff-list-centers
+ff-list-assignments
+ff-traversal-size
+ff-list-traversal
+ff-extract-next
+ff-sites-size
+ff-list-kd
+ff-list-centers
+ff-list-assignments
+ff-traversal-size
+ff-list-traversal
+ff-extract-next
+ff-sites-size
+ff-list-kd
+ff-list-centers
+ff-list-assignments
+ff-traversal-size
+ff-list-traversal
+ff-extract-next
+ff-sites-size
+ff-list-kd
+ff-list-centers
+ff-list-assignments
+ff-traversal-size
+ff-list-traversal

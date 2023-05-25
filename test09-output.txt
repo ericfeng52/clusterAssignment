@@ -1,0 +1,215 @@
+comment: FarthestFirst with roughly 200 points.
+initialize: rebuild-offset = 5 bounding-box = [(0.0,0.0),(1000.0,1000.0)]
+comment: Initial center is DCA (674,246)
+ff-initialize(start = DCA): successful
+comment: Adding many sites
+ff-add-site(ACK): successful {NANTUCKET, (529.0,766.0)}
+ff-add-site(ACY): successful {ATLANTIC CITY, (735.0,691.0)}
+ff-add-site(AEX): successful {ALEXANDRIA, (522.0,476.0)}
+ff-add-site(AKR): successful {AKRON, (446.0,265.0)}
+ff-add-site(ALB): successful {ALBANY, (294.0,985.0)}
+ff-add-site(AMA): successful {AMARILLO, (371.0,711.0)}
+ff-add-site(ART): successful {WATERTOWN, (210.0,892.0)}
+ff-add-site(ATL): successful {ATLANTA, (948.0,149.0)}
+ff-add-site(AUG): successful {AUGUSTA, (857.0,426.0)}
+ff-add-site(AUS): successful {AUSTIN, (458.0,489.0)}
+ff-add-site(BCT): successful {BOCA RATON, (280.0,341.0)}
+ff-add-site(BFI): successful {SEATTLE, (390.0,609.0)}
+ff-add-site(BFM): successful {MOBILE, (165.0,197.0)}
+ff-add-site(BGR): successful {BANGOR, (167.0,924.0)}
+ff-add-site(BHM): successful {BIRMINGHAM, (471.0,677.0)}
+ff-add-site(BLI): successful {BELLINGHAM, (783.0,276.0)}
+ff-add-site(BNA): successful {NASHVILLE, (913.0,299.0)}
+ff-add-site(BOI): successful {BOISE, (985.0,557.0)}
+ff-add-site(BOS): successful {BOSTON, (533.0,588.0)}
+ff-add-site(BRO): successful {BROWNSVILLE, (803.0,851.0)}
+ff-add-site(BTR): successful {BATON ROUGE, (412.0,395.0)}
+ff-add-site(BUF): successful {BUFFALO, (531.0,435.0)}
+ff-add-site(BUR): successful {BURBANK, (124.0,996.0)}
+ff-add-site(BWI): successful {BALTIMORE, (203.0,270.0)}
+ff-add-site(CBM): successful {COLUMBUS, (874.0,145.0)}
+ff-add-site(CHA): successful {CHATTANOOGA, (422.0,265.0)}
+ff-add-site(CHS): successful {CHARLESTON, (992.0,271.0)}
+ff-add-site(CIC): successful {CHICO, (231.0,106.0)}
+ff-add-site(CLE): successful {CLEVELAND, (689.0,330.0)}
+ff-add-site(CLL): successful {COLLEGE STATION, (152.0,571.0)}
+ff-add-site(CLT): successful {CHARLOTTE, (514.0,771.0)}
+ff-add-site(CMH): successful {COLUMBUS, (601.0,749.0)}
+ff-add-site(CNM): successful {CARLSBAD, (536.0,856.0)}
+ff-add-site(CNW): successful {WACO, (667.0,935.0)}
+ff-add-site(COS): successful {COLORADO SPRINGS, (613.0,723.0)}
+ff-add-site(CPR): successful {CASPER, (850.0,927.0)}
+ff-add-site(CRP): successful {CORPUS CHRISTI, (488.0,835.0)}
+ff-add-site(CVG): successful {CINCINNATI, (877.0,555.0)}
+ff-add-site(CYS): successful {CHEYENNE, (645.0,479.0)}
+ff-add-site(DAL): successful {DALLAS, (619.0,646.0)}
+ff-add-site(DAY): successful {DAYTON, (108.0,340.0)}
+ff-add-site(DEN): successful {DENVER, (868.0,571.0)}
+ff-add-site(DET): successful {DETROIT, (634.0,568.0)}
+ff-add-site(DFW): successful {DALLAS-FORT WORTH, (443.0,187.0)}
+ff-add-site(DLF): successful {DEL RIO, (526.0,488.0)}
+ff-add-site(DLH): successful {DULUTH, (868.0,159.0)}
+ff-add-site(DMA): successful {TUCSON, (437.0,486.0)}
+ff-add-site(DPA): successful {WEST CHICAGO, (182.0,537.0)}
+ff-add-site(DRT): successful {DEL RIO, (776.0,410.0)}
+ff-add-site(DSM): successful {DES MOINES, (437.0,608.0)}
+ff-add-site(DTW): successful {DETROIT, (679.0,347.0)}
+ff-add-site(DUG): successful {DOUGLAS, (833.0,685.0)}
+ff-add-site(DYS): successful {ABILENE, (732.0,465.0)}
+ff-add-site(EDW): successful {EDWARDS AFB, (733.0,741.0)}
+ff-add-site(EFD): successful {HOUSTON, (257.0,368.0)}
+ff-add-site(ELP): successful {EL PASO, (578.0,371.0)}
+ff-add-site(EWR): successful {NEWARK, (459.0,671.0)}
+ff-add-site(EYW): successful {KEY WEST, (106.0,285.0)}
+ff-add-site(FAT): successful {FRESNO, (890.0,926.0)}
+ff-add-site(FFO): successful {DAYTON, (558.0,607.0)}
+ff-add-site(FLL): successful {FORT LAUDERDALE, (928.0,656.0)}
+ff-add-site(FMY): successful {FORT MYERS, (444.0,784.0)}
+ff-add-site(FOE): successful {TOPEKA, (518.0,448.0)}
+ff-add-site(FTW): successful {FORT WORTH, (414.0,705.0)}
+ff-add-site(FXE): successful {FORT LAUDERDALE, (842.0,251.0)}
+ff-add-site(FYV): successful {FAYETTEVILLE, (722.0,756.0)}
+ff-add-site(GEG): successful {SPOKANE, (998.0,610.0)}
+ff-add-site(GLS): successful {GALVESTON, (383.0,905.0)}
+ff-add-site(GRB): successful {GREEN BAY, (321.0,811.0)}
+ff-add-site(GRR): successful {GRAND RAPIDS, (932.0,559.0)}
+ff-add-site(GSB): successful {GOLDSBORO, (519.0,375.0)}
+ff-add-site(GTF): successful {GREAT FALLS, (230.0,393.0)}
+ff-add-site(GVT): successful {GREENVILE, (216.0,307.0)}
+ff-add-site(GVW): successful {GRANDVIEW, (883.0,192.0)}
+ff-add-site(GWO): successful {GREENWOOD, (329.0,652.0)}
+ff-add-site(HFD): successful {HARTFORD, (852.0,846.0)}
+ff-add-site(HMN): successful {ALAMOGORDO, (308.0,262.0)}
+ff-add-site(HOU): successful {HOUSTON, (614.0,584.0)}
+ff-add-site(HPN): successful {WHITE PLAINS, (607.0,229.0)}
+ff-add-site(HRO): successful {HARRISON, (208.0,635.0)}
+ff-add-site(HUF): successful {TERRE HAUTE, (982.0,367.0)}
+ff-add-site(HWO): successful {HOLLYWOOD, (291.0,171.0)}
+ff-add-site(IAB): successful {WICHITA, (978.0,731.0)}
+ff-add-site(IAD): successful {WASHINGTON, (579.0,499.0)}
+ff-add-site(IAG): successful {NIAGARA FALLS, (546.0,454.0)}
+ff-add-site(IAH): successful {HOUSTON, (677.0,183.0)}
+ff-add-site(IKK): successful {KANKAKEE, (888.0,931.0)}
+ff-add-site(ABQ): successful {KIRTLAND A.F.B., (503.0,947.0)}
+ff-add-site(ILM): successful {WILMINGTON, (105.0,767.0)}
+ff-add-site(IND): successful {INDIANAPOLIS, (630.0,617.0)}
+ff-add-site(INT): successful {WINSTON-SALEM, (430.0,345.0)}
+ff-add-site(ISP): successful {ISLIP, (641.0,142.0)}
+ff-add-site(JAN): successful {JACKSON, (701.0,876.0)}
+ff-add-site(JAX): successful {JACKSONVILLE, (230.0,310.0)}
+ff-add-site(JBR): successful {JONESBORO, (396.0,307.0)}
+ff-add-site(JFK): successful {NEW YORK, (405.0,229.0)}
+ff-add-site(LAS): successful {LAS VEGAS, (896.0,363.0)}
+ff-add-site(LAX): successful {LOS ANGELES, (917.0,462.0)}
+ff-add-site(LBB): successful {LUBBOCK, (113.0,611.0)}
+ff-add-site(LCK): successful {COLUMBUS, (169.0,120.0)}
+ff-add-site(LGA): successful {NEW YORK, (940.0,649.0)}
+ff-add-site(LGB): successful {LONG BEACH, (718.0,233.0)}
+ff-add-site(LIT): successful {LITTLE ROCK, (550.0,408.0)}
+ff-add-site(LNA): successful {WEST PALM BEACH, (158.0,767.0)}
+ff-add-site(LNK): successful {LINCOLN, (805.0,237.0)}
+ff-add-site(LOU): successful {LOUISVILLE, (397.0,543.0)}
+ff-add-site(LRD): successful {LAREDO, (355.0,120.0)}
+ff-add-site(LRF): successful {JACKSONVILLE, (624.0,674.0)}
+ff-add-site(LSV): successful {LAS VEGAS, (535.0,442.0)}
+ff-add-site(LUF): successful {PHOENIX, (982.0,132.0)}
+ff-add-site(LUK): successful {CINCINNATI, (794.0,774.0)}
+ff-add-site(MAF): successful {MIDLAND, (607.0,409.0)}
+ff-add-site(MCC): successful {SACRAMENTO, (868.0,216.0)}
+ff-add-site(MCF): successful {TAMPA, (755.0,486.0)}
+ff-add-site(MCI): successful {KANSAS CITY, (294.0,804.0)}
+ff-add-site(MCO): successful {ORLANDO, (506.0,262.0)}
+ff-add-site(MDT): successful {HARRISBURG, (926.0,547.0)}
+ff-add-site(MDW): successful {CHICAGO, (650.0,787.0)}
+ff-add-site(MEM): successful {MEMPHIS, (436.0,846.0)}
+ff-add-site(MHR): successful {SACRAMENTO, (701.0,155.0)}
+ff-add-site(MIA): successful {MIAMI, (228.0,834.0)}
+ff-add-site(MKE): successful {MILWAUKEE, (125.0,412.0)}
+ff-add-site(MKO): successful {MUSKOGEE, (301.0,828.0)}
+ff-add-site(MNM): successful {MACON, (476.0,769.0)}
+ff-add-site(MOD): successful {MODESTO, (262.0,277.0)}
+ff-add-site(MOT): successful {MINOT, (921.0,311.0)}
+ff-add-site(MPV): successful {MONTPELIER, (410.0,715.0)}
+ff-add-site(MQT): successful {MARQUETTE, (486.0,607.0)}
+ff-add-site(MSP): successful {MINNEAPOLIS, (563.0,187.0)}
+ff-add-site(MSS): successful {MASSENA, (477.0,213.0)}
+ff-add-site(MSY): successful {NEW ORLEANS, (512.0,504.0)}
+ff-add-site(MXF): successful {MONTGOMERY, (277.0,602.0)}
+ff-add-site(MYR): successful {MYRTLE BEACH, (937.0,189.0)}
+ff-add-site(NBG): successful {NEW ORLEANS, (308.0,224.0)}
+ff-add-site(NCA): successful {JACKSONVILLE, (505.0,352.0)}
+ff-add-site(NEL): successful {LAKEHURST, (396.0,169.0)}
+ff-add-site(NGU): successful {NORFOLK, (802.0,771.0)}
+ff-add-site(NHK): successful {PATUXENT RIVER, (105.0,136.0)}
+ff-add-site(NIP): successful {JACKSONVILLE, (446.0,741.0)}
+ff-add-site(NOW): successful {PORT ANGELES, (669.0,364.0)}
+ff-add-site(NPA): successful {PENSACOLA, (891.0,507.0)}
+ff-add-site(NQX): successful {KEY WEST, (656.0,361.0)}
+ff-add-site(NSE): successful {MILTON, (548.0,235.0)}
+ff-add-site(NZC): successful {JACKSONVILLE, (813.0,311.0)}
+ff-add-site(NZY): successful {SAN DIEGO, (147.0,422.0)}
+ff-add-site(OAK): successful {OAKLAND, (229.0,617.0)}
+ff-add-site(OFF): successful {OMAHA, (604.0,294.0)}
+ff-add-site(OKC): successful {OKLAHOMA CITY, (951.0,312.0)}
+ff-add-site(OMA): successful {OMAHA, (851.0,478.0)}
+ff-add-site(ONT): successful {ONTARIO, (318.0,249.0)}
+ff-add-site(OPF): successful {MIAMI, (993.0,249.0)}
+ff-add-site(ORD): successful {CHICAGO, (682.0,189.0)}
+ff-add-site(ORF): successful {NORFOLK, (565.0,296.0)}
+ff-add-site(ORL): successful {ORLANDO, (610.0,774.0)}
+ff-add-site(PAM): successful {PANAMA CITY, (260.0,959.0)}
+ff-add-site(PBI): successful {WEST PALM BEACH, (782.0,975.0)}
+ff-add-site(PDX): successful {PORTLAND, (790.0,394.0)}
+ff-add-site(PHF): successful {NEWPORT NEWS, (411.0,220.0)}
+ff-add-site(PHL): successful {PHILADELPHIA, (771.0,105.0)}
+ff-add-site(PHX): successful {PHOENIX, (461.0,650.0)}
+ff-add-site(PIE): successful {ST. PETERSBURG, (499.0,322.0)}
+ff-add-site(PIT): successful {PITTSBURGH, (433.0,695.0)}
+ff-add-site(PNE): successful {PHILADELPHIA, (965.0,136.0)}
+ff-add-site(PNM): successful {PRINCETON, (416.0,943.0)}
+ff-add-site(POB): successful {FAYETTEVILLE, (143.0,958.0)}
+ff-add-site(PSP): successful {PALM SPRINGS, (746.0,736.0)}
+ff-add-site(PSX): successful {PALACIOS, (648.0,875.0)}
+ff-add-site(RDR): successful {RED RIVER, (163.0,590.0)}
+ff-add-site(RDU): successful {RALEIGH-DURHAM, (277.0,315.0)}
+ff-add-site(RIC): successful {RICHMOND, (490.0,561.0)}
+ff-add-site(RME): successful {ROME, (876.0,639.0)}
+ff-add-site(RND): successful {SAN ANTONIO, (933.0,243.0)}
+ff-add-site(RNO): successful {RENO, (285.0,358.0)}
+ff-add-site(ROC): successful {ROCHESTER, (495.0,779.0)}
+ff-add-site(ROW): successful {ROSWELL, (839.0,292.0)}
+ff-add-site(SAC): successful {SACRAMENTO, (693.0,379.0)}
+ff-add-site(SAF): successful {SANTA FE, (523.0,659.0)}
+ff-add-site(SAN): successful {SAN DIEGO, (349.0,381.0)}
+ff-add-site(SAT): successful {SAN ANTONIO, (224.0,653.0)}
+ff-add-site(SAV): successful {SAVANNAH, (662.0,989.0)}
+ff-add-site(SEA): successful {SEATTLE, (201.0,134.0)}
+ff-add-site(SFF): successful {SPOKANE, (831.0,928.0)}
+ff-add-site(SFO): successful {SAN FRANCISCO, (864.0,653.0)}
+ff-add-site(SJC): successful {SAN JOSE, (718.0,905.0)}
+ff-add-site(SKA): successful {SPOKANE, (577.0,142.0)}
+ff-add-site(SKF): successful {SAN ANTONIO, (949.0,954.0)}
+ff-add-site(SLC): successful {SALT LAKE CITY, (877.0,739.0)}
+ff-add-site(SMF): successful {SACRAMENTO, (105.0,100.0)}
+ff-add-site(SPG): successful {ST. PETERSBURG, (104.0,103.0)}
+ff-add-site(SPS): successful {WICHITA FALLS, (103.0,104.0)}
+ff-add-site(STL): successful {ST. LOUIS, (100.0,105.0)}
+ff-add-site(SUX): successful {SIOUX CITY, (97.0,104.0)}
+ff-add-site(TIK): successful {OKLAHOMA CITY, (96.0,103.0)}
+ff-add-site(TPA): successful {TAMPA, (95.0,100.0)}
+ff-add-site(TUL): successful {TULSA, (96.0,97.0)}
+ff-add-site(TUS): successful {TUCSON, (97.0,96.0)}
+ff-add-site(TYS): successful {KNOXVILLE, (100.0,95.0)}
+ff-add-site(WRB): successful {MACON, (103.0,96.0)}
+ff-add-site(YIP): successful {DETROIT, (104.0,97.0)}
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+ff-extract-next: [No more points remaining]
+Failure due to exception: "Error - farthestFirst.getTraversal returned a null result"
